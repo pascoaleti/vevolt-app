@@ -1,24 +1,30 @@
-# VeVolt - Site público e páginas legais
+# VeVolt App
 
-Este repositório preserva os arquivos públicos do VeVolt publicados em:
+**VeVolt** e um aplicativo Android para mobilidade eletrica. Ele foi criado para ajudar motoristas de carros eletricos a encontrarem pontos de recarga, planejarem rotas e acompanharem informacoes uteis para o uso diario do veiculo.
 
-- https://pascoal.eti.br/vevolt/
-- https://pascoal.eti.br/vevolt/index
-- https://pascoal.eti.br/vevolt/termos
-- https://pascoal.eti.br/vevolt/politica
+## Projeto
 
-O VeVolt é um aplicativo Android para motoristas de carros elétricos encontrarem pontos de recarga, planejarem rotas e acompanharem economia.
+- Nome do app: **VeVolt**
+- Desenvolvedor: **Pascoal Eti**
+- Contato: **devs@pascoal.eti.br**
+- Plataforma: Android
+- Site publico: https://pascoal.eti.br/vevolt/
 
-## Conteúdo
+## Links
 
-- `index`: landing page pública do aplicativo.
+- App: https://pascoal.eti.br/vevolt/
+- Pagina inicial: https://pascoal.eti.br/vevolt/index
+- Termos: https://pascoal.eti.br/vevolt/termos
+- Privacidade: https://pascoal.eti.br/vevolt/politica
+
+## Conteudo
+
+- `index`: pagina publica do aplicativo.
 - `termos`: Termos de Uso.
-- `politica`: Política de Privacidade.
-- `.htaccess`: configuração Apache para servir arquivos sem extensão e aplicar `noindex` nas páginas legais.
-- `assets/`: ícone, imagem promocional e prints do aplicativo.
+- `politica`: Politica de Privacidade.
+- `.htaccess`: configuracao Apache para servir arquivos sem extensao e aplicar `noindex` nas paginas legais.
+- `assets/`: icone, imagem promocional e prints do aplicativo.
 
-## Autoria
+## Observacao de seguranca
 
-Material preparado para o projeto VeVolt, desenvolvido por Pascoal Eti.
-
-Contato: devs@pascoal.eti.br
+Este repositorio publico contem apenas materiais de apresentacao e paginas legais. Nao deve incluir credenciais, tokens, chaves privadas ou arquivos sensiveis do projeto.
