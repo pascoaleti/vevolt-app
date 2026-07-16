@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VeVolt - App para recarga de carro elétrico</title>
+    <meta
+      name="description"
+      content="Encontre carregadores, planeje rotas, acompanhe preços e avaliações da comunidade, organize recargas compartilhadas e controle a economia do seu carro elétrico com o VeVolt."
+    />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta
+      name="google-site-verification"
+      content="qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc"
+    />
+    <meta name="theme-color" content="#070b12" />
+    <link rel="canonical" href="https://vevolt.app/" />
+    <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/" />
+    <link rel="alternate" hreflang="en" href="https://vevolt.app/en/" />
+    <link rel="alternate" hreflang="es" href="https://vevolt.app/es/" />
+    <link rel="alternate" hreflang="x-default" href="https://vevolt.app/" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon-32.png"
+    />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/assets/site.css?v=20260716-4" />
+    <script>
+      try {
+        var savedTheme = localStorage.getItem("vevolt-theme");
+        if (savedTheme) document.documentElement.dataset.theme = savedTheme;
+      } catch (error) {}
+    </script>
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="VeVolt" />
+    <meta
+      property="og:title"
+      content="VeVolt - Seu copiloto para recarga elétrica"
+    />
+    <meta
+      property="og:description"
+      content="Encontre carregadores, planeje rotas, consulte relatos da comunidade, organize carregadores compartilhados e acompanhe a economia do seu carro elétrico."
+    />
+    <meta property="og:url" content="https://vevolt.app/" />
+    <meta
+      property="og:image"
+      content="https://vevolt.app/assets/app-pt-social.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="VeVolt, seu copiloto para recarga elétrica"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="VeVolt - Seu copiloto para recarga elétrica"
+    />
+    <meta
+      name="twitter:description"
+      content="Mapa de carregadores, rotas, QR Code, economia, Comunidade VeVolt, Mercado e carregadores compartilhados no VeVolt Condo."
+    />
+    <meta
+      name="twitter:image"
+      content="https://vevolt.app/assets/app-pt-social.png"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "VeVolt",
+        "applicationCategory": "TravelApplication",
+        "operatingSystem": "Android",
+        "url": "https://vevolt.app/",
+        "installUrl": "https://play.google.com/store/apps/details?id=br.com.vevolt",
+        "isAccessibleForFree": true,
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "BRL"
+        },
+        "image": "https://vevolt.app/assets/app-pt-hero.png",
+        "description": "Aplicativo Android para encontrar carregadores, planejar rotas, registrar recargas, consultar contribuições da comunidade, organizar carregadores compartilhados e acompanhar a economia de veículos elétricos.",
+        "featureList": [
+          "Mapa de pontos de recarga próximos",
+          "Detalhes de potência, conector, preço e status",
+          "Estimativa de rota, bateria e autonomia",
+          "Scanner de QR Code para registrar recargas",
+          "Painel de economia e histórico local",
+          "VeVolt Mercado com lojas, concessionárias e oficinas",
+          "Perfil e garagem de veículos",
+          "Comunidade com status, preço, avaliações, comentários e fotos",
+          "Alertas para eletropostos acompanhados",
+          "VeVolt Condo para carregadores privados compartilhados",
+          "Exportação CSV, recomendações e recursos avançados no Premium"
+        ],
+        "inLanguage": "pt-BR",
+        "publisher": { "@type": "Organization", "name": "Pascoal Eti" }
+      }
+    </script>
+    <script defer src="/assets/site.js?v=20260715-1"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+    <header class="topbar">
+      <nav class="nav" aria-label="Navegação principal">
+        <a class="brand" href="/" aria-label="VeVolt - início">
+          <img
+            src="/assets/vevolt-icon-64.webp"
+            width="64"
+            height="64"
+            alt=""
+          />
+          <span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
+        </a>
+        <div
+          class="nav-panel"
+          id="menu-principal"
+          data-menu-panel
+          data-open="false"
+        >
+          <div class="nav-links">
+            <a class="nav-link" href="/" aria-current="page">Início</a>
+            <a class="nav-link" href="#recursos">Recursos</a>
+            <a class="nav-link" href="#telas">Telas</a>
+            <a class="nav-link" href="#testadores">Seja testador</a>
+            <a class="nav-link" href="/termos">Termos</a>
+            <a class="nav-link" href="/politica">Privacidade</a>
+          </div>
+          <a class="nav-cta" href="#telas">Ver app</a>
+        <div class="language-switcher" role="group" aria-label="Idioma">
+            <a
+              href="/"
+              hreflang="pt-BR"
+              lang="pt-BR"
+              aria-current="true"
+              aria-label="PT - Português"
+              >PT</a
+            >
+            <a href="/en/" hreflang="en" lang="en" aria-label="EN - English">EN</a>
+            <a href="/es/" hreflang="es" lang="es" aria-label="ES - Español">ES</a>
+          </div>
+        </div>
+        <div class="nav-controls">
+          <button
+                      class="theme-toggle"
+                      type="button"
+                      data-theme-toggle
+                      data-label-light="Usar tema claro"
+                      data-label-dark="Usar tema escuro"
+                      aria-label="Usar tema claro"
+                      title="Usar tema claro"
+                    >
+                      &#9788;
+                    </button>
+          <button
+                    class="menu-toggle"
+                    type="button"
+                    aria-label="Menu"
+                    title="Menu"
+                    aria-expanded="false"
+                    aria-controls="menu-principal"
+                    data-menu-toggle
+                  >
+                    <span></span><span></span><span></span>
+                  </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section class="hero">
+        <div class="wrap hero-inner">
+          <div class="hero-copybox">
+            <div class="eyebrow">
+              <span class="signal" aria-hidden="true"></span> App Android para
+              mobilidade elétrica
+            </div>
+            <h1><span class="brand-blue">Ve</span><span class="brand-green">Volt</span></h1>
+            <p class="tagline">Seu copiloto para recarga elétrica.</p>
+            <p class="hero-copy">
+              Encontre pontos de recarga, planeje trajetos, consulte informações
+              compartilhadas por outros motoristas e organize carregadores
+              privados em uma experiência simples e visual.
+            </p>
+            <div class="actions">
+              <a class="button primary" href="#telas">Explorar telas</a>
+              <a class="button secondary" href="#recursos">Conhecer recursos</a>
+            </div>
+          <div class="status-row" role="group" aria-label="Principais recursos">
+              <span class="pill">Mapa de carregadores</span>
+              <span class="pill">Rotas e autonomia</span>
+              <span class="pill">Economia mensal</span>
+              <span class="pill">Comunidade VeVolt</span>
+              <span class="pill">VeVolt Condo</span>
+            </div>
+          </div>
+          <div class="hero-media" role="group" aria-label="Telas do aplicativo VeVolt">
+            <picture class="hero-phone hero-phone-map">
+              <source type="image/webp" srcset="/assets/app-pt-map-360.webp 360w, /assets/app-pt-map-720.webp 720w" sizes="(max-width: 600px) 43vw, 280px" />
+              <img src="/assets/app-pt-map.png" width="1080" height="2400" alt="Mapa do VeVolt com pontos de recarga próximos" fetchpriority="high" decoding="async" />
+            </picture>
+            <picture class="hero-phone hero-phone-profile">
+              <source type="image/webp" srcset="/assets/app-pt-profile-360.webp 360w, /assets/app-pt-profile-720.webp 720w" sizes="(max-width: 600px) 39vw, 245px" />
+              <img src="/assets/app-pt-profile.png" width="1080" height="2400" alt="Perfil, veículo e recursos Premium do VeVolt" fetchpriority="high" decoding="async" />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section compact">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>
+              Para quem dirige elétrico e quer sair de casa com menos dúvida.
+            </h2>
+            <p class="lead">
+              O VeVolt reúne as informações que importam para a recarga:
+              carregadores próximos, autonomia, custo estimado, conectores e
+              economia no mês.
+            </p>
+          </div>
+          <div class="audience">
+            <article class="audience-block">
+              <h3>Veículos elétricos e híbridos plug-in</h3>
+              <p>
+                Decida onde carregar, quando parar e quanto a recarga representa
+                no custo real da viagem.
+              </p>
+            </article>
+            <article class="audience-block">
+              <h3>Da rotina urbana ao planejamento de viagem</h3>
+              <p>
+                Consulte rapidamente as opções antes de sair ou durante o
+                trajeto e tire a recarga do improviso.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="recursos" class="section band">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>O essencial para planejar uma recarga sem complicar.</h2>
+            <p class="lead">
+              Recursos focados nas decisões do motorista: localizar pontos,
+              estimar a rota, entender custos e manter os dados do veículo à
+              mão.
+            </p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature">
+              <div class="feature-code">01</div>
+              <h3>Mapa de carregadores</h3>
+              <p>Veja pontos próximos, distância, disponibilidade e conectores em uma visão simples do mapa.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-code">02</div>
+              <h3>Detalhes do ponto</h3>
+              <p>Consulte status, potência, conector e preço informado antes de traçar a rota ou salvar o local.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-code">03</div>
+              <h3>Rota e autonomia</h3>
+              <p>Compare distância, bateria atual e autonomia estimada na chegada antes de abrir a navegação.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-code">04</div>
+              <h3>Scanner QR Code</h3>
+              <p>Leia o QR Code do ponto para registrar a recarga diretamente no aparelho.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-code">05</div>
+              <h3>Economia visível</h3>
+              <p>Acompanhe energia, custo e sessões registradas e compare a economia do carro elétrico.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-code">06</div>
+              <h3>VeVolt Mercado</h3>
+              <p>Encontre lojas, concessionárias e oficinas próximas com rota e filtro por tipo de serviço.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-code">07</div>
+              <h3>Perfil do veículo</h3>
+              <p>Cadastre tipo, marca, modelo, bateria, autonomia e conector para personalizar as estimativas.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-code">08</div>
+              <h3>Comunidade VeVolt</h3>
+              <p>Compartilhe situação, preço, avaliação, comentário ou foto e acompanhe relatos de outros motoristas.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-code">09</div>
+              <h3>VeVolt Condo</h3>
+              <p>Organize convites, reservas e sessões em carregadores privados compartilhados do condomínio.</p>
+            </article>
+            <article class="feature">
+              <div class="feature-code">10</div>
+              <h3>Premium e dados locais</h3>
+              <p>Libere histórico detalhado, garagem para até cinco veículos, CSV, recomendações, alertas e administração do Condo.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section mobility-story">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Da rota no celular à recarga conectada.</h2>
+            <p class="lead">
+              O VeVolt aproxima planejamento e mobilidade real para que cada
+              parada seja mais simples, previsível e segura.
+            </p>
+          </div>
+          <div class="scene-grid">
+            <figure class="scene-figure">
+              <div class="scene-media">
+                <picture>
+                  <source type="image/webp" srcset="/assets/vevolt-route-driver-640.webp 640w, /assets/vevolt-route-driver-1200.webp 1200w" sizes="(max-width: 600px) calc(100vw - 36px), 580px" />
+                  <img src="/assets/vevolt-route-driver-1200.webp" width="1200" height="800" alt="Motorista consultando no celular uma rota com pontos de recarga" loading="lazy" decoding="async" />
+                </picture>
+              </div>
+              <figcaption>
+                <h3>Planeje antes de sair</h3>
+                <p>Consulte a rota, a autonomia estimada e os carregadores disponíveis enquanto o carro está parado.</p>
+              </figcaption>
+            </figure>
+            <figure class="scene-figure">
+              <div class="scene-media">
+                <picture>
+                  <source type="image/webp" srcset="/assets/vevolt-ev-charging-640.webp 640w, /assets/vevolt-ev-charging-1200.webp 1200w" sizes="(max-width: 600px) calc(100vw - 36px), 580px" />
+                  <img src="/assets/vevolt-ev-charging-1200.webp" width="1200" height="800" alt="Carro elétrico conectado a um ponto de recarga urbano" loading="lazy" decoding="async" />
+                </picture>
+              </div>
+              <figcaption>
+                <h3>Chegue pronto ao ponto</h3>
+                <p>Compare conector, potência, distância e relatos da comunidade antes de conectar o veículo.</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section accent-band">
+        <div class="wrap showcase">
+          <div>
+            <div class="section-head">
+              <h2>Uma experiência direta para consultar e seguir.</h2>
+              <p class="lead">
+                Abra o app, entenda a situação e tome a próxima decisão com
+                telas claras e informações organizadas.
+              </p>
+            </div>
+            <div class="copy-list">
+              <div class="copy-item">
+                <span class="check">OK</span>
+                <div>
+                  <h3>Antes de sair</h3>
+                  <p>
+                    Confira se a bateria chega ao destino e qual ponto faz
+                    sentido no caminho.
+                  </p>
+                </div>
+              </div>
+              <div class="copy-item">
+                <span class="check">OK</span>
+                <div>
+                  <h3>Na hora de escolher</h3>
+                  <p>
+                    Compare distância, conector e estimativa de custo para
+                    decidir mais rápido.
+                  </p>
+                </div>
+              </div>
+              <div class="copy-item">
+                <span class="check">OK</span>
+                <div>
+                  <h3>Depois da recarga</h3>
+                  <p>
+                    Acompanhe a economia mensal e veja o impacto do elétrico na
+                    rotina.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="phone-stack" role="group" aria-label="Telas do app VeVolt">
+            <picture>
+              <source type="image/webp" srcset="/assets/app-pt-map-360.webp 360w, /assets/app-pt-map-720.webp 720w" sizes="270px" />
+              <img src="/assets/app-pt-map.png" width="1080" height="2400" alt="Mapa do VeVolt com pontos de recarga próximos" loading="lazy" decoding="async" />
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/assets/app-pt-route-360.webp 360w, /assets/app-pt-route-720.webp 720w" sizes="270px" />
+              <img src="/assets/app-pt-route.png" width="1080" height="2400" alt="Rota e estimativa de autonomia no VeVolt" loading="lazy" decoding="async" />
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="/assets/app-pt-economy-360.webp 360w, /assets/app-pt-economy-720.webp 720w" sizes="270px" />
+              <img src="/assets/app-pt-economy.png" width="1080" height="2400" alt="Painel de economia do VeVolt" loading="lazy" decoding="async" />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section id="telas" class="section">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Conheça as telas do VeVolt.</h2>
+            <p class="lead">
+              Do primeiro cadastro ao planejamento de rota, cada tela foi
+              pensada para leitura rápida e decisões objetivas.
+            </p>
+          </div>
+          <div class="gallery" data-gallery data-slide-label="Ir para a tela">
+            <figure>
+              <picture><source type="image/webp" srcset="/assets/app-pt-map-360.webp 360w, /assets/app-pt-map-720.webp 720w" sizes="(max-width: 760px) 78vw, 280px" /><img src="/assets/app-pt-map.png" width="1080" height="2400" alt="Mapa do VeVolt com pontos de recarga próximos" loading="lazy" decoding="async" /></picture>
+              <figcaption>Mapa, autonomia e pontos próximos.</figcaption>
+            </figure>
+            <figure>
+              <picture><source type="image/webp" srcset="/assets/app-pt-point-360.webp 360w, /assets/app-pt-point-720.webp 720w" sizes="(max-width: 760px) 78vw, 280px" /><img src="/assets/app-pt-point.png" width="1080" height="2400" alt="Detalhes de um ponto de recarga no VeVolt" loading="lazy" decoding="async" /></picture>
+              <figcaption>Status, potência, conector e rota.</figcaption>
+            </figure>
+            <figure>
+              <picture><source type="image/webp" srcset="/assets/app-pt-route-360.webp 360w, /assets/app-pt-route-720.webp 720w" sizes="(max-width: 760px) 78vw, 280px" /><img src="/assets/app-pt-route.png" width="1080" height="2400" alt="Estimativa de rota e autonomia no VeVolt" loading="lazy" decoding="async" /></picture>
+              <figcaption>Rota com bateria estimada na chegada.</figcaption>
+            </figure>
+            <figure>
+              <picture><source type="image/webp" srcset="/assets/app-pt-scan-360.webp 360w, /assets/app-pt-scan-720.webp 720w" sizes="(max-width: 760px) 78vw, 280px" /><img src="/assets/app-pt-scan.png" width="1080" height="2400" alt="Scanner de QR Code do VeVolt" loading="lazy" decoding="async" /></picture>
+              <figcaption>Scanner QR Code no dispositivo.</figcaption>
+            </figure>
+            <figure>
+              <picture><source type="image/webp" srcset="/assets/app-pt-economy-360.webp 360w, /assets/app-pt-economy-720.webp 720w" sizes="(max-width: 760px) 78vw, 280px" /><img src="/assets/app-pt-economy.png" width="1080" height="2400" alt="Painel de economia do VeVolt" loading="lazy" decoding="async" /></picture>
+              <figcaption>Energia, custo, sessões e economia.</figcaption>
+            </figure>
+            <figure>
+              <picture><source type="image/webp" srcset="/assets/app-pt-market-360.webp 360w, /assets/app-pt-market-720.webp 720w" sizes="(max-width: 760px) 78vw, 280px" /><img src="/assets/app-pt-market.png" width="1080" height="2400" alt="VeVolt Mercado com serviços próximos" loading="lazy" decoding="async" /></picture>
+              <figcaption>Lojas, concessionárias e oficinas.</figcaption>
+            </figure>
+            <figure>
+              <picture><source type="image/webp" srcset="/assets/app-pt-profile-360.webp 360w, /assets/app-pt-profile-720.webp 720w" sizes="(max-width: 760px) 78vw, 280px" /><img src="/assets/app-pt-profile.png" width="1080" height="2400" alt="Perfil e recursos Premium do VeVolt" loading="lazy" decoding="async" /></picture>
+              <figcaption>Perfil, garagem e recursos Premium.</figcaption>
+            </figure>
+            <figure>
+              <picture><source type="image/webp" srcset="/assets/app-pt-vehicle-360.webp 360w, /assets/app-pt-vehicle-720.webp 720w" sizes="(max-width: 760px) 78vw, 280px" /><img src="/assets/app-pt-vehicle.png" width="1080" height="2400" alt="Cadastro de veículo no VeVolt" loading="lazy" decoding="async" /></picture>
+              <figcaption>Cadastro completo do veículo.</figcaption>
+            </figure>
+          </div>
+          <div
+            class="gallery-nav"
+            data-gallery-navigation
+            role="group"
+            aria-label="Navegação da galeria de telas"
+          >
+            <button
+              class="gallery-control"
+              type="button"
+              data-gallery-previous
+              aria-label="Tela anterior"
+              title="Tela anterior"
+            >
+              &#8592;
+            </button>
+            <div
+              class="gallery-dots"
+              data-gallery-dots
+              role="group"
+              aria-label="Posição na galeria"
+            ></div>
+            <button
+              class="gallery-control"
+              type="button"
+              data-gallery-next
+              aria-label="Próxima tela"
+              title="Próxima tela"
+            >
+              &#8594;
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="testadores" class="section tester-band">
+        <div class="wrap tester-layout">
+          <div class="tester-copy">
+            <div class="tester-label">Teste fechado no Google Play</div>
+            <h2>Seja um dos primeiros a testar o VeVolt.</h2>
+            <p class="lead">
+              Informe o mesmo e-mail usado na sua conta Google Play. A solicitação
+              entra na fila de aprovação e o link oficial chega automaticamente.
+            </p>
+            <ol class="tester-steps">
+              <li><strong>Receba o link.</strong> Ele chega no e-mail informado logo após o cadastro.</li>
+              <li><strong>Aguarde a liberação.</strong> O endereço precisa ser incluído no grupo fechado.</li>
+              <li><strong>Instale o app.</strong> Depois do aviso de aprovação, o mesmo link libera o download.</li>
+            </ol>
+          </div>
+          <form class="tester-form" action="/tester-signup" method="post" data-tester-form>
+            <input type="hidden" name="language" value="pt-BR" />
+            <div class="form-trap" aria-hidden="true">
+              <label>Empresa <input type="text" name="company" tabindex="-1" autocomplete="off" /></label>
+            </div>
+            <label for="tester-email-pt">E-mail da sua conta Google Play</label>
+            <div class="tester-form-row">
+              <input id="tester-email-pt" name="email" type="email" inputmode="email" autocomplete="email" maxlength="254" placeholder="voce@gmail.com" required />
+              <button type="submit">Quero testar</button>
+            </div>
+            <label class="consent-row">
+              <input type="checkbox" name="consent" value="1" required />
+              <span>Autorizo o uso deste e-mail para administrar o teste e receber avisos sobre o VeVolt.</span>
+            </label>
+            <p class="form-note">Usaremos o endereço somente para o teste, conforme a <a href="/politica">Política de Privacidade</a>.</p>
+            <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="section band">
+        <div class="wrap">
+          <div class="section-head">
+            <h2>Privacidade clara para usar com confiança.</h2>
+            <p class="lead">
+              O VeVolt foi pensado para entregar informação útil com permissões
+              objetivas e explicadas.
+            </p>
+          </div>
+          <div class="trust-grid">
+            <article class="trust-item">
+              <h3>Dados pessoais no aparelho</h3>
+              <p>
+                Veículo, pontos salvos e histórico pessoal permanecem no
+                armazenamento privado do Android.
+              </p>
+            </article>
+            <article class="trust-item">
+              <h3>Permissões sob controle</h3>
+              <p>
+                Localização e câmera são usadas apenas em recursos de mapa, rota
+                e QR Code.
+              </p>
+            </article>
+            <article class="trust-item">
+              <h3>Pagamentos pela Google Play</h3>
+              <p>
+                Recursos Premium são processados com a segurança da conta Google
+                Play.
+              </p>
+            </article>
+            <article class="trust-item">
+              <h3>Comunidade com controle</h3>
+              <p>
+                Relatos podem ser denunciados, bloqueados e excluídos pelo autor;
+                fotos são tratadas para remover metadados.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div>
+          <div class="footer-brand">
+            <img
+              src="/assets/vevolt-icon-64.webp"
+              width="64"
+              height="64"
+              alt=""
+            /><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
+          </div>
+          <p class="footer-summary">
+            App Android para encontrar carregadores, planejar rotas e acompanhar
+            a economia do carro elétrico.
+          </p>
+        </div>
+        <div>
+          <h2>App</h2>
+          <ul>
+            <li><a href="/#recursos">Recursos</a></li>
+            <li><a href="/#telas">Telas do app</a></li>
+            <li><a href="/">Início</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Legal</h2>
+          <ul>
+            <li><a href="/termos">Termos de uso</a></li>
+            <li><a href="/politica">Privacidade</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Contato</h2>
+          <ul>
+            <li>
+              <a href="mailto:devs@pascoal.eti.br">devs@pascoal.eti.br</a>
+            </li>
+            <li>Desenvolvedor: Pascoal Eti</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 VeVolt</span
+        ><span>Seu copiloto para recarga elétrica.</span>
+      </div>
+    </footer>
+  </body>
+</html>
+

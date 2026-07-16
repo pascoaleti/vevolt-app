@@ -1,37 +1,13 @@
-# Registro de autoria - VeVolt
+# Registro de autoria do VeVolt
 
-Projeto: VeVolt
+- Projeto: VeVolt
+- Desenvolvedor: Pascoal Eti
+- Contato: devs@pascoal.eti.br
+- Dominio oficial: https://vevolt.app/
+- Aplicativo Android: `br.com.vevolt`
+- Versao deste registro: 16 de julho de 2026
 
-Desenvolvedor: Pascoal Eti
+Este repositorio preserva uma copia versionada do site oficial, dos textos publicos, das paginas legais, da identidade visual e das imagens de apresentacao do aplicativo VeVolt.
 
-Contato: devs@pascoal.eti.br
+O historico de commits registra a evolucao do material publicado e ajuda a demonstrar sua cronologia e integridade. Esse registro tecnico nao substitui mecanismos juridicos formais de protecao de propriedade intelectual.
 
-URL pública: https://pascoal.eti.br/vevolt/
-
-Data de preparação deste pacote: 12 de julho de 2026
-
-## Descrição
-
-Este pacote registra a landing page pública, os Termos de Uso, a Política de Privacidade e os assets visuais do aplicativo VeVolt.
-
-O objetivo deste registro é preservar uma cópia versionada do material publicado, incluindo textos, layout, identidade visual e imagens do app.
-
-## Arquivos principais
-
-- `index`
-- `termos`
-- `politica`
-- `.htaccess`
-- `assets/vevolt-icon.png`
-- `assets/vevolt-feature.png`
-- `assets/store-onboarding.png`
-- `assets/store-map.png`
-- `assets/store-route.png`
-- `assets/store-scan.png`
-- `assets/store-economy.png`
-- `assets/store-profile.png`
-- `assets/store-condo.png`
-
-## Observação
-
-O registro em GitHub ajuda a demonstrar histórico, data e integridade pública/privada dos arquivos, mas não substitui orientação jurídica formal sobre propriedade intelectual.

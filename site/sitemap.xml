@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://vevolt.app/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vevolt.app/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://vevolt.app/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vevolt.app/" />
+  </url>
+  <url>
+    <loc>https://vevolt.app/en/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vevolt.app/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://vevolt.app/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vevolt.app/" />
+  </url>
+  <url>
+    <loc>https://vevolt.app/es/</loc>
+    <lastmod>2026-07-15</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://vevolt.app/en/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://vevolt.app/es/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vevolt.app/" />
+  </url>
+</urlset>
+
