@@ -1,30 +1,42 @@
-# VeVolt App
+<p align="center">
+  <img src="https://vevolt.app/assets/vevolt-icon.png" width="112" alt="VeVolt" />
+</p>
 
-**VeVolt** e um aplicativo Android para mobilidade eletrica. Ele foi criado para ajudar motoristas de carros eletricos a encontrarem pontos de recarga, planejarem rotas e acompanharem informacoes uteis para o uso diario do veiculo.
+<h1 align="center">VeVolt</h1>
 
-## Projeto
+<p align="center"><strong>Seu copiloto para encontrar recarga, planejar rotas e dirigir eletrico com mais previsibilidade.</strong></p>
 
-- Nome do app: **VeVolt**
-- Desenvolvedor: **Pascoal Eti**
-- Contato: **devs@pascoal.eti.br**
-- Plataforma: Android
-- Site publico: https://pascoal.eti.br/vevolt/
+<p align="center">
+  <a href="https://vevolt.app/"><img alt="Website" src="https://img.shields.io/badge/WEBSITE-VEVOLT.APP-0066FF?style=for-the-badge" /></a>
+  <a href="https://play.google.com/store/apps/details?id=br.com.vevolt"><img alt="Google Play" src="https://img.shields.io/badge/GOOGLE_PLAY-ANDROID-2ECC71?style=for-the-badge" /></a>
+  <a href="https://vevolt.app/#testadores"><img alt="Teste fechado" src="https://img.shields.io/badge/TESTE-FECHADO-0D3B8E?style=for-the-badge" /></a>
+  <a href="https://vevolt.app/politica"><img alt="Privacidade" src="https://img.shields.io/badge/PRIVACIDADE-POLITICA-333333?style=for-the-badge" /></a>
+  <a href="https://vevolt.app/termos"><img alt="Termos" src="https://img.shields.io/badge/TERMOS-DE_USO-333333?style=for-the-badge" /></a>
+</p>
 
-## Links
+Site oficial do VeVolt, aplicativo Android para mobilidade eletrica.
 
-- App: https://pascoal.eti.br/vevolt/
-- Pagina inicial: https://pascoal.eti.br/vevolt/index
-- Termos: https://pascoal.eti.br/vevolt/termos
-- Privacidade: https://pascoal.eti.br/vevolt/politica
+O VeVolt ajuda motoristas a encontrar pontos de recarga, consultar conectores e potencia, planejar rotas, acompanhar autonomia e economia e descobrir servicos para veiculos eletricos.
 
-## Conteudo
+## Links oficiais
 
-- `index`: pagina publica do aplicativo.
-- `termos`: Termos de Uso.
-- `politica`: Politica de Privacidade.
-- `.htaccess`: configuracao Apache para servir arquivos sem extensao e aplicar `noindex` nas paginas legais.
-- `assets/`: icone, imagem promocional e prints do aplicativo.
+- Site: https://vevolt.app/
+- Google Play: https://play.google.com/store/apps/details?id=br.com.vevolt
+- Privacidade: https://vevolt.app/politica
+- Termos: https://vevolt.app/termos
+- Contato: devs@pascoal.eti.br
 
-## Observacao de seguranca
+## Conteudo do repositorio
 
-Este repositorio publico contem apenas materiais de apresentacao e paginas legais. Nao deve incluir credenciais, tokens, chaves privadas ou arquivos sensiveis do projeto.
+- Paginas publicas em portugues, ingles e espanhol.
+- Politicas de privacidade e termos nos tres idiomas.
+- CSS e JavaScript usados no site.
+- Manifesto das capturas reais e imagens publicadas em `ASSETS.md`.
+- Diretrizes de identidade visual em `MARCA.md`.
+
+## Identidade
+
+O nome oficial e **VeVolt**. A identidade usa azul eletrico e verde de mobilidade, com Sora nos titulos e Inter nos textos e controles.
+
+Copyright 2026 Pascoal Eti. Todos os direitos reservados.
+

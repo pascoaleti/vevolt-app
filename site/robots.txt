@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /tester-signup
+Disallow: /tester-signup.php
+
+Sitemap: https://vevolt.app/sitemap.xml
+
