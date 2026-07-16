@@ -1,0 +1,14 @@
+.gradle/
+.kotlin/
+build/
+app/build/
+local.properties
+local-signing/
+*.jks
+*.keystore
+*.p12
+*.pfx
+keystore.properties
+.idea/
+*.iml
+.env

@@ -1,0 +1,7 @@
+# Copie este arquivo para local.properties e preencha somente no seu computador.
+sdk.dir=C:\\Users\\SEU_USUARIO\\AppData\\Local\\Android\\Sdk
+OPEN_CHARGE_MAP_API_KEY=
+PLAY_BILLING_PREMIUM_MONTHLY_PRODUCT_ID=vevolt_premium_monthly
+PLAY_BILLING_PREMIUM_YEARLY_PRODUCT_ID=vevolt_premium_yearly
+VEVOLT_BACKEND_BASE_URL=
+PREMIUM_SALES_ENABLED=false

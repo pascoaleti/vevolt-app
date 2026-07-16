@@ -4,19 +4,48 @@
 
 <h1 align="center">VeVolt</h1>
 
-<p align="center"><strong>Seu copiloto para encontrar recarga, planejar rotas e dirigir eletrico com mais previsibilidade.</strong></p>
+<p align="center"><strong>Aplicativo Android para mobilidade elétrica, rotas, recarga e comunidade.</strong></p>
 
 <p align="center">
   <a href="https://vevolt.app/"><img alt="Website" src="https://img.shields.io/badge/WEBSITE-VEVOLT.APP-0066FF?style=for-the-badge" /></a>
   <a href="https://play.google.com/store/apps/details?id=br.com.vevolt"><img alt="Google Play" src="https://img.shields.io/badge/GOOGLE_PLAY-ANDROID-2ECC71?style=for-the-badge" /></a>
-  <a href="https://vevolt.app/#testadores"><img alt="Teste fechado" src="https://img.shields.io/badge/TESTE-FECHADO-0D3B8E?style=for-the-badge" /></a>
-  <a href="https://vevolt.app/politica"><img alt="Privacidade" src="https://img.shields.io/badge/PRIVACIDADE-POLITICA-333333?style=for-the-badge" /></a>
-  <a href="https://vevolt.app/termos"><img alt="Termos" src="https://img.shields.io/badge/TERMOS-DE_USO-333333?style=for-the-badge" /></a>
+  <img alt="Kotlin" src="https://img.shields.io/badge/KOTLIN-JETPACK_COMPOSE-7F52FF?style=for-the-badge" />
+  <img alt="Versão" src="https://img.shields.io/badge/VERSÃO-0.3.0_(12)-0D3B8E?style=for-the-badge" />
+  <img alt="Teste fechado" src="https://img.shields.io/badge/TESTE-FECHADO-333333?style=for-the-badge" />
 </p>
 
-Site oficial do VeVolt, aplicativo Android para mobilidade eletrica.
+## O aplicativo
 
-O VeVolt ajuda motoristas a encontrar pontos de recarga, consultar conectores e potencia, planejar rotas, acompanhar autonomia e economia e descobrir servicos para veiculos eletricos.
+O **VeVolt** é um aplicativo Android independente de marca e de rede para ajudar motoristas de veículos elétricos a encontrar pontos de recarga, estimar autonomia, planejar trajetos e registrar experiências reais de uso.
+
+Pacote oficial: `br.com.vevolt`.
+
+## Recursos atuais
+
+- mapa de eletropostos e detalhes de conectores;
+- estimativa de rota e autonomia;
+- leitura de QR Code;
+- acompanhamento de economia e histórico local;
+- VeVolt Mercado para serviços próximos;
+- VeVolt Condo para organização de recargas em condomínios;
+- Comunidade VeVolt com confirmação, preço, avaliação, foto e ocorrências;
+- alertas locais quando um carregador acompanhado recebe confirmação de recuperação;
+- Premium processado pelo Google Play Billing.
+
+## Tecnologia
+
+O aplicativo é nativo, desenvolvido em **Kotlin** com **Jetpack Compose** e Material 3. Usa MapLibre, CameraX, ML Kit, WorkManager e Google Play Billing.
+
+## Estrutura do repositório
+
+- `android/`: código-fonte do aplicativo, recursos e testes.
+- `site/`: páginas institucionais e jurídicas do VeVolt.
+- `MARCA.md`: diretrizes públicas de identidade visual.
+- `ASSETS.md`: inventário das telas e imagens publicadas.
+
+## Desenvolvimento
+
+Consulte [android/README.md](android/README.md). Credenciais, assinatura de produção, chaves privadas, builds e configurações locais não fazem parte do repositório.
 
 ## Links oficiais
 
@@ -26,17 +55,4 @@ O VeVolt ajuda motoristas a encontrar pontos de recarga, consultar conectores e 
 - Termos: https://vevolt.app/termos
 - Contato: devs@pascoal.eti.br
 
-## Conteudo do repositorio
-
-- Paginas publicas em portugues, ingles e espanhol.
-- Politicas de privacidade e termos nos tres idiomas.
-- CSS e JavaScript usados no site.
-- Manifesto das capturas reais e imagens publicadas em `ASSETS.md`.
-- Diretrizes de identidade visual em `MARCA.md`.
-
-## Identidade
-
-O nome oficial e **VeVolt**. A identidade usa azul eletrico e verde de mobilidade, com Sora nos titulos e Inter nos textos e controles.
-
 Copyright 2026 Pascoal Eti. Todos os direitos reservados.
-
