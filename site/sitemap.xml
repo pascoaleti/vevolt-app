@@ -1,28 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://vevolt.app/</loc>
-    <lastmod>2026-07-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://vevolt.app/en/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://vevolt.app/es/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://vevolt.app/" />
-  </url>
-  <url>
-    <loc>https://vevolt.app/en/</loc>
-    <lastmod>2026-07-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://vevolt.app/en/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://vevolt.app/es/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://vevolt.app/" />
-  </url>
-  <url>
-    <loc>https://vevolt.app/es/</loc>
-    <lastmod>2026-07-15</lastmod>
-    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://vevolt.app/en/" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://vevolt.app/es/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://vevolt.app/" />
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://vevolt.app/</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://vevolt.app/recursos</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/planos</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/condo</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/comunidade</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/faq</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/seja-testador</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/en/</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/en/features</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/en/plans</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/en/condo</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/en/community</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/en/faq</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/en/testers</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/es/</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/es/funciones</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/es/planes</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/es/condo</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/es/comunidad</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/es/preguntas</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/es/probadores</loc><lastmod>2026-07-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/blog/</loc><lastmod>2026-07-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/blog/ponto-de-recarga-carro-eletrico-perto-de-mim</loc><lastmod>2026-07-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/blog/quanto-custa-carregar-carro-eletrico</loc><lastmod>2026-07-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/blog/quanto-tempo-demora-carregar-carro-eletrico</loc><lastmod>2026-07-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/blog/tipos-conectores-carro-eletrico-tipo-2-ccs2</loc><lastmod>2026-07-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/blog/como-planejar-viagem-carro-eletrico</loc><lastmod>2026-07-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/blog/carregador-carro-eletrico-condominio</loc><lastmod>2026-07-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/blog/recarga-rapida-carro-eletrico-boas-praticas</loc><lastmod>2026-07-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/blog/eletroposto-gratis-ou-pago-como-saber</loc><lastmod>2026-07-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/blog/como-saber-eletroposto-funcionando</loc><lastmod>2026-07-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/blog/carro-eletrico-sem-carregador-em-casa</loc><lastmod>2026-07-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/blog/economia-carro-eletrico-versus-gasolina</loc><lastmod>2026-07-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/blog/mapa-eletropostos-brasil-2026</loc><lastmod>2026-07-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://vevolt.app/blog/como-usar-eletroposto-shopping-mercado-hotel</loc><lastmod>2026-07-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
-

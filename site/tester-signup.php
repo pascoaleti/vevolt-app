@@ -218,4 +218,3 @@ record_event($queuePath, [
 ]);
 
 respond(200, $userMailSent ? $copy['saved'] : $copy['saved_no_mail']);
-

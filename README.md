@@ -10,7 +10,7 @@
   <a href="https://vevolt.app/"><img alt="Website" src="https://img.shields.io/badge/WEBSITE-VEVOLT.APP-0066FF?style=for-the-badge" /></a>
   <a href="https://play.google.com/store/apps/details?id=br.com.vevolt"><img alt="Google Play" src="https://img.shields.io/badge/GOOGLE_PLAY-ANDROID-2ECC71?style=for-the-badge" /></a>
   <img alt="Kotlin" src="https://img.shields.io/badge/KOTLIN-JETPACK_COMPOSE-7F52FF?style=for-the-badge" />
-  <img alt="Versão" src="https://img.shields.io/badge/VERSÃO-0.3.0_(12)-0D3B8E?style=for-the-badge" />
+  <img alt="Site oficial" src="https://img.shields.io/badge/SITE-ATUALIZADO-0D3B8E?style=for-the-badge" />
   <img alt="Teste fechado" src="https://img.shields.io/badge/TESTE-FECHADO-333333?style=for-the-badge" />
 </p>
 
@@ -39,7 +39,7 @@ O aplicativo é nativo, desenvolvido em **Kotlin** com **Jetpack Compose** e Mat
 ## Estrutura do repositório
 
 - `android/`: código-fonte do aplicativo, recursos e testes.
-- `site/`: páginas institucionais e jurídicas do VeVolt.
+- `site/`: site institucional completo, blog, páginas jurídicas e imagens responsivas.
 - `MARCA.md`: diretrizes públicas de identidade visual.
 - `ASSETS.md`: inventário das telas e imagens publicadas.
 

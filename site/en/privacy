@@ -1,138 +1,64 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!doctype html>
+<html lang="en-US" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
     <title>Privacy Policy - VeVolt</title>
-    <meta name="description" content="Privacy Policy for the VeVolt app." />
-    <meta name="robots" content="noindex, nofollow" />
-    <meta name="theme-color" content="#070b12" />
-    <link rel="canonical" href="https://vevolt.app/en/privacy" />
-    <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/politica" />
-    <link rel="alternate" hreflang="en" href="https://vevolt.app/en/privacy" />
-    <link
-      rel="alternate"
-      hreflang="es"
-      href="https://vevolt.app/es/privacidad"
-    />
-    <link
-      rel="alternate"
-      hreflang="x-default"
-      href="https://vevolt.app/politica"
-    />
-    <link rel="icon" href="/favicon.ico" sizes="any" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/assets/favicon-32.png"
-    />
-    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="stylesheet" href="/assets/site.css?v=20260716-4" />
-    <script>
-      try {
-        var savedTheme = localStorage.getItem("vevolt-theme");
-        if (savedTheme) document.documentElement.dataset.theme = savedTheme;
-      } catch (error) {}
-    </script>
-    <script defer src="/assets/site.js?v=20260715-1"></script>
-  </head>
-  <body>
-    <a class="skip-link" href="#content">Skip to content</a>
+    <meta name="description" content="How VeVolt handles data and permissions.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="google-site-verification" content="qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc">
+    <link rel="canonical" href="https://vevolt.app/en/privacy">
+    <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/politica">
+    <link rel="alternate" hreflang="en-US" href="https://vevolt.app/en/privacy">
+    <link rel="alternate" hreflang="es-419" href="https://vevolt.app/es/privacidad">
+    <link rel="alternate" hreflang="x-default" href="https://vevolt.app/politica">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="VeVolt">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Privacy Policy - VeVolt">
+    <meta property="og:description" content="How VeVolt handles data and permissions.">
+    <meta property="og:url" content="https://vevolt.app/en/privacy">
+    <meta property="og:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
+    <meta property="og:image:alt" content="VeVolt - Your electric mobility copilot.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Privacy Policy - VeVolt">
+    <meta name="twitter:description" content="How VeVolt handles data and permissions.">
+    <meta name="twitter:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
+    <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f4f8fc" media="(prefers-color-scheme: light)">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png">
+    <link rel="apple-touch-icon" href="/assets/icon-192.png">
+    <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/site.css?v=20260718-1">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260718-1">
+    <script src="/assets/theme-init.js?v=20260718-1"></script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/en/"},{"@type":"ListItem","position":2,"name":"Privacy","item":"https://vevolt.app/en/privacy"}]}</script>
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Skip to content</a>
     <header class="topbar">
-      <nav class="nav" aria-label="Main navigation">
-        <a class="brand" href="/en/" aria-label="VeVolt - home"
-          ><img
-            src="/assets/vevolt-icon-64.webp"
-            width="64"
-            height="64"
-            alt=""
-          /><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a
-        ><div class="nav-panel" id="main-menu" data-menu-panel data-open="false">
-          <div class="nav-links">
-            <a class="nav-link" href="/en/">Home</a
-            ><a class="nav-link" href="/en/#features">Features</a
-            ><a class="nav-link" href="/en/#screens">Screens</a
-            ><a class="nav-link" href="/en/#testers">Become a tester</a
-            ><a class="nav-link" href="/en/terms">Terms</a
-            ><a class="nav-link" aria-current="page" href="/en/privacy"
-              >Privacy</a
-            >
-          </div>
-          <a class="nav-cta" href="/en/#screens">View app</a>
-        <div class="language-switcher" role="group" aria-label="Language">
-            <a
-              href="/politica"
-              hreflang="pt-BR"
-              lang="pt-BR"
-              aria-label="PT - Português"
-              >PT</a
-            ><a
-              href="/en/privacy"
-              hreflang="en"
-              lang="en"
-              aria-current="true"
-              aria-label="EN - English"
-              >EN</a
-            ><a
-              href="/es/privacidad"
-              hreflang="es"
-              lang="es"
-              aria-label="ES - Español"
-              >ES</a
-            >
-          </div>
-          </div>
-        <div class="nav-controls">
-          <button
-                      class="theme-toggle"
-                      type="button"
-                      data-theme-toggle
-                      data-label-light="Use light theme"
-                      data-label-dark="Use dark theme"
-                      aria-label="Use light theme"
-                      title="Use light theme"
-                    >
-                      &#9788;
-                    </button>
-          <button
-                    class="menu-toggle"
-                    type="button"
-                    aria-label="Menu"
-                    title="Menu"
-                    aria-expanded="false"
-                    aria-controls="main-menu"
-                    data-menu-toggle
-                  >
-                    <span></span><span></span><span></span>
-                  </button>
-        </div>
-      </nav>
-    </header>
-    <main id="content" class="legal-main">
-      <div class="wrap legal-shell">
-        <aside class="legal-intro">
-          <div class="eyebrow">
-            <span class="signal" aria-hidden="true"></span> Privacy
-          </div>
-          <h1>Privacy Policy</h1>
-          <p class="lead">
-            How VeVolt uses information and permissions to help electric-car
-            drivers.
-          </p>
-          <div class="legal-meta">
-            <p>Last updated: July 15, 2026</p>
-            <p>App: VeVolt</p>
-            <p>
-              Contact:
-              <a href="mailto:devs@pascoal.eti.br">devs@pascoal.eti.br</a>
-            </p>
-          </div>
-        </aside>
-        <article class="legal-content">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/en/" aria-label="VeVolt - home">
+        <img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt="" fetchpriority="high">
+        <span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
+      </a>
+      <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
+        <div class="nav-links"><a class="nav-link" href="/en/">Home</a><a class="nav-link" href="/en/features">Features</a><a class="nav-link" href="/en/plans">Plans</a><a class="nav-link" href="/en/condo">Condo</a><a class="nav-link" href="/en/community">Community</a><a class="nav-link" href="/en/faq">FAQ</a></div>
+        <a class="nav-cta" href="/en/testers">Become a tester</a>
+        <div class="language-switcher" aria-label="Language">
+    <a href="/politica" hreflang="pt-BR" lang="pt-BR" aria-label="Português">PT</a><a href="/en/privacy" hreflang="en-US" lang="en-US" aria-label="English" aria-current="true">EN</a><a href="/es/privacidad" hreflang="es-419" lang="es-419" aria-label="Español">ES</a>
+  </div>
+      </div>
+      <div class="nav-controls">
+        <button class="theme-toggle" type="button" data-theme-toggle data-label-light="Use light theme" data-label-dark="Use dark theme" aria-label="Use dark theme" title="Use dark theme"><span aria-hidden="true">&#9788;</span></button>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+    <main id="conteudo"><section class="page-hero"><div class="wrap"><p class="eyebrow"><span class="signal"></span>Privacy</p><h1>Privacy Policy</h1><p>How VeVolt uses information and permissions to help electric-car drivers.</p></div></section><section class="section"><div class="wrap legal">
           <p>
             VeVolt helps electric-car drivers find charging locations, plan routes,
             track savings and organize charging. The app does not require an email
@@ -285,54 +211,28 @@
             Privacy questions and deletion requests can be sent to
             <a href="mailto:devs@pascoal.eti.br">devs@pascoal.eti.br</a>.
           </p>
-        </article>
-      </div>
-    </main>
+        </div></section></main>
     <footer class="footer">
-      <div class="footer-inner">
-        <div>
-          <div class="footer-brand">
-            <img
-              src="/assets/vevolt-icon-64.webp"
-              width="64"
-              height="64"
-              alt=""
-            /><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
-          </div>
-          <p class="footer-summary">
-            Android app for finding chargers, planning routes and tracking
-            electric-car savings.
-          </p>
-        </div>
-        <div>
-          <h2>App</h2>
-          <ul>
-            <li><a href="/en/">Home</a></li>
-            <li><a href="/en/#features">Features</a></li>
-            <li><a href="/en/#screens">App screens</a></li>
-          </ul>
-        </div>
-        <div>
-          <h2>Legal</h2>
-          <ul>
-            <li><a href="/en/terms">Terms of Use</a></li>
-            <li><a href="/en/privacy">Privacy</a></li>
-          </ul>
-        </div>
-        <div>
-          <h2>Contact</h2>
-          <ul>
-            <li>
-              <a href="mailto:devs@pascoal.eti.br">devs@pascoal.eti.br</a>
-            </li>
-            <li>Developer: Pascoal Eti</li>
-          </ul>
-        </div>
+    <div class="footer-inner">
+      <div>
+        <a class="footer-brand" href="/en/"><img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt=""><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a>
+        <p class="footer-summary">Maps, routes, community updates, costs and services for electric mobility.</p>
+        <div class="language-switcher" aria-label="Language">
+    <a href="/politica" hreflang="pt-BR" lang="pt-BR" aria-label="Português">Português</a><a href="/en/privacy" hreflang="en-US" lang="en-US" aria-label="English" aria-current="true">English</a><a href="/es/privacidad" hreflang="es-419" lang="es-419" aria-label="Español">Español</a>
+  </div>
       </div>
-      <div class="footer-bottom">
-        <span>© 2026 VeVolt</span><span>Your co-pilot for EV charging.</span>
-      </div>
-    </footer>
-  </body>
+      <div><h2>Product</h2><ul>
+        <li><a href="/en/features">Features</a></li><li><a href="/en/plans">Plans</a></li><li><a href="/en/condo">Condo</a></li><li><a href="/en/community">Community</a></li>
+      </ul></div>
+      <div><h2>Information</h2><ul>
+        <li><a href="/en/faq">FAQ</a></li><li><a href="/en/testers">Become a tester</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
+      </ul></div>
+      <div><h2>Legal</h2><ul>
+        <li><a href="/en/privacy">Privacy</a></li><li><a href="/en/terms">Terms of use</a></li><li><a href="mailto:devs@pascoal.eti.br">devs@pascoal.eti.br</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><span>VeVolt. Developed by Pascoal Eti.</span><span>&copy; 2026 Pascoal Eti</span></div>
+  </footer>
+    <script src="/assets/site.js?v=20260718-1" defer></script>
+</body>
 </html>
-

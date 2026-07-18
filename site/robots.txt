@@ -1,7 +1,9 @@
 User-agent: *
 Allow: /
-Disallow: /tester-signup
-Disallow: /tester-signup.php
-
+Disallow: /termos
+Disallow: /politica
+Disallow: /en/terms
+Disallow: /en/privacy
+Disallow: /es/terminos
+Disallow: /es/privacidad
 Sitemap: https://vevolt.app/sitemap.xml
-

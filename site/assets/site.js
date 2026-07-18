@@ -238,4 +238,3 @@
     if (window.innerWidth > 1040) closeMenu();
   });
 })();
-
