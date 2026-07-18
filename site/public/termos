@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Termos de Uso - VeVolt</title>
+    <meta name="description" content="Regras para usar o aplicativo VeVolt.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="google-site-verification" content="qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc">
+    <link rel="canonical" href="https://vevolt.app/termos">
+    <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/termos">
+    <link rel="alternate" hreflang="en-US" href="https://vevolt.app/en/terms">
+    <link rel="alternate" hreflang="es-419" href="https://vevolt.app/es/terminos">
+    <link rel="alternate" hreflang="x-default" href="https://vevolt.app/termos">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="VeVolt">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Termos de Uso - VeVolt">
+    <meta property="og:description" content="Regras para usar o aplicativo VeVolt.">
+    <meta property="og:url" content="https://vevolt.app/termos">
+    <meta property="og:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
+    <meta property="og:image:alt" content="VeVolt - Seu copiloto de mobilidade elétrica.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Termos de Uso - VeVolt">
+    <meta name="twitter:description" content="Regras para usar o aplicativo VeVolt.">
+    <meta name="twitter:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
+    <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f4f8fc" media="(prefers-color-scheme: light)">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png">
+    <link rel="apple-touch-icon" href="/assets/icon-192.png">
+    <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/site.css?v=20260718-2">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260718-2">
+    <script src="/assets/theme-init.js?v=20260718-2"></script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/"},{"@type":"ListItem","position":2,"name":"Termos de uso","item":"https://vevolt.app/termos"}]}</script>
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+    <header class="topbar">
+    <nav class="nav" aria-label="Navegação principal">
+      <a class="brand" href="/" aria-label="VeVolt - início">
+        <img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt="" fetchpriority="high">
+        <span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
+      </a>
+      <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
+        <div class="nav-links"><a class="nav-link" href="/">Início</a><a class="nav-link" href="/recursos">Recursos</a><a class="nav-link" href="/planos">Planos</a><a class="nav-link" href="/condo">Condo</a><a class="nav-link" href="/comunidade">Comunidade</a><a class="nav-link" href="/faq">FAQ</a><a class="nav-link" href="/blog/">Blog</a></div>
+        <a class="nav-cta" href="/seja-testador">Seja testador</a>
+        <div class="language-switcher compact" aria-label="Idioma">
+    <a href="/termos" hreflang="pt-BR" lang="pt-BR" aria-label="Português" aria-current="true">PT</a><a href="/en/terms" hreflang="en-US" lang="en-US" aria-label="English">EN</a><a href="/es/terminos" hreflang="es-419" lang="es-419" aria-label="Español">ES</a>
+  </div>
+      </div>
+      <div class="nav-controls">
+        <button class="theme-toggle" type="button" data-theme-toggle data-label-light="Usar tema claro" data-label-dark="Usar tema escuro" aria-label="Usar tema escuro" title="Usar tema escuro"><span aria-hidden="true">&#9788;</span></button>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+    <main id="conteudo"><section class="page-hero"><div class="wrap"><p class="eyebrow"><span class="signal"></span>Termos de uso</p><h1>Termos de Uso</h1><p>As regras básicas para usar o VeVolt com segurança, clareza e responsabilidade.</p></div></section><section class="section"><div class="wrap legal">
+          <p>
+            Ao acessar ou usar o VeVolt, você declara que leu, entendeu e concorda
+            com estes Termos de Uso e com a
+            <a href="/politica">Política de Privacidade</a>. Se não concordar, não
+            use o aplicativo.
+          </p>
+
+          <h2>1. Sobre o VeVolt</h2>
+          <p>
+            O VeVolt ajuda motoristas de veículos elétricos a consultar pontos de
+            recarga, autonomia, rotas e economia. O app pode usar localização
+            opcional, buscar dados no Open Charge Map, abrir trajetos, ler QR Codes,
+            pesquisar estabelecimentos por código postal, manter registros locais,
+            receber contribuições da comunidade e organizar carregadores privados
+            compartilhados pelo VeVolt Condo.
+          </p>
+          <p>
+            O VeVolt não controla equipamentos, não reserva eletropostos públicos e
+            não recebe pagamentos por recargas.
+          </p>
+
+          <h2>2. Uso permitido</h2>
+          <p>Use o VeVolt somente para fins legais e pessoais. Você não deve:</p>
+          <ul>
+            <li>interferir, modificar ou tentar acessar partes internas do app;</li>
+            <li>usar o serviço para fraude, abuso ou atividades ilegais;</li>
+            <li>apresentar estimativas ou relatos como informação oficial em tempo real;</li>
+            <li>reproduzir conteúdo, marca ou interface sem autorização.</li>
+          </ul>
+
+          <h2>3. Informações de terceiros e estimativas</h2>
+          <p>
+            Dados do Open Charge Map e de outros provedores podem estar incompletos
+            ou desatualizados. Distância, autonomia, custo e economia são
+            estimativas; energia, preço e outros valores locais podem ser informados
+            pelos próprios usuários.
+          </p>
+          <p>
+            Confirme informações importantes com fontes oficiais ou com o operador
+            do carregador antes de tomar decisões de viagem, recarga, pagamento ou
+            segurança.
+          </p>
+
+          <h2>4. Dados e privacidade</h2>
+          <p>
+            Dados pessoais do veículo, pontos salvos e histórico permanecem no
+            aparelho. O VeVolt não possui conta por e-mail ou senha nem sincroniza
+            esses registros pessoais. O backend recebe os dados mínimos necessários
+            para validar o Premium, processar buscas postais, operar a Comunidade e
+            viabilizar o VeVolt Condo, conforme a
+            <a href="/politica">Política de Privacidade</a>.
+          </p>
+
+          <h2>5. Conteúdo da Comunidade VeVolt</h2>
+          <p>
+            Ao publicar confirmação, preço, avaliação, comentário ou foto, o usuário
+            confirma que a informação é verdadeira, que possui direito de
+            compartilhá-la e concede ao VeVolt licença não exclusiva para armazenar
+            e exibir a contribuição.
+          </p>
+          <p>
+            Não publique pessoas, placas, documentos, dados pessoais ou conteúdo
+            ilegal, ofensivo, enganoso, promocional ou que viole direitos de
+            terceiros. As contribuições usam um identificador comunitário anônimo.
+            O app permite denunciar, bloquear o colaborador no aparelho e excluir o
+            próprio relato. O VeVolt pode ocultar ou remover publicações denunciadas
+            ou abusivas. Relatos comunitários não são confirmações do operador.
+          </p>
+
+          <h2>6. Premium, Google Play e VeVolt Condo</h2>
+          <p>
+            Assinaturas são gerenciadas e cobradas exclusivamente pelo Google Play.
+            O Premium oferece histórico detalhado, exportação CSV, indicadores
+            avançados, catálogo ampliado do Mercado e administração do VeVolt Condo.
+            Moradores convidados podem participar do Condo sem Premium.
+          </p>
+          <p>
+            Reservas do VeVolt Condo servem somente para organizar horários em
+            carregadores privados cadastrados pelos usuários. Elas não confirmam
+            disponibilidade física, não acionam equipamentos, não reservam
+            eletropostos públicos e não processam cobranças de energia.
+          </p>
+
+          <h2>7. Disponibilidade</h2>
+          <p>
+            O VeVolt pode ser alterado, suspenso, atualizado ou descontinuado. Não
+            garantimos operação contínua, sem erros, interrupções ou
+            incompatibilidades.
+          </p>
+
+          <h2>8. Limitação de responsabilidade</h2>
+          <p>
+            Na máxima extensão permitida pela legislação, o VeVolt e seus
+            responsáveis não respondem por perdas, custos, atrasos, decisões de
+            rota, carregadores indisponíveis, falhas de terceiros ou consequências
+            causadas por informações incompletas, imprecisas ou desatualizadas.
+            O usuário é responsável por dirigir com segurança, respeitar as leis e
+            avaliar a autonomia real do veículo.
+          </p>
+
+          <h2>9. Propriedade intelectual</h2>
+          <p>
+            A marca, interface, textos, imagens e demais materiais do VeVolt
+            pertencem aos respectivos titulares ou licenciantes. O uso do app não
+            transfere direitos de propriedade intelectual.
+          </p>
+
+          <h2>10. Alterações</h2>
+          <p>
+            Estes termos podem ser atualizados. A data da página será alterada
+            quando houver mudanças relevantes. O uso continuado após a publicação
+            significa aceitação da versão atualizada.
+          </p>
+
+          <h2>11. Contato</h2>
+          <p>
+            Dúvidas sobre estes termos podem ser enviadas para
+            <a href="mailto:devs@pascoal.eti.br">devs@pascoal.eti.br</a>.
+          </p>
+        </div></section></main>
+    <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <a class="footer-brand" href="/"><img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt=""><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a>
+        <p class="footer-summary">Mapa, rota, comunidade, custos e serviços para a mobilidade elétrica.</p>
+        <div class="language-switcher" aria-label="Idioma">
+    <a href="/termos" hreflang="pt-BR" lang="pt-BR" aria-label="Português" aria-current="true">Português</a><a href="/en/terms" hreflang="en-US" lang="en-US" aria-label="English">English</a><a href="/es/terminos" hreflang="es-419" lang="es-419" aria-label="Español">Español</a>
+  </div>
+      </div>
+      <div><h2>Produto</h2><ul>
+        <li><a href="/recursos">Recursos</a></li><li><a href="/planos">Planos</a></li><li><a href="/condo">Condo</a></li><li><a href="/comunidade">Comunidade</a></li>
+      </ul></div>
+      <div><h2>Informações</h2><ul>
+        <li><a href="/faq">FAQ</a></li><li><a href="/blog/">Blog</a></li><li><a href="/seja-testador">Seja testador</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
+      </ul></div>
+      <div><h2>Legal</h2><ul>
+        <li><a href="/politica">Privacidade</a></li><li><a href="/termos">Termos de uso</a></li><li><a href="mailto:devs@pascoal.eti.br">devs@pascoal.eti.br</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Desenvolvido por <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
+  </footer>
+    <script src="/assets/site.js?v=20260718-2" defer></script>
+</body>
+</html>

@@ -31,6 +31,7 @@ Pacote oficial: `br.com.vevolt`.
 - Comunidade VeVolt com confirmação, preço, avaliação, foto e ocorrências;
 - alertas locais quando um carregador acompanhado recebe confirmação de recuperação;
 - Premium processado pelo Google Play Billing.
+- site oficial em português, inglês e espanhol, com 39 artigos localizados sobre mobilidade elétrica.
 
 ## Tecnologia
 

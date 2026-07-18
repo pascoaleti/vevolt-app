@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en-US" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>How to check whether an EV charger is working | VeVolt</title>
+    <meta name="description" content="Reduce uncertainty by checking operator status, recent driver reports, access conditions and nearby alternatives.">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc">
+    <link rel="canonical" href="https://vevolt.app/en/blog/how-to-check-if-an-ev-charger-is-working">
+    <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/blog/como-saber-eletroposto-funcionando">
+    <link rel="alternate" hreflang="en-US" href="https://vevolt.app/en/blog/how-to-check-if-an-ev-charger-is-working">
+    <link rel="alternate" hreflang="es-419" href="https://vevolt.app/es/blog/como-saber-si-un-cargador-electrico-funciona">
+    <link rel="alternate" hreflang="x-default" href="https://vevolt.app/blog/como-saber-eletroposto-funcionando">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="VeVolt">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="How to check whether an EV charger is working | VeVolt">
+    <meta property="og:description" content="Reduce uncertainty by checking operator status, recent driver reports, access conditions and nearby alternatives.">
+    <meta property="og:url" content="https://vevolt.app/en/blog/how-to-check-if-an-ev-charger-is-working">
+    <meta property="og:image" content="https://vevolt.app/assets/screens/en-community-720.webp">
+    <meta property="og:image:alt" content="VeVolt - Your electric mobility copilot.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How to check whether an EV charger is working | VeVolt">
+    <meta name="twitter:description" content="Reduce uncertainty by checking operator status, recent driver reports, access conditions and nearby alternatives.">
+    <meta name="twitter:image" content="https://vevolt.app/assets/screens/en-community-720.webp">
+    <meta property="article:published_time" content="2026-07-18">
+    <meta property="article:modified_time" content="2026-07-18">
+    <meta property="article:author" content="Pascoal Eti">
+    <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f4f8fc" media="(prefers-color-scheme: light)">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png">
+    <link rel="apple-touch-icon" href="/assets/icon-192.png">
+    <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/site.css?v=20260718-2">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260718-2">
+    <script src="/assets/theme-init.js?v=20260718-2"></script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"How to check whether an EV charger is working","description":"Reduce uncertainty by checking operator status, recent driver reports, access conditions and nearby alternatives.","image":"https://vevolt.app/assets/screens/en-community-720.webp","datePublished":"2026-07-18","dateModified":"2026-07-18","inLanguage":"en-US","mainEntityOfPage":"https://vevolt.app/en/blog/how-to-check-if-an-ev-charger-is-working","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"publisher":{"@type":"Organization","name":"VeVolt","logo":{"@type":"ImageObject","url":"https://vevolt.app/assets/icon-512.png"}}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"en-US","mainEntity":[{"@type":"Question","name":"Does a recent positive report guarantee success?","acceptedAnswer":{"@type":"Answer","text":"No. Conditions can change between the report and your arrival."}},{"@type":"Question","name":"What should I report after a failed attempt?","acceptedAnswer":{"@type":"Answer","text":"Share the connector, time, visible error and access condition without exposing personal data."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/en/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://vevolt.app/en/blog/"},{"@type":"ListItem","position":3,"name":"How to check whether an EV charger is working","item":"https://vevolt.app/en/blog/how-to-check-if-an-ev-charger-is-working"}]}</script>
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Skip to content</a>
+    <header class="topbar">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/en/" aria-label="VeVolt - home">
+        <img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt="" fetchpriority="high">
+        <span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
+      </a>
+      <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
+        <div class="nav-links"><a class="nav-link" href="/en/">Home</a><a class="nav-link" href="/en/features">Features</a><a class="nav-link" href="/en/plans">Plans</a><a class="nav-link" href="/en/condo">Condo</a><a class="nav-link" href="/en/community">Community</a><a class="nav-link" href="/en/faq">FAQ</a><a class="nav-link" href="/en/blog/" aria-current="page">Blog</a></div>
+        <a class="nav-cta" href="/en/testers">Become a tester</a>
+        <div class="language-switcher compact" aria-label="Language">
+    <a href="/blog/como-saber-eletroposto-funcionando" hreflang="pt-BR" lang="pt-BR" aria-label="Português">PT</a><a href="/en/blog/how-to-check-if-an-ev-charger-is-working" hreflang="en-US" lang="en-US" aria-label="English" aria-current="true">EN</a><a href="/es/blog/como-saber-si-un-cargador-electrico-funciona" hreflang="es-419" lang="es-419" aria-label="Español">ES</a>
+  </div>
+      </div>
+      <div class="nav-controls">
+        <button class="theme-toggle" type="button" data-theme-toggle data-label-light="Use light theme" data-label-dark="Use dark theme" aria-label="Use dark theme" title="Use dark theme"><span aria-hidden="true">&#9788;</span></button>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+    <main id="conteudo"><article class="section"><div class="wrap">
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/en/">VeVolt</a><span>/</span><a href="/en/blog/">Blog</a></nav>
+    <div class="article-intro"><div class="article-hero"><img src="/assets/screens/en-community-720.webp" width="1280" height="720" alt="VeVolt Community reports for an EV charging station" fetchpriority="high"></div><header class="article-header"><p class="eyebrow"><span class="signal"></span>VeVolt guide</p><h1>How to check whether an EV charger is working</h1><p class="lede">No single signal is perfect. The safest decision combines official operator information, recent community context and a backup location.</p><p class="article-meta">Updated 18/07/2026 · 8 min read</p></header></div>
+    <div class="article-layout"><div class="article-body"><section><h2>Look for official status first</h2><p>When the operator provides a real-time app or support channel, use it to check connector status and access requirements before leaving.</p></section><section><h2>Read recent reports</h2><p>Recent reports can reveal a broken plug, occupied bay, blocked entrance or new tariff. Pay attention to the date and whether the report matches your connector.</p><ul><li>Operator status</li><li>Timestamp of reports</li><li>Matching connector</li><li>Venue opening hours</li><li>Compatible backup</li></ul></section><section><h2>Always keep a fallback</h2><p>For a low-battery arrival, identify another compatible charger before starting the route. A fallback turns uncertainty into a manageable detour.</p></section><section><h2>Frequently asked questions</h2><div class="faq-list"><details class="faq-item"><summary>Does a recent positive report guarantee success?</summary><p>No. Conditions can change between the report and your arrival.</p></details><details class="faq-item"><summary>What should I report after a failed attempt?</summary><p>Share the connector, time, visible error and access condition without exposing personal data.</p></details></div></section></div>
+    <aside class="article-aside"><h2>Use VeVolt in your routine</h2><p>Find chargers, check reports, plan alternatives and record your experience in one app.</p><a class="button primary" href="/en/testers">Join the test</a><h2>Sources and further reading</h2><ul class="source-list"><li><a href="https://support.google.com/maps/answer/9773205?hl=pt-BR" rel="noopener noreferrer">Google Maps - Built-in features for electric vehicles</a></li><li><a href="https://support.google.com/waze/answer/13259753?hl=pt-BR" rel="noopener noreferrer">Waze - Find charging stations along a route</a></li></ul></aside></div>
+    <section class="section compact"><div class="section-heading"><div><p class="kicker">Related guides</p><h2>Keep learning</h2></div></div><div class="grid two"><article class="article-card"><div class="article-card-body"><h3>Can you own an electric car without a home charger?</h3><p>Assess public charging, workplace access, routine distance, charging time and cost before relying on an EV without home charging.</p><a class="text-link" href="/en/blog/electric-car-without-home-charger">Read article →</a></div></article><article class="article-card"><div class="article-card-body"><h3>EV charging at shopping centers, supermarkets and hotels</h3><p>Check access, parking, session activation, stay limits and etiquette when charging at a destination.</p><a class="text-link" href="/en/blog/how-to-use-ev-charging-at-shopping-centers-hotels">Read article →</a></div></article></div></section>
+  </div></article></main>
+    <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <a class="footer-brand" href="/en/"><img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt=""><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a>
+        <p class="footer-summary">Maps, routes, community updates, costs and services for electric mobility.</p>
+        <div class="language-switcher" aria-label="Language">
+    <a href="/blog/como-saber-eletroposto-funcionando" hreflang="pt-BR" lang="pt-BR" aria-label="Português">Português</a><a href="/en/blog/how-to-check-if-an-ev-charger-is-working" hreflang="en-US" lang="en-US" aria-label="English" aria-current="true">English</a><a href="/es/blog/como-saber-si-un-cargador-electrico-funciona" hreflang="es-419" lang="es-419" aria-label="Español">Español</a>
+  </div>
+      </div>
+      <div><h2>Product</h2><ul>
+        <li><a href="/en/features">Features</a></li><li><a href="/en/plans">Plans</a></li><li><a href="/en/condo">Condo</a></li><li><a href="/en/community">Community</a></li>
+      </ul></div>
+      <div><h2>Information</h2><ul>
+        <li><a href="/en/faq">FAQ</a></li><li><a href="/en/blog/">Blog</a></li><li><a href="/en/testers">Become a tester</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
+      </ul></div>
+      <div><h2>Legal</h2><ul>
+        <li><a href="/en/privacy">Privacy</a></li><li><a href="/en/terms">Terms of use</a></li><li><a href="mailto:devs@pascoal.eti.br">devs@pascoal.eti.br</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Developed by <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
+  </footer>
+    <script src="/assets/site.js?v=20260718-2" defer></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Comunidade VeVolt | Condições e relatos de eletropostos</title>
+    <meta name="description" content="Consulte e compartilhe relatos, fotos, preços, filas, falhas e condições de acesso em pontos de recarga.">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc">
+    <link rel="canonical" href="https://vevolt.app/comunidade">
+    <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/comunidade">
+    <link rel="alternate" hreflang="en-US" href="https://vevolt.app/en/community">
+    <link rel="alternate" hreflang="es-419" href="https://vevolt.app/es/comunidad">
+    <link rel="alternate" hreflang="x-default" href="https://vevolt.app/comunidade">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="VeVolt">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Comunidade VeVolt | Condições e relatos de eletropostos">
+    <meta property="og:description" content="Consulte e compartilhe relatos, fotos, preços, filas, falhas e condições de acesso em pontos de recarga.">
+    <meta property="og:url" content="https://vevolt.app/comunidade">
+    <meta property="og:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
+    <meta property="og:image:alt" content="VeVolt - Seu copiloto de mobilidade elétrica.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Comunidade VeVolt | Condições e relatos de eletropostos">
+    <meta name="twitter:description" content="Consulte e compartilhe relatos, fotos, preços, filas, falhas e condições de acesso em pontos de recarga.">
+    <meta name="twitter:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
+    <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f4f8fc" media="(prefers-color-scheme: light)">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png">
+    <link rel="apple-touch-icon" href="/assets/icon-192.png">
+    <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/site.css?v=20260718-2">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260718-2">
+    <script src="/assets/theme-init.js?v=20260718-2"></script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"VeVolt","applicationCategory":"NavigationApplication","operatingSystem":"Android","inLanguage":"pt-BR","description":"Encontre eletropostos, confirme as condições com a comunidade, planeje rotas, acompanhe custos e organize recargas no condomínio com o VeVolt.","url":"https://vevolt.app/comunidade","downloadUrl":"https://play.google.com/store/apps/details?id=br.com.vevolt","image":"https://vevolt.app/assets/visuals/pt-hero-1920.webp","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"offers":[{"@type":"Offer","price":"0","priceCurrency":"BRL","category":"free"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/"},{"@type":"ListItem","position":2,"name":"Comunidade","item":"https://vevolt.app/comunidade"}]}</script>
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+    <header class="topbar">
+    <nav class="nav" aria-label="Navegação principal">
+      <a class="brand" href="/" aria-label="VeVolt - início">
+        <img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt="" fetchpriority="high">
+        <span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
+      </a>
+      <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
+        <div class="nav-links"><a class="nav-link" href="/">Início</a><a class="nav-link" href="/recursos">Recursos</a><a class="nav-link" href="/planos">Planos</a><a class="nav-link" href="/condo">Condo</a><a class="nav-link" href="/comunidade" aria-current="page">Comunidade</a><a class="nav-link" href="/faq">FAQ</a><a class="nav-link" href="/blog/">Blog</a></div>
+        <a class="nav-cta" href="/seja-testador">Seja testador</a>
+        <div class="language-switcher compact" aria-label="Idioma">
+    <a href="/comunidade" hreflang="pt-BR" lang="pt-BR" aria-label="Português" aria-current="true">PT</a><a href="/en/community" hreflang="en-US" lang="en-US" aria-label="English">EN</a><a href="/es/comunidad" hreflang="es-419" lang="es-419" aria-label="Español">ES</a>
+  </div>
+      </div>
+      <div class="nav-controls">
+        <button class="theme-toggle" type="button" data-theme-toggle data-label-light="Usar tema claro" data-label-dark="Usar tema escuro" aria-label="Usar tema escuro" title="Usar tema escuro"><span aria-hidden="true">&#9788;</span></button>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+    <main id="conteudo"><section class="page-hero"><div class="wrap page-hero-inner">
+    <p class="eyebrow"><span class="signal"></span>Informação feita por motoristas</p><h1>Confirme antes de carregar.</h1><p>Relatos recentes ajudam outros motoristas a entender as condições encontradas no local, sem confundir colaboração com disponibilidade oficial do operador.</p>
+  </div></section>
+  <section class="section"><div class="wrap"><div class="feature-split reverse"><picture class="app-phone">
+    <source type="image/webp" srcset="/assets/app/pt-community-360.webp 360w, /assets/app/pt-community-720.webp 720w" sizes="(max-width: 600px) 86vw, 320px">
+    <img src="/assets/app-pt-community.png" width="1080" height="2400" alt="Comunidade" loading="eager" decoding="async" fetchpriority="high">
+  </picture><div class="feature-copy"><p class="kicker">Comunidade</p><h2>Uma comunidade útil precisa de contexto e cuidado.</h2><p>Cada ponto pode reunir confirmações, comentários, fotos, avaliações e uma nota de confiabilidade. Conteúdo inadequado pode ser denunciado e usuários podem ser bloqueados.</p><p class="notice"><strong>Transparência:</strong> As informações comunitárias não garantem que o carregador continuará na mesma condição até a sua chegada. Confirme dados críticos no aplicativo do operador ou no local.</p></div></div></div></section>
+  <section class="cta-band"><div class="wrap cta-inner"><div><h2>Confirme antes de carregar.</h2><p>Relatos recentes ajudam outros motoristas a entender as condições encontradas no local, sem confundir colaboração com disponibilidade oficial do operador.</p></div><div class="actions"><a class="button primary" href="/seja-testador">Quero testar o app</a><a class="button secondary" href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Abrir no Google Play</a></div></div></section></main>
+    <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <a class="footer-brand" href="/"><img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt=""><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a>
+        <p class="footer-summary">Mapa, rota, comunidade, custos e serviços para a mobilidade elétrica.</p>
+        <div class="language-switcher" aria-label="Idioma">
+    <a href="/comunidade" hreflang="pt-BR" lang="pt-BR" aria-label="Português" aria-current="true">Português</a><a href="/en/community" hreflang="en-US" lang="en-US" aria-label="English">English</a><a href="/es/comunidad" hreflang="es-419" lang="es-419" aria-label="Español">Español</a>
+  </div>
+      </div>
+      <div><h2>Produto</h2><ul>
+        <li><a href="/recursos">Recursos</a></li><li><a href="/planos">Planos</a></li><li><a href="/condo">Condo</a></li><li><a href="/comunidade">Comunidade</a></li>
+      </ul></div>
+      <div><h2>Informações</h2><ul>
+        <li><a href="/faq">FAQ</a></li><li><a href="/blog/">Blog</a></li><li><a href="/seja-testador">Seja testador</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
+      </ul></div>
+      <div><h2>Legal</h2><ul>
+        <li><a href="/politica">Privacidade</a></li><li><a href="/termos">Termos de uso</a></li><li><a href="mailto:devs@pascoal.eti.br">devs@pascoal.eti.br</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Desenvolvido por <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
+  </footer>
+    <script src="/assets/site.js?v=20260718-2" defer></script>
+</body>
+</html>
