@@ -9,4 +9,3 @@ return [
     'data_dir' => '/path/outside/public_html/tester-data',
     'rate_limit_secret' => 'replace-with-a-long-random-secret',
 ];
-

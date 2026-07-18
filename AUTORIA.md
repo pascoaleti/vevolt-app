@@ -5,9 +5,11 @@
 - Contato: devs@pascoal.eti.br
 - Dominio oficial: https://vevolt.app/
 - Aplicativo Android: `br.com.vevolt`
-- Versao deste registro: 16 de julho de 2026
+- Versão deste registro: 18 de julho de 2026
 
-Este repositorio preserva uma copia versionada do site oficial, dos textos publicos, das paginas legais, da identidade visual e das imagens de apresentacao do aplicativo VeVolt.
+Este repositório preserva uma cópia versionada do site oficial, dos textos públicos, das páginas legais, da identidade visual, das capturas completas do aplicativo e dos artigos publicados pelo VeVolt.
 
-O historico de commits registra a evolucao do material publicado e ajuda a demonstrar sua cronologia e integridade. Esse registro tecnico nao substitui mecanismos juridicos formais de protecao de propriedade intelectual.
+Esta atualização registra a estrutura multipágina do site, as páginas de recursos, planos, VeVolt Condo, Comunidade, FAQ, programa de testadores e blog, além das versões em português, inglês e espanhol.
+
+O histórico de commits registra a evolução do material publicado e ajuda a demonstrar sua cronologia e integridade. Esse registro técnico não substitui mecanismos jurídicos formais de proteção de propriedade intelectual.
 

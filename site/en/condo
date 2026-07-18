@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en-US" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>VeVolt Condo | Shared EV charging management</title>
+    <meta name="description" content="Organize chargers, schedules, consumption and monthly allocation in a private VeVolt condominium hub.">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc">
+    <link rel="canonical" href="https://vevolt.app/en/condo">
+    <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/condo">
+    <link rel="alternate" hreflang="en-US" href="https://vevolt.app/en/condo">
+    <link rel="alternate" hreflang="es-419" href="https://vevolt.app/es/condo">
+    <link rel="alternate" hreflang="x-default" href="https://vevolt.app/condo">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="VeVolt">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="VeVolt Condo | Shared EV charging management">
+    <meta property="og:description" content="Organize chargers, schedules, consumption and monthly allocation in a private VeVolt condominium hub.">
+    <meta property="og:url" content="https://vevolt.app/en/condo">
+    <meta property="og:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
+    <meta property="og:image:alt" content="VeVolt - Your electric mobility copilot.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VeVolt Condo | Shared EV charging management">
+    <meta name="twitter:description" content="Organize chargers, schedules, consumption and monthly allocation in a private VeVolt condominium hub.">
+    <meta name="twitter:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
+    <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f4f8fc" media="(prefers-color-scheme: light)">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png">
+    <link rel="apple-touch-icon" href="/assets/icon-192.png">
+    <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/site.css?v=20260718-1">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260718-1">
+    <script src="/assets/theme-init.js?v=20260718-1"></script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"VeVolt","applicationCategory":"NavigationApplication","operatingSystem":"Android","inLanguage":"en-US","description":"Find EV chargers, check community updates, plan routes, track costs and organize shared condo charging with VeVolt.","url":"https://vevolt.app/en/condo","downloadUrl":"https://play.google.com/store/apps/details?id=br.com.vevolt","image":"https://vevolt.app/assets/visuals/pt-hero-1920.webp","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"offers":[{"@type":"Offer","price":"0","priceCurrency":"USD","category":"free"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/en/"},{"@type":"ListItem","position":2,"name":"Condo","item":"https://vevolt.app/en/condo"}]}</script>
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Skip to content</a>
+    <header class="topbar">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/en/" aria-label="VeVolt - home">
+        <img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt="" fetchpriority="high">
+        <span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
+      </a>
+      <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
+        <div class="nav-links"><a class="nav-link" href="/en/">Home</a><a class="nav-link" href="/en/features">Features</a><a class="nav-link" href="/en/plans">Plans</a><a class="nav-link" href="/en/condo" aria-current="page">Condo</a><a class="nav-link" href="/en/community">Community</a><a class="nav-link" href="/en/faq">FAQ</a></div>
+        <a class="nav-cta" href="/en/testers">Become a tester</a>
+        <div class="language-switcher" aria-label="Language">
+    <a href="/condo" hreflang="pt-BR" lang="pt-BR" aria-label="Português">PT</a><a href="/en/condo" hreflang="en-US" lang="en-US" aria-label="English" aria-current="true">EN</a><a href="/es/condo" hreflang="es-419" lang="es-419" aria-label="Español">ES</a>
+  </div>
+      </div>
+      <div class="nav-controls">
+        <button class="theme-toggle" type="button" data-theme-toggle data-label-light="Use light theme" data-label-dark="Use dark theme" aria-label="Use dark theme" title="Use dark theme"><span aria-hidden="true">&#9788;</span></button>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+    <main id="conteudo"><section class="page-hero"><div class="wrap page-hero-inner">
+    <p class="eyebrow"><span class="signal"></span>Shared charging management</p><h1>Shared charging, organized for your condominium.</h1><p>Create a private hub, invite residents, register chargers, organize schedules and consolidate monthly consumption and cost allocation.</p>
+  </div></section>
+  <section class="section"><div class="wrap"><div class="feature-split"><div class="feature-copy"><p class="kicker">VeVolt Condo</p><h2>The administrator organizes. Residents join by invitation.</h2><p>The administrator subscribes and creates the condominium code. Invited residents join free, check schedules and register usage under the hub rules.</p><ul class="check-list"><li>Up to 50 participants</li><li>Up to 10 chargers</li><li>Invitations and schedule</li><li>Time-slot reservations</li><li>Manual consumption records</li><li>Monthly allocation by unit</li><li>Invited residents join free</li></ul></div><picture class="app-phone">
+    <source type="image/webp" srcset="/assets/app/en-condo-360.webp 360w, /assets/app/en-condo-720.webp 720w" sizes="(max-width: 600px) 86vw, 320px">
+    <img src="/assets/app-en-condo.png" width="1080" height="1920" alt="VeVolt Condo" loading="eager" decoding="async" fetchpriority="high">
+  </picture></div><p class="notice"><strong>Transparency:</strong> VeVolt Condo is an organization tool. It does not physically control chargers or collect payment for consumed energy.</p></div></section>
+  <section class="cta-band"><div class="wrap cta-inner"><div><h2>Shared charging, organized for your condominium.</h2><p>Create a private hub, invite residents, register chargers, organize schedules and consolidate monthly consumption and cost allocation.</p></div><div class="actions"><a class="button primary" href="/en/testers">Join the test</a><a class="button secondary" href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Open Google Play</a></div></div></section></main>
+    <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <a class="footer-brand" href="/en/"><img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt=""><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a>
+        <p class="footer-summary">Maps, routes, community updates, costs and services for electric mobility.</p>
+        <div class="language-switcher" aria-label="Language">
+    <a href="/condo" hreflang="pt-BR" lang="pt-BR" aria-label="Português">Português</a><a href="/en/condo" hreflang="en-US" lang="en-US" aria-label="English" aria-current="true">English</a><a href="/es/condo" hreflang="es-419" lang="es-419" aria-label="Español">Español</a>
+  </div>
+      </div>
+      <div><h2>Product</h2><ul>
+        <li><a href="/en/features">Features</a></li><li><a href="/en/plans">Plans</a></li><li><a href="/en/condo">Condo</a></li><li><a href="/en/community">Community</a></li>
+      </ul></div>
+      <div><h2>Information</h2><ul>
+        <li><a href="/en/faq">FAQ</a></li><li><a href="/en/testers">Become a tester</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
+      </ul></div>
+      <div><h2>Legal</h2><ul>
+        <li><a href="/en/privacy">Privacy</a></li><li><a href="/en/terms">Terms of use</a></li><li><a href="mailto:devs@pascoal.eti.br">devs@pascoal.eti.br</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><span>VeVolt. Developed by Pascoal Eti.</span><span>&copy; 2026 Pascoal Eti</span></div>
+  </footer>
+    <script src="/assets/site.js?v=20260718-1" defer></script>
+</body>
+</html>

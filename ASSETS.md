@@ -17,13 +17,17 @@ Os arquivos abaixo fazem parte da publicacao oficial em https://vevolt.app/.
 
 ## Telas do aplicativo
 
-Cada idioma possui capturas de mapa, detalhes do ponto, rota, scanner, economia, mercado, perfil e cadastro de veiculo. Os nomes seguem o padrao:
+Cada idioma possui capturas de mapa, detalhes do ponto, rota, scanner, economia, mercado, perfil, cadastro de veículo, VeVolt Condo e Comunidade VeVolt. Os nomes seguem o padrão:
 
 - Portugues: `https://vevolt.app/assets/app-pt-{tela}.png`
 - Ingles: `https://vevolt.app/assets/app-en-{tela}.png`
 - Espanhol: `https://vevolt.app/assets/app-es-{tela}.png`
 
-Valores aceitos para `{tela}`: `map`, `point`, `route`, `scan`, `economy`, `market`, `profile` e `vehicle`.
+Valores aceitos para `{tela}`: `map`, `point`, `route`, `scan`, `economy`, `market`, `profile`, `vehicle`, `condo` e `community`.
 
-Versoes WebP responsivas de 360 e 720 pixels acompanham cada captura na publicacao.
+Versões WebP responsivas acompanham cada captura usada no site. As páginas exibem a tela completa do aplicativo, preservando a proporção vertical e sem recortes.
+
+## Conteúdo editorial
+
+O diretório `site/blog/` contém 13 artigos públicos sobre recarga, conectores, autonomia, custos, condomínios e boas práticas para motoristas de veículos elétricos. As ilustrações editoriais ficam em `site/assets/blog/`.
 

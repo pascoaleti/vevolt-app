@@ -1,176 +1,65 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>VeVolt - EV charging app</title>
-    <meta
-      name="description"
-      content="Find EV chargers, plan routes, follow community prices and reports, organize shared private charging and track your electric-car savings with VeVolt."
-    />
-    <meta
-      name="robots"
-      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
-    />
-    <meta name="theme-color" content="#070b12" />
-    <link rel="canonical" href="https://vevolt.app/en/" />
-    <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/" />
-    <link rel="alternate" hreflang="en" href="https://vevolt.app/en/" />
-    <link rel="alternate" hreflang="es" href="https://vevolt.app/es/" />
-    <link rel="alternate" hreflang="x-default" href="https://vevolt.app/" />
-    <link rel="icon" href="/favicon.ico" sizes="any" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/assets/favicon-32.png"
-    />
-    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
-    <link rel="manifest" href="/site.webmanifest" />
-    <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="stylesheet" href="/assets/site.css?v=20260716-4" />
-    <script>
-      try {
-        var savedTheme = localStorage.getItem("vevolt-theme");
-        if (savedTheme) document.documentElement.dataset.theme = savedTheme;
-      } catch (error) {}
-    </script>
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:locale:alternate" content="pt_BR" />
-    <meta property="og:locale:alternate" content="es_ES" />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="VeVolt" />
-    <meta
-      property="og:title"
-      content="VeVolt - Your co-pilot for EV charging"
-    />
-    <meta
-      property="og:description"
-      content="Find chargers, plan routes, view community reports, organize shared private chargers and track electric-car savings."
-    />
-    <meta property="og:url" content="https://vevolt.app/en/" />
-    <meta
-      property="og:image"
-      content="https://vevolt.app/assets/app-en-social.png"
-    />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta
-      property="og:image:alt"
-      content="VeVolt, your co-pilot for EV charging"
-    />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      name="twitter:title"
-      content="VeVolt - Your co-pilot for EV charging"
-    />
-    <meta
-      name="twitter:description"
-      content="EV charger map, routes, QR scanning, savings, VeVolt Community, Market and shared private chargers with VeVolt Condo."
-    />
-    <meta
-      name="twitter:image"
-      content="https://vevolt.app/assets/app-en-social.png"
-    />
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "VeVolt",
-        "applicationCategory": "TravelApplication",
-        "operatingSystem": "Android",
-        "url": "https://vevolt.app/en/",
-        "installUrl": "https://play.google.com/store/apps/details?id=br.com.vevolt",
-        "isAccessibleForFree": true,
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        },
-        "image": "https://vevolt.app/assets/app-en-hero.png",
-        "description": "Android app to find EV chargers, plan routes, record sessions, view community contributions, organize shared private chargers and track electric-car savings.",
-        "featureList": [
-          "Map of nearby EV charging locations",
-          "Power, connector, price and status details",
-          "Route, battery and range estimates",
-          "QR code scanner for charging sessions",
-          "Savings dashboard and local history",
-          "VeVolt Market for stores, dealerships and repair shops",
-          "Vehicle profile and multi-vehicle garage",
-          "Community status, prices, ratings, comments and photos",
-          "Alerts for followed charging locations",
-          "VeVolt Condo for shared private chargers",
-          "CSV export, recommendations and advanced Premium features"
-        ],
-        "inLanguage": "en",
-        "publisher": { "@type": "Organization", "name": "Pascoal Eti" }
-      }
-    </script>
-    <script defer src="/assets/site.js?v=20260715-1"></script>
-  </head>
-  <body>
-    <a class="skip-link" href="#content">Skip to content</a>
+<!doctype html>
+<html lang="en-US" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>VeVolt | EV charging stations, routes and electric mobility</title>
+    <meta name="description" content="Find EV chargers, check community updates, plan routes, track costs and organize shared condo charging with VeVolt.">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc">
+    <link rel="canonical" href="https://vevolt.app/en/">
+    <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/">
+    <link rel="alternate" hreflang="en-US" href="https://vevolt.app/en/">
+    <link rel="alternate" hreflang="es-419" href="https://vevolt.app/es/">
+    <link rel="alternate" hreflang="x-default" href="https://vevolt.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="VeVolt">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="VeVolt | EV charging stations, routes and electric mobility">
+    <meta property="og:description" content="Find EV chargers, check community updates, plan routes, track costs and organize shared condo charging with VeVolt.">
+    <meta property="og:url" content="https://vevolt.app/en/">
+    <meta property="og:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
+    <meta property="og:image:alt" content="VeVolt - Your electric mobility copilot.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VeVolt | EV charging stations, routes and electric mobility">
+    <meta name="twitter:description" content="Find EV chargers, check community updates, plan routes, track costs and organize shared condo charging with VeVolt.">
+    <meta name="twitter:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
+    <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f4f8fc" media="(prefers-color-scheme: light)">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png">
+    <link rel="apple-touch-icon" href="/assets/icon-192.png">
+    <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/site.css?v=20260718-1">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260718-1">
+    <script src="/assets/theme-init.js?v=20260718-1"></script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"VeVolt","url":"https://vevolt.app","logo":"https://vevolt.app/assets/icon-512.png","sameAs":["https://play.google.com/store/apps/details?id=br.com.vevolt"]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"VeVolt","applicationCategory":"NavigationApplication","operatingSystem":"Android","inLanguage":"en-US","description":"Find EV chargers, check community updates, plan routes, track costs and organize shared condo charging with VeVolt.","url":"https://vevolt.app/en/","downloadUrl":"https://play.google.com/store/apps/details?id=br.com.vevolt","image":"https://vevolt.app/assets/visuals/pt-hero-1920.webp","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"offers":[{"@type":"Offer","price":"0","priceCurrency":"USD","category":"free"}]}</script>
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Skip to content</a>
     <header class="topbar">
-      <nav class="nav" aria-label="Main navigation">
-        <a class="brand" href="/en/" aria-label="VeVolt - home"
-          ><img
-            src="/assets/vevolt-icon-64.webp"
-            width="64"
-            height="64"
-            alt=""
-          /><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a
-        >
-        <div class="nav-panel" id="main-menu" data-menu-panel data-open="false">
-          <div class="nav-links">
-            <a class="nav-link" href="/en/" aria-current="page">Home</a
-            ><a class="nav-link" href="#features">Features</a
-            ><a class="nav-link" href="#screens">Screens</a
-            ><a class="nav-link" href="#testers">Become a tester</a
-            ><a class="nav-link" href="/en/terms">Terms</a
-            ><a class="nav-link" href="/en/privacy">Privacy</a>
-          </div>
-          <a class="nav-cta" href="#screens">View app</a>
-        <div class="language-switcher" role="group" aria-label="Language">
-            <a href="/" hreflang="pt-BR" lang="pt-BR" aria-label="PT - Português"
-              >PT</a
-            ><a
-              href="/en/"
-              hreflang="en"
-              lang="en"
-              aria-current="true"
-              aria-label="EN - English"
-              >EN</a
-            ><a href="/es/" hreflang="es" lang="es" aria-label="ES - Español">ES</a>
-          </div>
-        </div>
-        <div class="nav-controls">
-          <button
-                      class="theme-toggle"
-                      type="button"
-                      data-theme-toggle
-                      data-label-light="Use light theme"
-                      data-label-dark="Use dark theme"
-                      aria-label="Use light theme"
-                      title="Use light theme"
-                    >
-                      &#9788;
-                    </button>
-          <button
-                    class="menu-toggle"
-                    type="button"
-                    aria-label="Menu"
-                    title="Menu"
-                    aria-expanded="false"
-                    aria-controls="main-menu"
-                    data-menu-toggle
-                  >
-                    <span></span><span></span><span></span>
-                  </button>
-        </div>
-      </nav>
-    </header>
-    <main id="content">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="/en/" aria-label="VeVolt - home">
+        <img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt="" fetchpriority="high">
+        <span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
+      </a>
+      <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
+        <div class="nav-links"><a class="nav-link" href="/en/" aria-current="page">Home</a><a class="nav-link" href="/en/features">Features</a><a class="nav-link" href="/en/plans">Plans</a><a class="nav-link" href="/en/condo">Condo</a><a class="nav-link" href="/en/community">Community</a><a class="nav-link" href="/en/faq">FAQ</a></div>
+        <a class="nav-cta" href="/en/testers">Become a tester</a>
+        <div class="language-switcher" aria-label="Language">
+    <a href="/" hreflang="pt-BR" lang="pt-BR" aria-label="Português">PT</a><a href="/en/" hreflang="en-US" lang="en-US" aria-label="English" aria-current="true">EN</a><a href="/es/" hreflang="es-419" lang="es-419" aria-label="Español">ES</a>
+  </div>
+      </div>
+      <div class="nav-controls">
+        <button class="theme-toggle" type="button" data-theme-toggle data-label-light="Use light theme" data-label-dark="Use dark theme" aria-label="Use dark theme" title="Use dark theme"><span aria-hidden="true">&#9788;</span></button>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+    <main id="conteudo">
       <section class="hero">
         <div class="wrap hero-inner">
           <div class="hero-copybox">
@@ -422,8 +311,8 @@
               <figcaption>Route with estimated battery on arrival.</figcaption>
             </figure>
             <figure>
-              <picture><source type="image/webp" srcset="/assets/app-en-scan-360.webp 360w, /assets/app-en-scan-720.webp 720w" sizes="(max-width: 760px) 78vw, 280px" /><img src="/assets/app-en-scan.png" width="1080" height="2400" alt="VeVolt QR code scanner" loading="lazy" decoding="async" /></picture>
-              <figcaption>On-device QR code scanner.</figcaption>
+              <picture><source type="image/webp" srcset="/assets/app-en-condo-360.webp 360w, /assets/app-en-condo-720.webp 720w" sizes="(max-width: 760px) 78vw, 280px" /><img src="/assets/app-en-condo.png" width="1080" height="2400" alt="VeVolt Condo private charger management" loading="lazy" decoding="async" /></picture>
+              <figcaption>Private charger and condominium management.</figcaption>
             </figure>
             <figure>
               <picture><source type="image/webp" srcset="/assets/app-en-economy-360.webp 360w, /assets/app-en-economy-720.webp 720w" sizes="(max-width: 760px) 78vw, 280px" /><img src="/assets/app-en-economy.png" width="1080" height="2400" alt="VeVolt savings dashboard" loading="lazy" decoding="async" /></picture>
@@ -438,8 +327,8 @@
               <figcaption>Profile, garage and Premium features.</figcaption>
             </figure>
             <figure>
-              <picture><source type="image/webp" srcset="/assets/app-en-vehicle-360.webp 360w, /assets/app-en-vehicle-720.webp 720w" sizes="(max-width: 760px) 78vw, 280px" /><img src="/assets/app-en-vehicle.png" width="1080" height="2400" alt="Vehicle setup in VeVolt" loading="lazy" decoding="async" /></picture>
-              <figcaption>Complete vehicle setup.</figcaption>
+              <picture><source type="image/webp" srcset="/assets/app-en-community-360.webp 360w, /assets/app-en-community-720.webp 720w" sizes="(max-width: 760px) 78vw, 280px" /><img src="/assets/app-en-community.png" width="1080" height="2400" alt="VeVolt driver community" loading="lazy" decoding="async" /></picture>
+              <figcaption>Local reports shared by the VeVolt community.</figcaption>
             </figure>
           </div>
           <div
@@ -550,50 +439,26 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer-inner">
-        <div>
-          <div class="footer-brand">
-            <img
-              src="/assets/vevolt-icon-64.webp"
-              width="64"
-              height="64"
-              alt=""
-            /><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
-          </div>
-          <p class="footer-summary">
-            Android app for finding chargers, planning routes and tracking
-            electric-car savings.
-          </p>
-        </div>
-        <div>
-          <h2>App</h2>
-          <ul>
-            <li><a href="/en/#features">Features</a></li>
-            <li><a href="/en/#screens">App screens</a></li>
-            <li><a href="/en/">Home</a></li>
-          </ul>
-        </div>
-        <div>
-          <h2>Legal</h2>
-          <ul>
-            <li><a href="/en/terms">Terms of Use</a></li>
-            <li><a href="/en/privacy">Privacy</a></li>
-          </ul>
-        </div>
-        <div>
-          <h2>Contact</h2>
-          <ul>
-            <li>
-              <a href="mailto:devs@pascoal.eti.br">devs@pascoal.eti.br</a>
-            </li>
-            <li>Developer: Pascoal Eti</li>
-          </ul>
-        </div>
+    <div class="footer-inner">
+      <div>
+        <a class="footer-brand" href="/en/"><img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt=""><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a>
+        <p class="footer-summary">Maps, routes, community updates, costs and services for electric mobility.</p>
+        <div class="language-switcher" aria-label="Language">
+    <a href="/" hreflang="pt-BR" lang="pt-BR" aria-label="Português">Português</a><a href="/en/" hreflang="en-US" lang="en-US" aria-label="English" aria-current="true">English</a><a href="/es/" hreflang="es-419" lang="es-419" aria-label="Español">Español</a>
+  </div>
       </div>
-      <div class="footer-bottom">
-        <span>© 2026 VeVolt</span><span>Your co-pilot for EV charging.</span>
-      </div>
-    </footer>
-  </body>
+      <div><h2>Product</h2><ul>
+        <li><a href="/en/features">Features</a></li><li><a href="/en/plans">Plans</a></li><li><a href="/en/condo">Condo</a></li><li><a href="/en/community">Community</a></li>
+      </ul></div>
+      <div><h2>Information</h2><ul>
+        <li><a href="/en/faq">FAQ</a></li><li><a href="/en/testers">Become a tester</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
+      </ul></div>
+      <div><h2>Legal</h2><ul>
+        <li><a href="/en/privacy">Privacy</a></li><li><a href="/en/terms">Terms of use</a></li><li><a href="mailto:devs@pascoal.eti.br">devs@pascoal.eti.br</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><span>VeVolt. Developed by Pascoal Eti.</span><span>&copy; 2026 Pascoal Eti</span></div>
+  </footer>
+    <script src="/assets/site.js?v=20260718-1" defer></script>
+</body>
 </html>
-
