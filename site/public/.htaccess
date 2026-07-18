@@ -11,8 +11,10 @@ DirectoryIndex index
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
   Header always set Content-Security-Policy "default-src 'self'; base-uri 'self'; connect-src 'self'; font-src 'self'; form-action 'self'; frame-ancestors 'none'; img-src 'self' data:; object-src 'none'; script-src 'self'; style-src 'self'; upgrade-insecure-requests"
-  <FilesMatch "^(index|recursos|planos|condo|comunidade|faq|blog|seja-testador|features|plans|community|testers|funciones|planes|comunidad|preguntas|probadores|terms|privacy|terminos|privacidad|termos|politica)$">
-    Header set Cache-Control "public, max-age=300, must-revalidate, no-transform"
+  <FilesMatch "^[^.]+$">
+    Header set Cache-Control "no-cache, no-store, max-age=0, must-revalidate, no-transform"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
   </FilesMatch>
   <FilesMatch "\.(css|js|woff2|webp|png|ico)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
