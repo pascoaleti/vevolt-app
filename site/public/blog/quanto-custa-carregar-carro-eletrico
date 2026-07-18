@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Quanto custa carregar um carro elétrico? Faça a conta por kWh | VeVolt</title>
+    <meta name="description" content="Entenda como calcular o custo de uma recarga em casa ou em eletropostos e comparar o valor por quilômetro.">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc">
+    <link rel="canonical" href="https://vevolt.app/blog/quanto-custa-carregar-carro-eletrico">
+    <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/blog/quanto-custa-carregar-carro-eletrico">
+    <link rel="alternate" hreflang="en-US" href="https://vevolt.app/en/blog/how-much-does-it-cost-to-charge-an-electric-car">
+    <link rel="alternate" hreflang="es-419" href="https://vevolt.app/es/blog/cuanto-cuesta-cargar-un-coche-electrico">
+    <link rel="alternate" hreflang="x-default" href="https://vevolt.app/blog/quanto-custa-carregar-carro-eletrico">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="VeVolt">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Quanto custa carregar um carro elétrico? Faça a conta por kWh | VeVolt">
+    <meta property="og:description" content="Entenda como calcular o custo de uma recarga em casa ou em eletropostos e comparar o valor por quilômetro.">
+    <meta property="og:url" content="https://vevolt.app/blog/quanto-custa-carregar-carro-eletrico">
+    <meta property="og:image" content="https://vevolt.app/assets/screens/pt-economy-720.webp">
+    <meta property="og:image:alt" content="VeVolt - Seu copiloto de mobilidade elétrica.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Quanto custa carregar um carro elétrico? Faça a conta por kWh | VeVolt">
+    <meta name="twitter:description" content="Entenda como calcular o custo de uma recarga em casa ou em eletropostos e comparar o valor por quilômetro.">
+    <meta name="twitter:image" content="https://vevolt.app/assets/screens/pt-economy-720.webp">
+    <meta property="article:published_time" content="2026-07-18">
+    <meta property="article:modified_time" content="2026-07-18">
+    <meta property="article:author" content="Pascoal Eti">
+    <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f4f8fc" media="(prefers-color-scheme: light)">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png">
+    <link rel="apple-touch-icon" href="/assets/icon-192.png">
+    <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/site.css?v=20260718-2">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260718-2">
+    <script src="/assets/theme-init.js?v=20260718-2"></script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Quanto custa carregar um carro elétrico? Faça a conta por kWh","description":"Entenda como calcular o custo de uma recarga em casa ou em eletropostos e comparar o valor por quilômetro.","image":"https://vevolt.app/assets/screens/pt-economy-720.webp","datePublished":"2026-07-18","dateModified":"2026-07-18","inLanguage":"pt-BR","mainEntityOfPage":"https://vevolt.app/blog/quanto-custa-carregar-carro-eletrico","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"publisher":{"@type":"Organization","name":"VeVolt","logo":{"@type":"ImageObject","url":"https://vevolt.app/assets/icon-512.png"}}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"pt-BR","mainEntity":[{"@type":"Question","name":"Quanto custa uma carga completa?","acceptedAnswer":{"@type":"Answer","text":"Multiplique a energia necessária pelo preço do kWh e considere taxas e perdas. O valor varia por bateria, tarifa e local."}},{"@type":"Question","name":"Carregador público pode cobrar qualquer valor?","acceptedAnswer":{"@type":"Answer","text":"A atividade comercial é permitida com preços livremente negociados. O operador deve apresentar as condições da sessão."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://vevolt.app/blog/"},{"@type":"ListItem","position":3,"name":"Quanto custa carregar um carro elétrico? Faça a conta por kWh","item":"https://vevolt.app/blog/quanto-custa-carregar-carro-eletrico"}]}</script>
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+    <header class="topbar">
+    <nav class="nav" aria-label="Navegação principal">
+      <a class="brand" href="/" aria-label="VeVolt - início">
+        <img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt="" fetchpriority="high">
+        <span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
+      </a>
+      <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
+        <div class="nav-links"><a class="nav-link" href="/">Início</a><a class="nav-link" href="/recursos">Recursos</a><a class="nav-link" href="/planos">Planos</a><a class="nav-link" href="/condo">Condo</a><a class="nav-link" href="/comunidade">Comunidade</a><a class="nav-link" href="/faq">FAQ</a><a class="nav-link" href="/blog/" aria-current="page">Blog</a></div>
+        <a class="nav-cta" href="/seja-testador">Seja testador</a>
+        <div class="language-switcher compact" aria-label="Idioma">
+    <a href="/blog/quanto-custa-carregar-carro-eletrico" hreflang="pt-BR" lang="pt-BR" aria-label="Português" aria-current="true">PT</a><a href="/en/blog/how-much-does-it-cost-to-charge-an-electric-car" hreflang="en-US" lang="en-US" aria-label="English">EN</a><a href="/es/blog/cuanto-cuesta-cargar-un-coche-electrico" hreflang="es-419" lang="es-419" aria-label="Español">ES</a>
+  </div>
+      </div>
+      <div class="nav-controls">
+        <button class="theme-toggle" type="button" data-theme-toggle data-label-light="Usar tema claro" data-label-dark="Usar tema escuro" aria-label="Usar tema escuro" title="Usar tema escuro"><span aria-hidden="true">&#9788;</span></button>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+    <main id="conteudo"><article class="section"><div class="wrap">
+    <nav class="breadcrumbs" aria-label="Navegação estrutural"><a href="/">VeVolt</a><span>/</span><a href="/blog/">Blog</a></nav>
+    <div class="article-intro"><div class="article-hero"><img src="/assets/screens/pt-economy-720.webp" width="1280" height="720" alt="Tela de economia do VeVolt com energia e custo de recarga" fetchpriority="high"></div><header class="article-header"><p class="eyebrow"><span class="signal"></span>Guia VeVolt</p><h1>Quanto custa carregar um carro elétrico? Faça a conta por kWh</h1><p class="lede">O custo não depende apenas do tamanho da bateria. Você precisa considerar quanta energia entrou, o preço do kWh, eventuais taxas do local e as perdas naturais do processo de recarga.</p><p class="article-meta">Atualizado em 18/07/2026 · 9 min de leitura</p></header></div>
+    <div class="article-layout"><div class="article-body"><section><h2>A fórmula básica da recarga</h2><p>A conta mais simples é energia adicionada em kWh multiplicada pelo preço do kWh. Se você adicionou 30 kWh e pagou R$ 1,50 por kWh, o valor energético foi R$ 45. Em casa, use a tarifa efetiva da sua conta; em um eletroposto, consulte o preço apresentado pelo operador.</p><p>Uma carga de 20% a 80% não adiciona a capacidade total da bateria. Para estimar, multiplique a capacidade útil pela diferença percentual. Em uma bateria de 50 kWh, subir 60 pontos percentuais representa aproximadamente 30 kWh antes de considerar perdas.</p></section><section><h2>O que pode entrar no preço final</h2><p>A ANEEL permite a exploração comercial da recarga com preços livremente negociados. Isso significa que dois pontos próximos podem adotar modelos de cobrança diferentes. Leia a tela de confirmação do operador antes de iniciar.</p><ul><li>Energia cobrada por kWh</li><li>Taxa por minuto, sessão ou ocupação após o término</li><li>Estacionamento, pedágio ou acesso ao estabelecimento</li><li>Variação de tarifa por horário ou plano do operador</li><li>Perdas entre a rede, o carregador e a bateria</li></ul></section><section><h2>Compare custo por quilômetro, não só carga completa</h2><p>Para comparar com gasolina ou etanol, registre a energia e a distância percorrida. Divida o valor pago pelos quilômetros efetivamente rodados naquele período. Essa métrica conversa melhor com sua rotina do que o preço para encher a bateria.</p><p>O consumo varia com velocidade, temperatura, relevo, pneus, climatização e estilo de condução. Use médias de várias recargas para evitar conclusões baseadas em um único trajeto.</p></section><section><h2>Registre no momento da recarga</h2><p>No VeVolt, informe a energia e o valor pago enquanto os números ainda estão visíveis. O histórico local ajuda a acompanhar médias e comparar períodos. Seus registros pessoais permanecem no aparelho.</p></section><section><h2>Perguntas frequentes</h2><div class="faq-list"><details class="faq-item"><summary>Quanto custa uma carga completa?</summary><p>Multiplique a energia necessária pelo preço do kWh e considere taxas e perdas. O valor varia por bateria, tarifa e local.</p></details><details class="faq-item"><summary>Carregador público pode cobrar qualquer valor?</summary><p>A atividade comercial é permitida com preços livremente negociados. O operador deve apresentar as condições da sessão.</p></details></div></section></div>
+    <aside class="article-aside"><h2>Use o VeVolt na sua rotina</h2><p>Encontre pontos, confira relatos, planeje alternativas e registre sua experiência em um só app.</p><a class="button primary" href="/seja-testador">Quero testar o app</a><h2>Fontes e leitura adicional</h2><ul class="source-list"><li><a href="https://www.gov.br/aneel/pt-br/assuntos/veiculos-eletricos" rel="noopener noreferrer">ANEEL - Veículos elétricos e regras para recarga</a></li><li><a href="https://www.gov.br/inmetro/pt-br/acesso-a-informacao/perguntas-frequentes/avaliacao-da-conformidade/etiquetagem-para-veiculos-leves/como-e-calculado-o-consumo-dos-carros-eletricos" rel="noopener noreferrer">Inmetro - Como é calculado o consumo dos carros elétricos</a></li></ul></aside></div>
+    <section class="section compact"><div class="section-heading"><div><p class="kicker">Leia também</p><h2>Continue aprendendo</h2></div></div><div class="grid two"><article class="article-card"><div class="article-card-body"><h3>Quanto tempo demora para carregar um carro elétrico?</h3><p>Veja por que potência, capacidade da bateria, limite do veículo e nível inicial mudam o tempo de recarga.</p><a class="text-link" href="/blog/quanto-tempo-demora-carregar-carro-eletrico">Ler artigo →</a></div></article><article class="article-card"><div class="article-card-body"><h3>Carregador de carro elétrico em condomínio: instalação, agenda e rateio</h3><p>Entenda os pontos técnicos e organizacionais para recarga compartilhada em condomínios.</p><a class="text-link" href="/blog/carregador-carro-eletrico-condominio">Ler artigo →</a></div></article></div></section>
+  </div></article></main>
+    <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <a class="footer-brand" href="/"><img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt=""><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a>
+        <p class="footer-summary">Mapa, rota, comunidade, custos e serviços para a mobilidade elétrica.</p>
+        <div class="language-switcher" aria-label="Idioma">
+    <a href="/blog/quanto-custa-carregar-carro-eletrico" hreflang="pt-BR" lang="pt-BR" aria-label="Português" aria-current="true">Português</a><a href="/en/blog/how-much-does-it-cost-to-charge-an-electric-car" hreflang="en-US" lang="en-US" aria-label="English">English</a><a href="/es/blog/cuanto-cuesta-cargar-un-coche-electrico" hreflang="es-419" lang="es-419" aria-label="Español">Español</a>
+  </div>
+      </div>
+      <div><h2>Produto</h2><ul>
+        <li><a href="/recursos">Recursos</a></li><li><a href="/planos">Planos</a></li><li><a href="/condo">Condo</a></li><li><a href="/comunidade">Comunidade</a></li>
+      </ul></div>
+      <div><h2>Informações</h2><ul>
+        <li><a href="/faq">FAQ</a></li><li><a href="/blog/">Blog</a></li><li><a href="/seja-testador">Seja testador</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
+      </ul></div>
+      <div><h2>Legal</h2><ul>
+        <li><a href="/politica">Privacidade</a></li><li><a href="/termos">Termos de uso</a></li><li><a href="mailto:devs@pascoal.eti.br">devs@pascoal.eti.br</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Desenvolvido por <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
+  </footer>
+    <script src="/assets/site.js?v=20260718-2" defer></script>
+</body>
+</html>

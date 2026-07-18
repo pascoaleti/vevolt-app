@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="es-419" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Política de Privacidad - VeVolt</title>
+    <meta name="description" content="Cómo VeVolt trata los datos y permisos.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="google-site-verification" content="qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc">
+    <link rel="canonical" href="https://vevolt.app/es/privacidad">
+    <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/politica">
+    <link rel="alternate" hreflang="en-US" href="https://vevolt.app/en/privacy">
+    <link rel="alternate" hreflang="es-419" href="https://vevolt.app/es/privacidad">
+    <link rel="alternate" hreflang="x-default" href="https://vevolt.app/politica">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="VeVolt">
+    <meta property="og:locale" content="es_419">
+    <meta property="og:title" content="Política de Privacidad - VeVolt">
+    <meta property="og:description" content="Cómo VeVolt trata los datos y permisos.">
+    <meta property="og:url" content="https://vevolt.app/es/privacidad">
+    <meta property="og:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
+    <meta property="og:image:alt" content="VeVolt - Tu copiloto de movilidad eléctrica.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Política de Privacidad - VeVolt">
+    <meta name="twitter:description" content="Cómo VeVolt trata los datos y permisos.">
+    <meta name="twitter:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
+    <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f4f8fc" media="(prefers-color-scheme: light)">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png">
+    <link rel="apple-touch-icon" href="/assets/icon-192.png">
+    <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/site.css?v=20260718-2">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260718-2">
+    <script src="/assets/theme-init.js?v=20260718-2"></script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/es/"},{"@type":"ListItem","position":2,"name":"Privacidad","item":"https://vevolt.app/es/privacidad"}]}</script>
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Ir al contenido</a>
+    <header class="topbar">
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="brand" href="/es/" aria-label="VeVolt - inicio">
+        <img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt="" fetchpriority="high">
+        <span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
+      </a>
+      <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
+        <div class="nav-links"><a class="nav-link" href="/es/">Inicio</a><a class="nav-link" href="/es/funciones">Funciones</a><a class="nav-link" href="/es/planes">Planes</a><a class="nav-link" href="/es/condo">Condo</a><a class="nav-link" href="/es/comunidad">Comunidad</a><a class="nav-link" href="/es/preguntas">Preguntas</a><a class="nav-link" href="/es/blog/">Blog</a></div>
+        <a class="nav-cta" href="/es/probadores">Ser probador</a>
+        <div class="language-switcher compact" aria-label="Idioma">
+    <a href="/politica" hreflang="pt-BR" lang="pt-BR" aria-label="Português">PT</a><a href="/en/privacy" hreflang="en-US" lang="en-US" aria-label="English">EN</a><a href="/es/privacidad" hreflang="es-419" lang="es-419" aria-label="Español" aria-current="true">ES</a>
+  </div>
+      </div>
+      <div class="nav-controls">
+        <button class="theme-toggle" type="button" data-theme-toggle data-label-light="Usar tema claro" data-label-dark="Usar tema oscuro" aria-label="Usar tema oscuro" title="Usar tema oscuro"><span aria-hidden="true">&#9788;</span></button>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+    <main id="conteudo"><section class="page-hero"><div class="wrap"><p class="eyebrow"><span class="signal"></span>Privacidad</p><h1>Política de Privacidad</h1><p>Cómo utiliza VeVolt la información y los permisos para ayudar a conductores de coches eléctricos.</p></div></section><section class="section"><div class="wrap legal">
+          <p>
+            VeVolt ayuda a conductores de coches eléctricos a encontrar puntos de
+            carga, planificar rutas, controlar el ahorro y organizar recargas. La
+            aplicación no requiere una cuenta con correo y contraseña. Funciones
+            opcionales como Comunidad VeVolt, Premium, Mercado y VeVolt Condo usan
+            el backend únicamente para las finalidades descritas en esta política.
+          </p>
+
+          <h2>1. Datos tratados por esta versión</h2>
+          <p>La aplicación puede guardar localmente en el dispositivo:</p>
+          <ul>
+            <li>tipo, marca, modelo y año del vehículo;</li>
+            <li>autonomía, capacidad de batería, conector y nivel actual;</li>
+            <li>configuración inicial, puntos guardados y cargadores seguidos;</li>
+            <li>reservas y sesiones de carga registradas en el dispositivo.</li>
+          </ul>
+          <p>
+            Estos datos se usan para mostrar las pantallas y calcular estimaciones
+            locales de autonomía, ruta, coste y ahorro. Los datos enviados
+            voluntariamente a Comunidad VeVolt o VeVolt Condo pueden transmitirse
+            al backend para ofrecer esas funciones compartidas.
+          </p>
+
+          <h2>2. Mapas, ubicación y servicios externos</h2>
+          <p>
+            Los datos personales del vehículo, los puntos guardados, la ubicación
+            del dispositivo y el historial local no se envían al backend de VeVolt.
+          </p>
+          <p>
+            El mapa utiliza MapLibre y OpenFreeMap con datos de OpenStreetMap. Como
+            en cualquier solicitud de internet, el proveedor puede recibir datos
+            técnicos necesarios, como la dirección IP y la región mostrada.
+          </p>
+          <p>
+            Cuando se permite la ubicación, la latitud y longitud aproximadas pueden
+            enviarse a Open Charge Map exclusivamente para devolver puntos cercanos.
+            VeVolt no recopila ubicación en segundo plano.
+          </p>
+          <p>
+            En VeVolt Mercado, país, código postal e idioma se envían por HTTPS al
+            backend solamente cuando el usuario inicia la búsqueda. El servicio
+            puede usar BrasilAPI en Brasil, Nominatim/OpenStreetMap en otros países
+            y Zippopotam.us como contingencia. El resultado puede permanecer en
+            caché volátil hasta 24 horas sin guardar de forma duradera el código
+            postal ni las coordenadas.
+          </p>
+
+          <h2>3. Premium y Google Play</h2>
+          <p>
+            Las compras y suscripciones Premium se procesan exclusivamente mediante
+            Google Play, conforme a las políticas y ajustes de la cuenta Google.
+          </p>
+          <p>
+            La validación Premium envía por HTTPS el token de compra, el producto y
+            un identificador aleatorio de instalación. El backend consulta Google
+            Play Developer API y conserva solamente hashes SHA-256, estado,
+            vencimiento, indicador de prueba y fechas. No se envían datos del
+            vehículo, ubicación ni historial para esta finalidad.
+          </p>
+
+          <h2>4. Comunidad VeVolt</h2>
+          <p>
+            Cuando el usuario contribuye, la app envía el identificador y los datos
+            públicos del cargador, estado, precio, valoración, comentario y foto
+            opcional. El identificador de instalación se guarda solo como hash y
+            genera un seudónimo anónimo.
+          </p>
+          <p>
+            Las fotos se redimensionan y recodifican en el dispositivo para eliminar
+            metadatos. Permanecen en almacenamiento privado de Google Cloud y se
+            entregan mediante la API VeVolt. Las publicaciones pueden denunciarse,
+            moderarse, bloquearse localmente y eliminarse por su autor junto con la
+            foto. La retención máxima es de dos años.
+          </p>
+          <p>
+            Los cargadores seguidos quedan en el dispositivo. Las alertas consultan
+            la API sin recopilar ubicación en segundo plano. Los informes de la
+            comunidad son aportaciones de usuarios y no confirmaciones del operador.
+          </p>
+
+          <h2>5. VeVolt Condo</h2>
+          <p>
+            VeVolt Condo envía el nombre informado, condominio, unidad, país, moneda,
+            cargadores, reservas y sesiones compartidas, incluida energía y coste
+            cuando se registran.
+          </p>
+          <p>
+            El acceso no usa correo ni contraseña. La app guarda un token aleatorio
+            en el espacio privado de Android y el servidor conserva solamente su
+            hash. Las invitaciones son de un solo uso y vencen.
+          </p>
+
+          <h2>6. Almacenamiento y seguridad</h2>
+          <p>
+            Los datos locales usan Android DataStore en el espacio privado de la
+            app. La copia de seguridad y la extracción automática están
+            desactivadas, el tráfico no cifrado se bloquea y las conexiones con
+            mapas, cargadores, geocodificadores, backend VeVolt y Google Play usan
+            HTTPS. Los códigos QR se procesan en el dispositivo.
+          </p>
+          <p>
+            Ningún método está completamente libre de riesgos. Mantén la aplicación
+            actualizada y protege el acceso a tu dispositivo.
+          </p>
+
+          <h2>7. Permisos y funciones sensibles</h2>
+          <p>
+            La ubicación y la cámara son opcionales. La ubicación busca cargadores
+            cercanos. La cámara procesa códigos QR en el dispositivo con ML Kit
+            Barcode Scanning y no envía imágenes a los servidores de VeVolt. Las
+            notificaciones pueden solicitarse al seguir un cargador. La app no pide
+            contactos, micrófono ni acceso amplio al almacenamiento externo.
+          </p>
+
+          <h2>8. Conservación y eliminación</h2>
+          <p>
+            Los datos locales permanecen hasta que se borran desde Perfil, los
+            ajustes de Android o al desinstalar. Los registros Premium vencen 90
+            días después de la suscripción y los identificadores RTDN en 30 días.
+            Borrar los datos del Perfil también intenta eliminar el registro Premium
+            vinculado.
+          </p>
+          <p>
+            Un miembro de VeVolt Condo puede salir y eliminar su asociación y sus
+            registros. El único administrador puede eliminar todo el condominio; si
+            quedan otros miembros, deberá organizar primero el cierre.
+          </p>
+
+          <h2>9. Registro de probadores en el sitio</h2>
+          <p>
+            Cuando alguien solicita acceso a la prueba cerrada, el sitio registra el
+            correo enviado, el idioma, la fecha y el estado de la solicitud. Estos
+            datos se usan únicamente para administrar la prueba y enviar mensajes
+            relacionados. Para limitar abusos, el servidor guarda temporalmente un
+            identificador técnico derivado de la IP sin conservarla en texto claro.
+            El correo no se vende ni se usa para publicidad.
+          </p>
+
+          <h2>10. Menores</h2>
+          <p>VeVolt no está dirigido a menores.</p>
+
+          <h2>11. Cambios</h2>
+          <p>
+            Esta política se actualizará antes de incorporar login por correo o
+            redes sociales, nuevas finalidades del backend, sincronización de
+            vehículos personales, pagos de recarga, analítica u otras comunicaciones
+            de datos. La fecha cambiará cuando se publiquen revisiones importantes.
+          </p>
+
+          <h2>12. Contacto</h2>
+          <p>
+            Las consultas de privacidad y solicitudes de eliminación pueden enviarse
+            a <a href="mailto:devs@pascoal.eti.br">devs@pascoal.eti.br</a>.
+          </p>
+        </div></section></main>
+    <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <a class="footer-brand" href="/es/"><img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt=""><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a>
+        <p class="footer-summary">Mapas, rutas, comunidad, costos y servicios para la movilidad eléctrica.</p>
+        <div class="language-switcher" aria-label="Idioma">
+    <a href="/politica" hreflang="pt-BR" lang="pt-BR" aria-label="Português">Português</a><a href="/en/privacy" hreflang="en-US" lang="en-US" aria-label="English">English</a><a href="/es/privacidad" hreflang="es-419" lang="es-419" aria-label="Español" aria-current="true">Español</a>
+  </div>
+      </div>
+      <div><h2>Producto</h2><ul>
+        <li><a href="/es/funciones">Funciones</a></li><li><a href="/es/planes">Planes</a></li><li><a href="/es/condo">Condo</a></li><li><a href="/es/comunidad">Comunidad</a></li>
+      </ul></div>
+      <div><h2>Información</h2><ul>
+        <li><a href="/es/preguntas">Preguntas</a></li><li><a href="/es/blog/">Blog</a></li><li><a href="/es/probadores">Ser probador</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
+      </ul></div>
+      <div><h2>Legal</h2><ul>
+        <li><a href="/es/privacidad">Privacidad</a></li><li><a href="/es/terminos">Términos de uso</a></li><li><a href="mailto:devs@pascoal.eti.br">devs@pascoal.eti.br</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Desarrollado por <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
+  </footer>
+    <script src="/assets/site.js?v=20260718-2" defer></script>
+</body>
+</html>

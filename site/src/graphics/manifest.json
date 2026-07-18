@@ -1,0 +1,322 @@
+{
+  "package": "VeVolt-graphics-0.3.4",
+  "locales": {
+    "pt-BR": {
+      "playstore_phone_screenshots": 8,
+      "playstore_feature_graphics": 1,
+      "website_assets": 5
+    },
+    "en-US": {
+      "playstore_phone_screenshots": 8,
+      "playstore_feature_graphics": 1,
+      "website_assets": 5
+    },
+    "es-419": {
+      "playstore_phone_screenshots": 8,
+      "playstore_feature_graphics": 1,
+      "website_assets": 5
+    }
+  },
+  "assets": [
+    {
+      "locale": "pt-BR",
+      "type": "playstore-phone",
+      "file": "playstore/pt-BR/phone/01-map.png",
+      "dimensions": "1080x1920",
+      "title": "Encontre pontos de recarga",
+      "body": "Veja locais reais próximos no mapa."
+    },
+    {
+      "locale": "pt-BR",
+      "type": "playstore-phone",
+      "file": "playstore/pt-BR/phone/02-point.png",
+      "dimensions": "1080x1920",
+      "title": "Confira antes de sair",
+      "body": "Conector, potência, status e tarifa quando informados."
+    },
+    {
+      "locale": "pt-BR",
+      "type": "playstore-phone",
+      "file": "playstore/pt-BR/phone/03-route.png",
+      "dimensions": "1080x1920",
+      "title": "Planeje com sua autonomia",
+      "body": "Estime distância e bateria antes de abrir a navegação."
+    },
+    {
+      "locale": "pt-BR",
+      "type": "playstore-phone",
+      "file": "playstore/pt-BR/phone/04-condo.png",
+      "dimensions": "1080x1920",
+      "title": "Organize a recarga do condomínio",
+      "body": "Até 50 participantes e 10 carregadores compartilhados."
+    },
+    {
+      "locale": "pt-BR",
+      "type": "playstore-phone",
+      "file": "playstore/pt-BR/phone/05-economy.png",
+      "dimensions": "1080x1920",
+      "title": "Acompanhe seu histórico local",
+      "body": "Energia, custo e comparações em um só lugar."
+    },
+    {
+      "locale": "pt-BR",
+      "type": "playstore-phone",
+      "file": "playstore/pt-BR/phone/06-market.png",
+      "dimensions": "1080x1920",
+      "title": "Descubra serviços para elétricos",
+      "body": "Lojas, concessionárias e oficinas perto de você."
+    },
+    {
+      "locale": "pt-BR",
+      "type": "playstore-phone",
+      "file": "playstore/pt-BR/phone/07-profile.png",
+      "dimensions": "1080x1920",
+      "title": "Premium para ir além",
+      "body": "Garagem, análises, backup e recomendações inteligentes."
+    },
+    {
+      "locale": "pt-BR",
+      "type": "playstore-phone",
+      "file": "playstore/pt-BR/phone/09-community.png",
+      "dimensions": "1080x1920",
+      "title": "Confirme antes de carregar",
+      "body": "Veja relatos recentes, confiabilidade e alertas da comunidade."
+    },
+    {
+      "locale": "pt-BR",
+      "type": "playstore-feature",
+      "file": "playstore/pt-BR/feature-graphic-1024x500.png",
+      "dimensions": "1024x500"
+    },
+    {
+      "locale": "pt-BR",
+      "type": "website-hero",
+      "file": "website/pt-BR/hero-1920x1080.png",
+      "dimensions": "1920x1080"
+    },
+    {
+      "locale": "pt-BR",
+      "type": "website-social",
+      "file": "website/pt-BR/social-1200x630.png",
+      "dimensions": "1200x630"
+    },
+    {
+      "locale": "pt-BR",
+      "type": "website-feature",
+      "file": "website/pt-BR/feature-map-1600x900.png",
+      "dimensions": "1600x900"
+    },
+    {
+      "locale": "pt-BR",
+      "type": "website-feature",
+      "file": "website/pt-BR/feature-market-1600x900.png",
+      "dimensions": "1600x900"
+    },
+    {
+      "locale": "pt-BR",
+      "type": "website-feature",
+      "file": "website/pt-BR/feature-premium-1600x900.png",
+      "dimensions": "1600x900"
+    },
+    {
+      "locale": "en-US",
+      "type": "playstore-phone",
+      "file": "playstore/en-US/phone/01-map.png",
+      "dimensions": "1080x1920",
+      "title": "Find nearby chargers",
+      "body": "Explore real charging locations on the map."
+    },
+    {
+      "locale": "en-US",
+      "type": "playstore-phone",
+      "file": "playstore/en-US/phone/02-point.png",
+      "dimensions": "1080x1920",
+      "title": "Check before you go",
+      "body": "Connector, power, status and tariff when available."
+    },
+    {
+      "locale": "en-US",
+      "type": "playstore-phone",
+      "file": "playstore/en-US/phone/03-route.png",
+      "dimensions": "1080x1920",
+      "title": "Plan around your range",
+      "body": "Estimate distance and battery before opening navigation."
+    },
+    {
+      "locale": "en-US",
+      "type": "playstore-phone",
+      "file": "playstore/en-US/phone/04-condo.png",
+      "dimensions": "1080x1920",
+      "title": "Organize condominium charging",
+      "body": "Up to 50 participants and 10 shared chargers."
+    },
+    {
+      "locale": "en-US",
+      "type": "playstore-phone",
+      "file": "playstore/en-US/phone/05-economy.png",
+      "dimensions": "1080x1920",
+      "title": "Track your local history",
+      "body": "Energy, cost and comparisons in one place."
+    },
+    {
+      "locale": "en-US",
+      "type": "playstore-phone",
+      "file": "playstore/en-US/phone/06-market.png",
+      "dimensions": "1080x1920",
+      "title": "Discover EV services",
+      "body": "Find nearby stores, dealerships and repair shops."
+    },
+    {
+      "locale": "en-US",
+      "type": "playstore-phone",
+      "file": "playstore/en-US/phone/07-profile.png",
+      "dimensions": "1080x1920",
+      "title": "Go further with Premium",
+      "body": "Garage, insights, backup and smart recommendations."
+    },
+    {
+      "locale": "en-US",
+      "type": "playstore-phone",
+      "file": "playstore/en-US/phone/09-community.png",
+      "dimensions": "1080x1920",
+      "title": "Check before you charge",
+      "body": "See recent reports, reliability and community alerts."
+    },
+    {
+      "locale": "en-US",
+      "type": "playstore-feature",
+      "file": "playstore/en-US/feature-graphic-1024x500.png",
+      "dimensions": "1024x500"
+    },
+    {
+      "locale": "en-US",
+      "type": "website-hero",
+      "file": "website/en-US/hero-1920x1080.png",
+      "dimensions": "1920x1080"
+    },
+    {
+      "locale": "en-US",
+      "type": "website-social",
+      "file": "website/en-US/social-1200x630.png",
+      "dimensions": "1200x630"
+    },
+    {
+      "locale": "en-US",
+      "type": "website-feature",
+      "file": "website/en-US/feature-map-1600x900.png",
+      "dimensions": "1600x900"
+    },
+    {
+      "locale": "en-US",
+      "type": "website-feature",
+      "file": "website/en-US/feature-market-1600x900.png",
+      "dimensions": "1600x900"
+    },
+    {
+      "locale": "en-US",
+      "type": "website-feature",
+      "file": "website/en-US/feature-premium-1600x900.png",
+      "dimensions": "1600x900"
+    },
+    {
+      "locale": "es-419",
+      "type": "playstore-phone",
+      "file": "playstore/es-419/phone/01-map.png",
+      "dimensions": "1080x1920",
+      "title": "Encuentra cargadores cercanos",
+      "body": "Explora puntos de carga reales en el mapa."
+    },
+    {
+      "locale": "es-419",
+      "type": "playstore-phone",
+      "file": "playstore/es-419/phone/02-point.png",
+      "dimensions": "1080x1920",
+      "title": "Revisa antes de salir",
+      "body": "Conector, potencia, estado y tarifa cuando estén disponibles."
+    },
+    {
+      "locale": "es-419",
+      "type": "playstore-phone",
+      "file": "playstore/es-419/phone/03-route.png",
+      "dimensions": "1080x1920",
+      "title": "Planifica según tu autonomía",
+      "body": "Estima distancia y batería antes de abrir la navegación."
+    },
+    {
+      "locale": "es-419",
+      "type": "playstore-phone",
+      "file": "playstore/es-419/phone/04-condo.png",
+      "dimensions": "1080x1920",
+      "title": "Organiza la carga del condominio",
+      "body": "Hasta 50 participantes y 10 cargadores compartidos."
+    },
+    {
+      "locale": "es-419",
+      "type": "playstore-phone",
+      "file": "playstore/es-419/phone/05-economy.png",
+      "dimensions": "1080x1920",
+      "title": "Controla tu historial local",
+      "body": "Energía, costo y comparaciones en un solo lugar."
+    },
+    {
+      "locale": "es-419",
+      "type": "playstore-phone",
+      "file": "playstore/es-419/phone/06-market.png",
+      "dimensions": "1080x1920",
+      "title": "Descubre servicios eléctricos",
+      "body": "Encuentra tiendas, concesionarios y talleres cercanos."
+    },
+    {
+      "locale": "es-419",
+      "type": "playstore-phone",
+      "file": "playstore/es-419/phone/07-profile.png",
+      "dimensions": "1080x1920",
+      "title": "Llega más lejos con Premium",
+      "body": "Garaje, análisis, copia y recomendaciones inteligentes."
+    },
+    {
+      "locale": "es-419",
+      "type": "playstore-phone",
+      "file": "playstore/es-419/phone/09-community.png",
+      "dimensions": "1080x1920",
+      "title": "Confirma antes de cargar",
+      "body": "Consulta reportes recientes, fiabilidad y alertas de la comunidad."
+    },
+    {
+      "locale": "es-419",
+      "type": "playstore-feature",
+      "file": "playstore/es-419/feature-graphic-1024x500.png",
+      "dimensions": "1024x500"
+    },
+    {
+      "locale": "es-419",
+      "type": "website-hero",
+      "file": "website/es-419/hero-1920x1080.png",
+      "dimensions": "1920x1080"
+    },
+    {
+      "locale": "es-419",
+      "type": "website-social",
+      "file": "website/es-419/social-1200x630.png",
+      "dimensions": "1200x630"
+    },
+    {
+      "locale": "es-419",
+      "type": "website-feature",
+      "file": "website/es-419/feature-map-1600x900.png",
+      "dimensions": "1600x900"
+    },
+    {
+      "locale": "es-419",
+      "type": "website-feature",
+      "file": "website/es-419/feature-market-1600x900.png",
+      "dimensions": "1600x900"
+    },
+    {
+      "locale": "es-419",
+      "type": "website-feature",
+      "file": "website/es-419/feature-premium-1600x900.png",
+      "dimensions": "1600x900"
+    }
+  ]
+}
