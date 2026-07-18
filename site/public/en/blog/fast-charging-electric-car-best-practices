@@ -35,9 +35,9 @@
     <link rel="apple-touch-icon" href="/assets/icon-192.png">
     <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="/assets/site.css?v=20260718-2">
-    <link rel="stylesheet" href="/assets/pages.css?v=20260718-2">
-    <script src="/assets/theme-init.js?v=20260718-2"></script>
+    <link rel="stylesheet" href="/assets/site.css?v=20260718-3">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260718-3">
+    <script src="/assets/theme-init.js?v=20260718-3"></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Fast charging an electric car: practical best practices","description":"Use DC fast charging efficiently by checking compatibility, battery level, charging curve, queue and stop duration.","image":"https://vevolt.app/assets/screens/en-route-720.webp","datePublished":"2026-07-18","dateModified":"2026-07-18","inLanguage":"en-US","mainEntityOfPage":"https://vevolt.app/en/blog/fast-charging-electric-car-best-practices","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"publisher":{"@type":"Organization","name":"VeVolt","logo":{"@type":"ImageObject","url":"https://vevolt.app/assets/icon-512.png"}}}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"en-US","mainEntity":[{"@type":"Question","name":"Is frequent fast charging forbidden?","acceptedAnswer":{"@type":"Answer","text":"No, but follow the vehicle manufacturer's battery-care guidance and use the charging method that fits your routine."}},{"@type":"Question","name":"Why does charging power change during a session?","acceptedAnswer":{"@type":"Answer","text":"Battery level, temperature, vehicle limits and station conditions all affect the charging curve."}}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/en/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://vevolt.app/en/blog/"},{"@type":"ListItem","position":3,"name":"Fast charging an electric car: practical best practices","item":"https://vevolt.app/en/blog/fast-charging-electric-car-best-practices"}]}</script>
@@ -91,6 +91,6 @@
     </div>
     <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Developed by <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
   </footer>
-    <script src="/assets/site.js?v=20260718-2" defer></script>
+    <script src="/assets/site.js?v=20260718-3" defer></script>
 </body>
 </html>

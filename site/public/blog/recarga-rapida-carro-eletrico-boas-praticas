@@ -35,9 +35,9 @@
     <link rel="apple-touch-icon" href="/assets/icon-192.png">
     <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="/assets/site.css?v=20260718-2">
-    <link rel="stylesheet" href="/assets/pages.css?v=20260718-2">
-    <script src="/assets/theme-init.js?v=20260718-2"></script>
+    <link rel="stylesheet" href="/assets/site.css?v=20260718-3">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260718-3">
+    <script src="/assets/theme-init.js?v=20260718-3"></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Recarga rápida no carro elétrico: quando usar e o que observar","description":"Entenda potência, curva de carga, temperatura e boas práticas para usar carregadores rápidos.","image":"https://vevolt.app/assets/screens/pt-route-720.webp","datePublished":"2026-07-18","dateModified":"2026-07-18","inLanguage":"pt-BR","mainEntityOfPage":"https://vevolt.app/blog/recarga-rapida-carro-eletrico-boas-praticas","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"publisher":{"@type":"Organization","name":"VeVolt","logo":{"@type":"ImageObject","url":"https://vevolt.app/assets/icon-512.png"}}}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"pt-BR","mainEntity":[{"@type":"Question","name":"Recarga rápida sempre entrega a potência máxima?","acceptedAnswer":{"@type":"Answer","text":"Não. Veículo, bateria, temperatura, curva de carga e compartilhamento podem limitar a potência."}},{"@type":"Question","name":"Carregar até 100% é sempre melhor em viagem?","acceptedAnswer":{"@type":"Answer","text":"Não necessariamente. A parte final pode ser mais lenta; carregue o necessário para seguir com margem e respeite o manual."}}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://vevolt.app/blog/"},{"@type":"ListItem","position":3,"name":"Recarga rápida no carro elétrico: quando usar e o que observar","item":"https://vevolt.app/blog/recarga-rapida-carro-eletrico-boas-praticas"}]}</script>
@@ -91,6 +91,6 @@
     </div>
     <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Desenvolvido por <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
   </footer>
-    <script src="/assets/site.js?v=20260718-2" defer></script>
+    <script src="/assets/site.js?v=20260718-3" defer></script>
 </body>
 </html>
