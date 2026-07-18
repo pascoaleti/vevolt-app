@@ -32,9 +32,9 @@
     <link rel="apple-touch-icon" href="/assets/icon-192.png">
     <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="/assets/site.css?v=20260718-2">
-    <link rel="stylesheet" href="/assets/pages.css?v=20260718-2">
-    <script src="/assets/theme-init.js?v=20260718-2"></script>
+    <link rel="stylesheet" href="/assets/site.css?v=20260718-3">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260718-3">
+    <script src="/assets/theme-init.js?v=20260718-3"></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Blog","name":"Blog VeVolt","description":"Practical guides about charging stations, costs, charging time, connectors, road trips and everyday electric driving.","url":"https://vevolt.app/en/blog/","inLanguage":"en-US","blogPost":[{"@type":"BlogPosting","headline":"EV charging station near me: how to find and verify one","url":"https://vevolt.app/en/blog/ev-charging-station-near-me"},{"@type":"BlogPosting","headline":"How much does it cost to charge an electric car?","url":"https://vevolt.app/en/blog/how-much-does-it-cost-to-charge-an-electric-car"},{"@type":"BlogPosting","headline":"How long does it take to charge an electric car?","url":"https://vevolt.app/en/blog/how-long-does-it-take-to-charge-an-electric-car"},{"@type":"BlogPosting","headline":"Electric-car connectors: Type 2, CCS2, CHAdeMO and GB/T","url":"https://vevolt.app/en/blog/electric-car-connectors-type-2-ccs2-chademo-gbt"},{"@type":"BlogPosting","headline":"How to plan an electric-car trip with charging stops","url":"https://vevolt.app/en/blog/how-to-plan-an-electric-car-trip"},{"@type":"BlogPosting","headline":"Electric-car charging in a condominium: what to organize","url":"https://vevolt.app/en/blog/electric-car-charger-in-condominium"},{"@type":"BlogPosting","headline":"Fast charging an electric car: practical best practices","url":"https://vevolt.app/en/blog/fast-charging-electric-car-best-practices"},{"@type":"BlogPosting","headline":"Free or paid EV charging station: how to know before arriving","url":"https://vevolt.app/en/blog/free-or-paid-ev-charging-station"},{"@type":"BlogPosting","headline":"How to check whether an EV charger is working","url":"https://vevolt.app/en/blog/how-to-check-if-an-ev-charger-is-working"},{"@type":"BlogPosting","headline":"Can you own an electric car without a home charger?","url":"https://vevolt.app/en/blog/electric-car-without-home-charger"},{"@type":"BlogPosting","headline":"Electric car versus gasoline: how to compare cost per kilometer","url":"https://vevolt.app/en/blog/electric-car-versus-gasoline-cost-per-kilometer"},{"@type":"BlogPosting","headline":"EV charging-station map in Brazil: how to read the network in 2026","url":"https://vevolt.app/en/blog/ev-charging-station-map-brazil-2026"},{"@type":"BlogPosting","headline":"EV charging at shopping centers, supermarkets and hotels","url":"https://vevolt.app/en/blog/how-to-use-ev-charging-at-shopping-centers-hotels"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/en/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://vevolt.app/en/blog/"}]}</script>
 </head>
@@ -83,6 +83,6 @@
     </div>
     <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Developed by <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
   </footer>
-    <script src="/assets/site.js?v=20260718-2" defer></script>
+    <script src="/assets/site.js?v=20260718-3" defer></script>
 </body>
 </html>

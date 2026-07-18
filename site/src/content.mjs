@@ -76,9 +76,6 @@ export const locales = {
       h1: "Tudo o que ajuda você a chegar, carregar e seguir.",
       copy:
         "Veja como o VeVolt organiza os dados disponíveis e as contribuições da comunidade em uma experiência clara para motoristas de veículos elétricos.",
-      galleryTitle: "Veja as telas atualizadas.",
-      galleryCopy:
-        "As imagens abaixo foram produzidas a partir das telas reais do aplicativo em português.",
     },
     features: [
       {
@@ -328,8 +325,6 @@ export const locales = {
       eyebrow: "Electric mobility features",
       h1: "Everything that helps you arrive, charge and move on.",
       copy: "See how VeVolt organizes available data and community contributions in a clear experience for EV drivers.",
-      galleryTitle: "See the updated screens.",
-      galleryCopy: "The images below were created from the real English app screens.",
     },
     features: [
       { title: "Nearby chargers", body: "Explore charging locations on the map and check distance, connectors, power, status and tariffs when available.", screen: "map" },
@@ -378,7 +373,7 @@ export const locales = {
     home: {
       title: "VeVolt | Cargadores, rutas y movilidad eléctrica", description: "Encuentra cargadores, consulta reportes de la comunidad, planifica rutas, controla costos y organiza recargas compartidas con VeVolt.", eyebrow: "App Android para movilidad eléctrica", h1: "Encuentra energía para seguir avanzando.", copy: "Localiza cargadores, consulta reportes de la comunidad, planifica tu ruta y controla los costos de movilidad eléctrica en una sola app.", primary: "Probar VeVolt", secondary: "Conocer los planes", badges: ["Sin anuncios de terceros", "Datos personales en el dispositivo", "Facturación por Google Play"], introTitle: "Información útil antes, durante y después de cargar.", introCopy: "VeVolt combina descubrimiento, planificación, colaboración y control local sin prometer funciones que dependen de los operadores.", plansTitle: "Un plan para cada forma de conducir eléctrico.", plansCopy: "Empieza gratis, amplía tu experiencia personal con Premium u organiza la carga compartida con Condo.",
     },
-    featuresPage: { title: "Funciones de VeVolt | Cargadores, rutas, costos y servicios", description: "Conoce las funciones de VeVolt: mapa, Comunidad, rutas, costos locales, Mercado y garaje.", eyebrow: "Funciones para movilidad eléctrica", h1: "Todo lo que te ayuda a llegar, cargar y continuar.", copy: "Ve cómo VeVolt organiza los datos disponibles y las contribuciones de la comunidad para conductores eléctricos.", galleryTitle: "Mira las pantallas actualizadas.", galleryCopy: "Las imágenes fueron creadas a partir de las pantallas reales en español." },
+    featuresPage: { title: "Funciones de VeVolt | Cargadores, rutas, costos y servicios", description: "Conoce las funciones de VeVolt: mapa, Comunidad, rutas, costos locales, Mercado y garaje.", eyebrow: "Funciones para movilidad eléctrica", h1: "Todo lo que te ayuda a llegar, cargar y continuar.", copy: "Ve cómo VeVolt organiza los datos disponibles y las contribuciones de la comunidad para conductores eléctricos." },
     features: [
       { title: "Cargadores cercanos", body: "Explora puntos de carga y consulta distancia, conectores, potencia, estado y tarifa cuando estén disponibles.", screen: "map" }, { title: "Comunidad VeVolt", body: "Confirma si el cargador funcionó e informa precio, filas, fallas o problemas de acceso. Consulta reportes, fotos y fiabilidad.", screen: "community" }, { title: "Rutas y autonomía", body: "Mantén tu ubicación como origen, elige el destino y estima batería y autonomía. Ruta Segura Premium suma compatibilidad, fiabilidad y alternativas.", screen: "route" }, { title: "Costos en tu dispositivo", body: "Registra energía e importe, consulta el historial y compara la carga con combustible. Los registros personales quedan en tu dispositivo.", screen: "economy" }, { title: "VeVolt Mercado", body: "Encuentra concesionarios, talleres, repuestos y alquileres. Busca por ubicación o código postal y abre contactos, rutas y reseñas externas.", screen: "market" },
     ],

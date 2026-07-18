@@ -8,7 +8,7 @@ const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const SRC = path.join(ROOT, "src");
 const PUBLIC = path.join(ROOT, "public");
 const BASE = "https://vevolt.app";
-const BUILD = "20260718-2";
+const BUILD = "20260718-3";
 const UPDATED = "2026-07-18";
 const GOOGLE_VERIFICATION = "qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc";
 
@@ -244,9 +244,8 @@ function pageHero(localeKey, data) {
 function appPhone(localeKey, screen, alt, options = {}) {
   const loading = options.priority ? "eager" : "lazy";
   const priority = options.priority ? ' fetchpriority="high"' : "";
-  const compact = options.compact ? " compact" : "";
   const imageHeight = screen === "condo" ? 1920 : 2400;
-  return `<picture class="app-phone${compact}">
+  return `<picture class="app-phone">
     <source type="image/webp" srcset="${asset(`app/${localeKey}-${screen}-360.webp`)} 360w, ${asset(`app/${localeKey}-${screen}-720.webp`)} 720w" sizes="(max-width: 600px) 86vw, 320px">
     <img src="${asset(`app-${localeKey}-${screen}.png`)}" width="1080" height="${imageHeight}" alt="${esc(alt)}" loading="${loading}" decoding="async"${priority}>
   </picture>`;
@@ -316,10 +315,8 @@ function renderFeatures(localeKey) {
     <div class="feature-copy"><p class="kicker">0${index + 1}</p><h2>${esc(feature.title)}</h2><p>${esc(feature.body)}</p><a class="text-link" href="${locale.paths.testers}">${esc(locale.common.testApp)} &rarr;</a></div>
     ${appPhone(localeKey, feature.screen, feature.title, { priority: index === 0 })}
   </div>`).join("");
-  const gallery = locale.screens.map(([screen, title, caption]) => `<figure>${appPhone(localeKey, screen, title, { compact: true })}<figcaption><strong>${esc(title)}</strong>${esc(caption)}</figcaption></figure>`).join("");
   const body = `${pageHero(localeKey, locale.featuresPage)}
   <section class="section"><div class="wrap">${splits}</div></section>
-  <section class="section accent-band"><div class="wrap"><div class="section-heading"><div><p class="kicker">VeVolt</p><h2>${esc(locale.featuresPage.galleryTitle)}</h2></div><p>${esc(locale.featuresPage.galleryCopy)}</p></div><div class="screen-gallery">${gallery}</div></div></section>
   ${cta(localeKey, locale.home.h1, locale.home.copy)}`;
   return shell({ localeKey, pageKey: "features", title: locale.featuresPage.title, description: locale.featuresPage.description, route: locale.paths.features, body, schemas: [softwareSchema(locale, locale.paths.features), breadcrumbsSchema([{ name: "VeVolt", path: locale.paths.home }, { name: locale.nav.features, path: locale.paths.features }])] });
 }

@@ -35,9 +35,9 @@
     <link rel="apple-touch-icon" href="/assets/icon-192.png">
     <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="/assets/site.css?v=20260718-2">
-    <link rel="stylesheet" href="/assets/pages.css?v=20260718-2">
-    <script src="/assets/theme-init.js?v=20260718-2"></script>
+    <link rel="stylesheet" href="/assets/site.css?v=20260718-3">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260718-3">
+    <script src="/assets/theme-init.js?v=20260718-3"></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"EV charging-station map in Brazil: how to read the network in 2026","description":"Understand public and semi-public charging coverage, connector data, regional gaps and what a map marker really means.","image":"https://vevolt.app/assets/visuals/en-feature-map-1600.webp","datePublished":"2026-07-18","dateModified":"2026-07-18","inLanguage":"en-US","mainEntityOfPage":"https://vevolt.app/en/blog/ev-charging-station-map-brazil-2026","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"publisher":{"@type":"Organization","name":"VeVolt","logo":{"@type":"ImageObject","url":"https://vevolt.app/assets/icon-512.png"}}}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"en-US","mainEntity":[{"@type":"Question","name":"How many public and semi-public points were reported in May 2026?","acceptedAnswer":{"@type":"Answer","text":"ABVE reported 25,429 points in the survey released in June 2026."}},{"@type":"Question","name":"Does one marker equal one charger?","acceptedAnswer":{"@type":"Answer","text":"Not necessarily. Open the details to see the available connections and data source."}}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/en/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://vevolt.app/en/blog/"},{"@type":"ListItem","position":3,"name":"EV charging-station map in Brazil: how to read the network in 2026","item":"https://vevolt.app/en/blog/ev-charging-station-map-brazil-2026"}]}</script>
@@ -91,6 +91,6 @@
     </div>
     <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Developed by <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
   </footer>
-    <script src="/assets/site.js?v=20260718-2" defer></script>
+    <script src="/assets/site.js?v=20260718-3" defer></script>
 </body>
 </html>

@@ -35,9 +35,9 @@
     <link rel="apple-touch-icon" href="/assets/icon-192.png">
     <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="/assets/site.css?v=20260718-2">
-    <link rel="stylesheet" href="/assets/pages.css?v=20260718-2">
-    <script src="/assets/theme-init.js?v=20260718-2"></script>
+    <link rel="stylesheet" href="/assets/site.css?v=20260718-3">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260718-3">
+    <script src="/assets/theme-init.js?v=20260718-3"></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Free or paid EV charging station: how to know before arriving","description":"Check electricity price, parking charges, session fees, access rules and operator requirements before using an EV charger.","image":"https://vevolt.app/assets/screens/en-point-720.webp","datePublished":"2026-07-18","dateModified":"2026-07-18","inLanguage":"en-US","mainEntityOfPage":"https://vevolt.app/en/blog/free-or-paid-ev-charging-station","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"publisher":{"@type":"Organization","name":"VeVolt","logo":{"@type":"ImageObject","url":"https://vevolt.app/assets/icon-512.png"}}}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"en-US","mainEntity":[{"@type":"Question","name":"Does free charging mean free parking?","acceptedAnswer":{"@type":"Answer","text":"No. Energy and parking are separate charges and must be checked independently."}},{"@type":"Question","name":"Are community prices guaranteed?","acceptedAnswer":{"@type":"Answer","text":"No. They are contextual reports and may change; confirm at the operator or location."}}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/en/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://vevolt.app/en/blog/"},{"@type":"ListItem","position":3,"name":"Free or paid EV charging station: how to know before arriving","item":"https://vevolt.app/en/blog/free-or-paid-ev-charging-station"}]}</script>
@@ -91,6 +91,6 @@
     </div>
     <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Developed by <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
   </footer>
-    <script src="/assets/site.js?v=20260718-2" defer></script>
+    <script src="/assets/site.js?v=20260718-3" defer></script>
 </body>
 </html>

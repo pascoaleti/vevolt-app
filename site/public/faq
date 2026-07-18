@@ -32,9 +32,9 @@
     <link rel="apple-touch-icon" href="/assets/icon-192.png">
     <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="/assets/site.css?v=20260718-2">
-    <link rel="stylesheet" href="/assets/pages.css?v=20260718-2">
-    <script src="/assets/theme-init.js?v=20260718-2"></script>
+    <link rel="stylesheet" href="/assets/site.css?v=20260718-3">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260718-3">
+    <script src="/assets/theme-init.js?v=20260718-3"></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"pt-BR","mainEntity":[{"@type":"Question","name":"O VeVolt mostra disponibilidade oficial em tempo real?","acceptedAnswer":{"@type":"Answer","text":"Não. O app combina dados públicos e relatos comunitários. Confirme informações críticas no aplicativo do operador ou diretamente no local."}},{"@type":"Question","name":"Posso iniciar ou pagar uma recarga pelo VeVolt?","acceptedAnswer":{"@type":"Answer","text":"Não nesta versão. O VeVolt não controla eletropostos públicos nem processa o pagamento da energia."}},{"@type":"Question","name":"O VeVolt tem anúncios?","acceptedAnswer":{"@type":"Answer","text":"Não há anúncios de terceiros, inclusive no plano grátis."}},{"@type":"Question","name":"Premium inclui o VeVolt Condo?","acceptedAnswer":{"@type":"Answer","text":"Não. Premium é o plano pessoal. Condo é um plano administrativo separado. Moradores convidados entram gratuitamente."}},{"@type":"Question","name":"Quem processa as assinaturas?","acceptedAnswer":{"@type":"Answer","text":"Exclusivamente o Google Play. O usuário gerencia ou cancela pela conta da loja."}},{"@type":"Question","name":"Onde ficam meus registros de recarga?","acceptedAnswer":{"@type":"Answer","text":"Registros pessoais, veículo e foto de perfil permanecem no aparelho. Dados da central Condo são sincronizados entre os participantes."}},{"@type":"Question","name":"Quais são as fontes dos mapas e eletropostos?","acceptedAnswer":{"@type":"Answer","text":"O VeVolt usa MapLibre/OpenFreeMap para mapas, Open Charge Map para eletropostos e OpenStreetMap para resultados do Mercado."}}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/"},{"@type":"ListItem","position":2,"name":"FAQ","item":"https://vevolt.app/faq"}]}</script>
 </head>
@@ -83,6 +83,6 @@
     </div>
     <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Desenvolvido por <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
   </footer>
-    <script src="/assets/site.js?v=20260718-2" defer></script>
+    <script src="/assets/site.js?v=20260718-3" defer></script>
 </body>
 </html>
