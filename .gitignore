@@ -1,0 +1,47 @@
+# Local development and editor state
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# Dependencies and build output
+**/.gradle/
+**/.kotlin/
+**/build/
+**/node_modules/
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+**/local.properties
+**/google-services.json
+**/GoogleService-Info.plist
+**/keystore.properties
+**/local-signing/
+**/.tester-config.php
+**/tester-data/
+**/pending.ndjson
+**/rate-*.json
+**/*service-account*.json
+**/*service_account*.json
+**/*credentials*.json
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Release and transfer artifacts
+*.apk
+*.aab
+*.zip
+*.tar
+*.tar.gz
+
+# Local security reports
+*gitleaks-report*
+*.sarif
