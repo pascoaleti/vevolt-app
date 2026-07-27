@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://vevolt.app/assets/vevolt-icon.png" width="112" alt="VeVolt" />
+  <img src="site/public/assets/vevolt-logo-mark.png" width="112" alt="VeVolt" />
 </p>
 
 <h1 align="center">VeVolt</h1>
