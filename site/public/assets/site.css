@@ -264,7 +264,10 @@ a {
 .footer-brand img {
   width: 42px;
   height: 42px;
-  border-radius: 8px;
+  object-fit: contain;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .nav-panel {
@@ -1466,24 +1469,20 @@ article.section > .wrap > .section.compact {
   }
 
   body {
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   .wrap,
   .nav,
   .footer-inner,
   .footer-bottom {
-    width: min(calc(100% - 32px), var(--wrap));
-    padding-right: 0;
-    padding-left: 0;
+    width: min(calc(100% - 40px), var(--wrap));
   }
 
   .nav-panel {
-    right: 10px;
-    left: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
+    right: 15px;
+    left: 15px;
   }
 
   .brand {

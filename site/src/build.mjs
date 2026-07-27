@@ -8,7 +8,7 @@ const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const SRC = path.join(ROOT, "src");
 const PUBLIC = path.join(ROOT, "public");
 const BASE = "https://vevolt.app";
-const BUILD = "20260718-3";
+const BUILD = "20260727-1";
 const UPDATED = "2026-07-18";
 const GOOGLE_VERIFICATION = "qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc";
 
@@ -141,7 +141,7 @@ function nav(localeKey, pageKey, localizedPaths = null) {
   return `<header class="topbar">
     <nav class="nav" aria-label="${esc(locale.a11y.nav)}">
       <a class="brand" href="${locale.paths.home}" aria-label="${esc(locale.a11y.home)}">
-        <img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt="" fetchpriority="high">
+        <img src="/assets/vevolt-logo-mark.png" width="64" height="64" alt="" fetchpriority="high">
         <span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
       </a>
       <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
@@ -163,7 +163,7 @@ function footer(localeKey, pageKey, localizedPaths = null) {
   return `<footer class="footer">
     <div class="footer-inner">
       <div>
-        <a class="footer-brand" href="${locale.paths.home}"><img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt=""><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a>
+        <a class="footer-brand" href="${locale.paths.home}"><img src="/assets/vevolt-logo-mark.png" width="64" height="64" alt=""><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a>
         <p class="footer-summary">${esc(locale.footer.copy)}</p>
         ${languageSwitcher(localeKey, pageKey, false, localizedPaths)}
       </div>

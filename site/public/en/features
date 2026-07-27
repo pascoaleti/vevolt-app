@@ -32,9 +32,9 @@
     <link rel="apple-touch-icon" href="/assets/icon-192.png">
     <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="/assets/site.css?v=20260718-3">
-    <link rel="stylesheet" href="/assets/pages.css?v=20260718-3">
-    <script src="/assets/theme-init.js?v=20260718-3"></script>
+    <link rel="stylesheet" href="/assets/site.css?v=20260727-1">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260727-1">
+    <script src="/assets/theme-init.js?v=20260727-1"></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"VeVolt","applicationCategory":"NavigationApplication","operatingSystem":"Android","inLanguage":"en-US","description":"Find EV chargers, check community updates, plan routes, track costs and organize shared condo charging with VeVolt.","url":"https://vevolt.app/en/features","downloadUrl":"https://play.google.com/store/apps/details?id=br.com.vevolt","image":"https://vevolt.app/assets/visuals/pt-hero-1920.webp","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"offers":[{"@type":"Offer","price":"0","priceCurrency":"USD","category":"free"}]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/en/"},{"@type":"ListItem","position":2,"name":"Features","item":"https://vevolt.app/en/features"}]}</script>
 </head>
@@ -43,7 +43,7 @@
     <header class="topbar">
     <nav class="nav" aria-label="Main navigation">
       <a class="brand" href="/en/" aria-label="VeVolt - home">
-        <img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt="" fetchpriority="high">
+        <img src="/assets/vevolt-logo-mark.png" width="64" height="64" alt="" fetchpriority="high">
         <span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
       </a>
       <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
@@ -97,7 +97,7 @@
     <footer class="footer">
     <div class="footer-inner">
       <div>
-        <a class="footer-brand" href="/en/"><img src="/assets/vevolt-icon-64.webp" width="64" height="64" alt=""><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a>
+        <a class="footer-brand" href="/en/"><img src="/assets/vevolt-logo-mark.png" width="64" height="64" alt=""><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a>
         <p class="footer-summary">Maps, routes, community updates, costs and services for electric mobility.</p>
         <div class="language-switcher" aria-label="Language">
     <a href="/recursos" hreflang="pt-BR" lang="pt-BR" aria-label="Português">Português</a><a href="/en/features" hreflang="en-US" lang="en-US" aria-label="English" aria-current="true">English</a><a href="/es/funciones" hreflang="es-419" lang="es-419" aria-label="Español">Español</a>
@@ -115,6 +115,6 @@
     </div>
     <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Developed by <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
   </footer>
-    <script src="/assets/site.js?v=20260718-3" defer></script>
+    <script src="/assets/site.js?v=20260727-1" defer></script>
 </body>
 </html>
