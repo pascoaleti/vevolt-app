@@ -8,7 +8,7 @@ const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const SRC = path.join(ROOT, "src");
 const PUBLIC = path.join(ROOT, "public");
 const BASE = "https://vevolt.app";
-const BUILD = "20260727-1";
+const BUILD = "20260727-2";
 const UPDATED = "2026-07-18";
 const GOOGLE_VERIFICATION = "qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc";
 
@@ -174,7 +174,7 @@ function footer(localeKey, pageKey, localizedPaths = null) {
         <li><a href="${locale.paths.faq}">${esc(locale.nav.faq)}</a></li>${locale.paths.blog ? `<li><a href="${locale.paths.blog}">${esc(locale.nav.blog)}</a></li>` : ""}<li><a href="${locale.paths.testers}">${esc(locale.nav.testers)}</a></li><li><a href="${PLAY_URL}" rel="noopener">Google Play</a></li>
       </ul></div>
       <div><h2>${esc(locale.footer.legal)}</h2><ul>
-        <li><a href="${locale.paths.privacy}">${esc(legalLabels[localeKey].privacy)}</a></li><li><a href="${locale.paths.terms}">${esc(legalLabels[localeKey].terms)}</a></li><li><a href="mailto:devs@pascoal.eti.br">devs@pascoal.eti.br</a></li>
+        <li><a href="${locale.paths.privacy}">${esc(legalLabels[localeKey].privacy)}</a></li><li><a href="${locale.paths.terms}">${esc(legalLabels[localeKey].terms)}</a></li><li><a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a></li>
       </ul></div>
     </div>
     <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>${developedBy} <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>

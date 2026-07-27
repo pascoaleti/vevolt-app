@@ -32,9 +32,9 @@
     <link rel="apple-touch-icon" href="/assets/icon-192.png">
     <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="/assets/site.css?v=20260727-1">
-    <link rel="stylesheet" href="/assets/pages.css?v=20260727-1">
-    <script src="/assets/theme-init.js?v=20260727-1"></script>
+    <link rel="stylesheet" href="/assets/site.css?v=20260727-2">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260727-2">
+    <script src="/assets/theme-init.js?v=20260727-2"></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"VeVolt","url":"https://vevolt.app","logo":"https://vevolt.app/assets/icon-512.png","sameAs":["https://play.google.com/store/apps/details?id=br.com.vevolt"]}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"VeVolt","applicationCategory":"NavigationApplication","operatingSystem":"Android","inLanguage":"pt-BR","description":"Encontre eletropostos, confirme as condições com a comunidade, planeje rotas, acompanhe custos e organize recargas no condomínio com o VeVolt.","url":"https://vevolt.app/","downloadUrl":"https://play.google.com/store/apps/details?id=br.com.vevolt","image":"https://vevolt.app/assets/visuals/pt-hero-1920.webp","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"offers":[{"@type":"Offer","price":"0","priceCurrency":"BRL","category":"free"}]}</script>
 </head>
@@ -428,11 +428,11 @@
         <li><a href="/faq">FAQ</a></li><li><a href="/blog/">Blog</a></li><li><a href="/seja-testador">Seja testador</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
       </ul></div>
       <div><h2>Legal</h2><ul>
-        <li><a href="/politica">Privacidade</a></li><li><a href="/termos">Termos de uso</a></li><li><a href="mailto:devs@pascoal.eti.br">devs@pascoal.eti.br</a></li>
+        <li><a href="/politica">Privacidade</a></li><li><a href="/termos">Termos de uso</a></li><li><a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a></li>
       </ul></div>
     </div>
     <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Desenvolvido por <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
   </footer>
-    <script src="/assets/site.js?v=20260727-1" defer></script>
+    <script src="/assets/site.js?v=20260727-2" defer></script>
 </body>
 </html>
