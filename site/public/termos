@@ -11,6 +11,7 @@
     <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/termos">
     <link rel="alternate" hreflang="en-US" href="https://vevolt.app/en/terms">
     <link rel="alternate" hreflang="es-419" href="https://vevolt.app/es/terminos">
+    <link rel="alternate" hreflang="pt-PT" href="https://vevolt.app/termos">
     <link rel="alternate" hreflang="x-default" href="https://vevolt.app/termos">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="VeVolt">
@@ -32,9 +33,9 @@
     <link rel="apple-touch-icon" href="/assets/icon-192.png">
     <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="/assets/site.css?v=20260727-2">
-    <link rel="stylesheet" href="/assets/pages.css?v=20260727-2">
-    <script src="/assets/theme-init.js?v=20260727-2"></script>
+    <link rel="stylesheet" href="/assets/site.css?v=20260803-1">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260803-1">
+    <script src="/assets/theme-init.js?v=20260803-1"></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/"},{"@type":"ListItem","position":2,"name":"Termos de uso","item":"https://vevolt.app/termos"}]}</script>
 </head>
 <body>
@@ -47,7 +48,7 @@
       </a>
       <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
         <div class="nav-links"><a class="nav-link" href="/">Início</a><a class="nav-link" href="/recursos">Recursos</a><a class="nav-link" href="/planos">Planos</a><a class="nav-link" href="/condo">Condo</a><a class="nav-link" href="/comunidade">Comunidade</a><a class="nav-link" href="/faq">FAQ</a><a class="nav-link" href="/blog/">Blog</a></div>
-        <a class="nav-cta" href="/seja-testador">Seja testador</a>
+        <a class="nav-play-badge" href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener" aria-label="Disponível no Google Play"><img src="/assets/google-play-badge-pt.png" width="141" height="42" alt="Disponível no Google Play"></a>
         <div class="language-switcher compact" aria-label="Idioma">
     <a href="/termos" hreflang="pt-BR" lang="pt-BR" aria-label="Português" aria-current="true">PT</a><a href="/en/terms" hreflang="en-US" lang="en-US" aria-label="English">EN</a><a href="/es/terminos" hreflang="es-419" lang="es-419" aria-label="Español">ES</a>
   </div>
@@ -58,7 +59,7 @@
       </div>
     </nav>
   </header>
-    <main id="conteudo"><section class="page-hero"><div class="wrap"><p class="eyebrow"><span class="signal"></span>Termos de uso</p><h1>Termos de Uso</h1><p>As regras básicas para usar o VeVolt com segurança, clareza e responsabilidade.</p></div></section><section class="section"><div class="wrap legal">
+    <main id="conteudo"><section class="page-hero"><div class="wrap page-hero-inner"><p class="eyebrow"><span class="signal"></span>Termos de uso</p><h1>Termos de Uso</h1><p>As regras básicas para usar o VeVolt com segurança, clareza e responsabilidade.</p></div></section><section class="section"><div class="wrap legal">
           <p>
             Ao acessar ou usar o VeVolt, você declara que leu, entendeu e concorda
             com estes Termos de Uso e com a
@@ -192,14 +193,14 @@
         <li><a href="/recursos">Recursos</a></li><li><a href="/planos">Planos</a></li><li><a href="/condo">Condo</a></li><li><a href="/comunidade">Comunidade</a></li>
       </ul></div>
       <div><h2>Informações</h2><ul>
-        <li><a href="/faq">FAQ</a></li><li><a href="/blog/">Blog</a></li><li><a href="/seja-testador">Seja testador</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
+        <li><a href="/faq">FAQ</a></li><li><a href="/blog/">Blog</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
       </ul></div>
       <div><h2>Legal</h2><ul>
-        <li><a href="/politica">Privacidade</a></li><li><a href="/termos">Termos de uso</a></li><li><a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a></li>
+        <li><a href="/politica">Privacidade</a></li><li><a href="/termos">Termos de uso</a></li><li><a href="/exclusao-de-dados">Exclusão de dados</a></li><li><a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a></li>
       </ul></div>
     </div>
     <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Desenvolvido por <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
   </footer>
-    <script src="/assets/site.js?v=20260727-2" defer></script>
+    <script src="/assets/site.js?v=20260803-1" defer></script>
 </body>
 </html>

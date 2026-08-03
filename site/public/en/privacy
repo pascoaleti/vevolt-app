@@ -11,6 +11,7 @@
     <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/politica">
     <link rel="alternate" hreflang="en-US" href="https://vevolt.app/en/privacy">
     <link rel="alternate" hreflang="es-419" href="https://vevolt.app/es/privacidad">
+    <link rel="alternate" hreflang="pt-PT" href="https://vevolt.app/politica">
     <link rel="alternate" hreflang="x-default" href="https://vevolt.app/politica">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="VeVolt">
@@ -18,12 +19,12 @@
     <meta property="og:title" content="Privacy Policy - VeVolt">
     <meta property="og:description" content="How VeVolt handles data and permissions.">
     <meta property="og:url" content="https://vevolt.app/en/privacy">
-    <meta property="og:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
+    <meta property="og:image" content="https://vevolt.app/assets/visuals/en-hero-1920.webp">
     <meta property="og:image:alt" content="VeVolt - Your electric mobility copilot.">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Privacy Policy - VeVolt">
     <meta name="twitter:description" content="How VeVolt handles data and permissions.">
-    <meta name="twitter:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
+    <meta name="twitter:image" content="https://vevolt.app/assets/visuals/en-hero-1920.webp">
     <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)">
     <meta name="theme-color" content="#f4f8fc" media="(prefers-color-scheme: light)">
     <link rel="manifest" href="/site.webmanifest">
@@ -32,9 +33,9 @@
     <link rel="apple-touch-icon" href="/assets/icon-192.png">
     <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="/assets/site.css?v=20260727-2">
-    <link rel="stylesheet" href="/assets/pages.css?v=20260727-2">
-    <script src="/assets/theme-init.js?v=20260727-2"></script>
+    <link rel="stylesheet" href="/assets/site.css?v=20260803-1">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260803-1">
+    <script src="/assets/theme-init.js?v=20260803-1"></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/en/"},{"@type":"ListItem","position":2,"name":"Privacy","item":"https://vevolt.app/en/privacy"}]}</script>
 </head>
 <body>
@@ -47,7 +48,7 @@
       </a>
       <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
         <div class="nav-links"><a class="nav-link" href="/en/">Home</a><a class="nav-link" href="/en/features">Features</a><a class="nav-link" href="/en/plans">Plans</a><a class="nav-link" href="/en/condo">Condo</a><a class="nav-link" href="/en/community">Community</a><a class="nav-link" href="/en/faq">FAQ</a><a class="nav-link" href="/en/blog/">Blog</a></div>
-        <a class="nav-cta" href="/en/testers">Become a tester</a>
+        <a class="nav-play-badge" href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener" aria-label="Get it on Google Play"><img src="/assets/google-play-badge-en.png" width="141" height="42" alt="Get it on Google Play"></a>
         <div class="language-switcher compact" aria-label="Language">
     <a href="/politica" hreflang="pt-BR" lang="pt-BR" aria-label="Português">PT</a><a href="/en/privacy" hreflang="en-US" lang="en-US" aria-label="English" aria-current="true">EN</a><a href="/es/privacidad" hreflang="es-419" lang="es-419" aria-label="Español">ES</a>
   </div>
@@ -58,7 +59,8 @@
       </div>
     </nav>
   </header>
-    <main id="conteudo"><section class="page-hero"><div class="wrap"><p class="eyebrow"><span class="signal"></span>Privacy</p><h1>Privacy Policy</h1><p>How VeVolt uses information and permissions to help electric-car drivers.</p></div></section><section class="section"><div class="wrap legal">
+    <main id="conteudo"><section class="page-hero"><div class="wrap page-hero-inner"><p class="eyebrow"><span class="signal"></span>Privacy</p><h1>Privacy Policy</h1><p>How VeVolt uses information and permissions to help electric-car drivers.</p></div></section><section class="section"><div class="wrap legal">
+          <p><strong>Last updated: July 31, 2026. Responsible developer: Pascoal Eti.</strong></p>
           <p>
             VeVolt helps electric-car drivers find charging locations, plan routes,
             track savings and organize charging. The app does not require an email
@@ -93,13 +95,17 @@
             region.
           </p>
           <p>
-            When location access is allowed, approximate latitude and longitude may
-            be sent to Open Charge Map only to return nearby charging locations.
-            VeVolt does not collect background location.
+            When location access is allowed, approximate or precise latitude and
+            longitude, depending on the granted permission and the accuracy
+            available on the device, may be transmitted to Open Charge Map only to
+            return nearby charging locations. VeVolt does not collect background
+            location.
           </p>
           <p>
-            In VeVolt Market, country, postal code and language are sent over HTTPS
-            to the backend only when the user starts a search. The service may use
+            In VeVolt Market, approximate or precise location may be sent over HTTPS
+            to OpenStreetMap/Overpass services when the user searches around the
+            device. Country, postal code and language may be sent to the backend
+            only when the user starts a postal-code search. The service may use
             BrasilAPI in Brazil, Nominatim/OpenStreetMap elsewhere and
             Zippopotam.us as a fallback. Results may remain in volatile cache for up
             to 24 hours without durable storage of the postal code or coordinates.
@@ -184,15 +190,18 @@
             records. A sole administrator can delete the whole condominium; when
             other members remain, the administrator must arrange closure first.
           </p>
-
-          <h2>9. Website tester registration</h2>
           <p>
-            When someone requests closed-test access, the website records the
-            submitted email, page language, date and request status. This data is
-            used only to manage the test and send related messages. To limit abuse,
-            the server temporarily stores a technical identifier derived from the
-            IP address without retaining the address in plain text. The email is not
-            sold or used for advertising.
+            Community reports and photos are retained for no more than two years,
+            unless deleted earlier by the author, moderation or a legal obligation.
+            See the complete steps on
+            <a href="/en/data-deletion">Account and data deletion</a>.
+          </p>
+
+          <h2>9. Website and Google Play</h2>
+          <p>
+            The public website has no registration form or analytics in this
+            version. When opening the Google Play link, users interact with Google's
+            services and policies. Version 0.3.5 is available on Google Play.
           </p>
 
           <h2>10. Children</h2>
@@ -209,7 +218,7 @@
           <h2>12. Contact</h2>
           <p>
             Privacy questions and deletion requests can be sent to
-            <a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a>.
+            <a href="mailto:vevolt@vevolt.app">vevolt@vevolt.app</a>.
           </p>
         </div></section></main>
     <footer class="footer">
@@ -225,14 +234,14 @@
         <li><a href="/en/features">Features</a></li><li><a href="/en/plans">Plans</a></li><li><a href="/en/condo">Condo</a></li><li><a href="/en/community">Community</a></li>
       </ul></div>
       <div><h2>Information</h2><ul>
-        <li><a href="/en/faq">FAQ</a></li><li><a href="/en/blog/">Blog</a></li><li><a href="/en/testers">Become a tester</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
+        <li><a href="/en/faq">FAQ</a></li><li><a href="/en/blog/">Blog</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
       </ul></div>
       <div><h2>Legal</h2><ul>
-        <li><a href="/en/privacy">Privacy</a></li><li><a href="/en/terms">Terms of use</a></li><li><a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a></li>
+        <li><a href="/en/privacy">Privacy</a></li><li><a href="/en/terms">Terms of use</a></li><li><a href="/en/data-deletion">Data deletion</a></li><li><a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a></li>
       </ul></div>
     </div>
     <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Developed by <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
   </footer>
-    <script src="/assets/site.js?v=20260727-2" defer></script>
+    <script src="/assets/site.js?v=20260803-1" defer></script>
 </body>
 </html>

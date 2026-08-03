@@ -133,6 +133,7 @@
           </div>
         </aside>
         <article class="legal-content">
+          <p><strong>Last updated: July 31, 2026. Responsible developer: Pascoal Eti.</strong></p>
           <p>
             VeVolt helps electric-car drivers find charging locations, plan routes,
             track savings and organize charging. The app does not require an email
@@ -167,13 +168,17 @@
             region.
           </p>
           <p>
-            When location access is allowed, approximate latitude and longitude may
-            be sent to Open Charge Map only to return nearby charging locations.
-            VeVolt does not collect background location.
+            When location access is allowed, approximate or precise latitude and
+            longitude, depending on the granted permission and the accuracy
+            available on the device, may be transmitted to Open Charge Map only to
+            return nearby charging locations. VeVolt does not collect background
+            location.
           </p>
           <p>
-            In VeVolt Market, country, postal code and language are sent over HTTPS
-            to the backend only when the user starts a search. The service may use
+            In VeVolt Market, approximate or precise location may be sent over HTTPS
+            to OpenStreetMap/Overpass services when the user searches around the
+            device. Country, postal code and language may be sent to the backend
+            only when the user starts a postal-code search. The service may use
             BrasilAPI in Brazil, Nominatim/OpenStreetMap elsewhere and
             Zippopotam.us as a fallback. Results may remain in volatile cache for up
             to 24 hours without durable storage of the postal code or coordinates.
@@ -258,15 +263,18 @@
             records. A sole administrator can delete the whole condominium; when
             other members remain, the administrator must arrange closure first.
           </p>
-
-          <h2>9. Website tester registration</h2>
           <p>
-            When someone requests closed-test access, the website records the
-            submitted email, page language, date and request status. This data is
-            used only to manage the test and send related messages. To limit abuse,
-            the server temporarily stores a technical identifier derived from the
-            IP address without retaining the address in plain text. The email is not
-            sold or used for advertising.
+            Community reports and photos are retained for no more than two years,
+            unless deleted earlier by the author, moderation or a legal obligation.
+            See the complete steps on
+            <a href="/en/data-deletion">Account and data deletion</a>.
+          </p>
+
+          <h2>9. Website and Google Play</h2>
+          <p>
+            The public website has no registration form or analytics in this
+            version. When opening the Google Play link, users interact with Google's
+            services and policies. Version 0.3.5 is available on Google Play.
           </p>
 
           <h2>10. Children</h2>
@@ -283,7 +291,7 @@
           <h2>12. Contact</h2>
           <p>
             Privacy questions and deletion requests can be sent to
-            <a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a>.
+            <a href="mailto:vevolt@vevolt.app">vevolt@vevolt.app</a>.
           </p>
         </article>
       </div>

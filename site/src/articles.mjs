@@ -52,8 +52,8 @@ export const articles = [
     description:
       "Aprenda a localizar eletropostos próximos, conferir conector, potência, tarifa e condições antes de sair.",
     keyword: "ponto de recarga carro elétrico perto de mim",
-    image: "visuals/pt-feature-map-1600.webp",
-    imageAlt: "Mapa do VeVolt mostrando pontos de recarga próximos",
+    image: "blog/ponto-recarga-perto.webp",
+    imageAlt: "Motorista consulta o celular enquanto o carro elétrico recarrega em um eletroposto urbano",
     readTime: 8,
     lead:
       "Encontrar um ponto no mapa é só o começo. Uma boa escolha combina distância, conector compatível, potência, preço informado e sinais recentes de que o local realmente pode atender você.",
@@ -105,8 +105,8 @@ export const articles = [
     description:
       "Entenda como calcular o custo de uma recarga em casa ou em eletropostos e comparar o valor por quilômetro.",
     keyword: "quanto custa carregar carro elétrico",
-    image: "screens/pt-economy-720.webp",
-    imageAlt: "Tela de economia do VeVolt com energia e custo de recarga",
+    image: "blog/custo-recarga.webp",
+    imageAlt: "Motorista compara no celular o consumo e o custo da recarga de um carro elétrico",
     readTime: 9,
     lead:
       "O custo não depende apenas do tamanho da bateria. Você precisa considerar quanta energia entrou, o preço do kWh, eventuais taxas do local e as perdas naturais do processo de recarga.",
@@ -157,8 +157,8 @@ export const articles = [
     description:
       "Veja por que potência, capacidade da bateria, limite do veículo e nível inicial mudam o tempo de recarga.",
     keyword: "quanto tempo demora carregar carro elétrico",
-    image: "screens/pt-point-720.webp",
-    imageAlt: "Detalhes de um ponto de recarga exibidos no VeVolt",
+    image: "blog/tempo-recarga.webp",
+    imageAlt: "Carro elétrico conectado a um carregador residencial ao lado de um relógio",
     readTime: 8,
     lead:
       "A resposta pode variar de menos de uma hora a uma noite inteira. O número escrito no carregador é importante, mas não trabalha sozinho: veículo, bateria e curva de carga também definem o ritmo.",
@@ -206,8 +206,8 @@ export const articles = [
     description:
       "Entenda a diferença entre conectores de recarga e saiba como verificar a compatibilidade do seu veículo.",
     keyword: "tipos de conector carro elétrico",
-    image: "screens/pt-point-720.webp",
-    imageAlt: "Tela do VeVolt com informação de conector do eletroposto",
+    image: "blog/tipos-conectores.webp",
+    imageAlt: "Conectores Tipo 2, CCS2, CHAdeMO e GB/T organizados para comparação",
     readTime: 9,
     lead:
       "O formato do plugue precisa combinar com a entrada do carro e com o tipo de corrente usado. Saber o nome do conector evita chegar a um ponto potente que não consegue atender o seu veículo.",
@@ -251,8 +251,8 @@ export const articles = [
     description:
       "Monte uma rota com margem de bateria, paradas alternativas e informações atualizadas sobre eletropostos.",
     keyword: "viajar com carro elétrico",
-    image: "screens/pt-route-720.webp",
-    imageAlt: "Tela de rota e autonomia do aplicativo VeVolt",
+    image: "blog/planejar-viagem.webp",
+    imageAlt: "Motorista planeja uma viagem de carro elétrico em uma parada de rodovia",
     readTime: 10,
     lead:
       "Viajar de elétrico não exige prever cada minuto, mas pede uma leitura melhor de autonomia, terreno, clima, velocidade e qualidade das paradas. Uma rota resiliente é mais importante que uma rota perfeita no papel.",
@@ -300,8 +300,8 @@ export const articles = [
     description:
       "Entenda os pontos técnicos e organizacionais para recarga compartilhada em condomínios.",
     keyword: "carregador carro elétrico condomínio",
-    image: "screens/pt-condo-720.webp",
-    imageAlt: "Tela do VeVolt Condo com participantes, carregadores e planos",
+    image: "blog/recarga-condominio.webp",
+    imageAlt: "Moradores e administradora organizam a recarga de carros elétricos no condomínio",
     readTime: 11,
     lead:
       "A conversa precisa unir segurança elétrica, responsabilidade técnica, regras claras e medição compreensível. O aplicativo organiza o uso; o projeto e a instalação pertencem a profissionais habilitados.",
@@ -352,8 +352,8 @@ export const articles = [
     description:
       "Entenda potência, curva de carga, temperatura e boas práticas para usar carregadores rápidos.",
     keyword: "recarga rápida carro elétrico",
-    image: "screens/pt-route-720.webp",
-    imageAlt: "Planejamento de rota para carregador no VeVolt",
+    image: "blog/recarga-rapida.webp",
+    imageAlt: "Carro elétrico conectado a um carregador rápido de corrente contínua",
     readTime: 8,
     lead:
       "A recarga rápida é valiosa quando tempo e distância importam. Para usá-la bem, observe o limite do veículo, o nível de bateria, a potência efetiva e as recomendações do fabricante.",
@@ -397,8 +397,8 @@ export const articles = [
     description:
       "Veja onde conferir tarifa, taxas, estacionamento e regras de acesso antes de iniciar a recarga.",
     keyword: "ponto de recarga carro elétrico gratuito",
-    image: "screens/pt-point-720.webp",
-    imageAlt: "Detalhes de preço e condições de um eletroposto no VeVolt",
+    image: "blog/recarga-gratis-ou-paga.webp",
+    imageAlt: "Motorista verifica no celular as condições de cobrança antes da recarga pública",
     readTime: 7,
     lead:
       "A palavra grátis pode significar energia sem cobrança, benefício para clientes ou apenas ausência de tarifa cadastrada. Confirme as condições para não descobrir o custo depois de estacionar.",
@@ -448,8 +448,8 @@ export const articles = [
     description:
       "Combine dados do ponto, relatos recentes, horário e confirmação do operador antes de depender de um carregador.",
     keyword: "eletroposto funcionando",
-    image: "screens/pt-community-720.webp",
-    imageAlt: "Comunidade VeVolt com relatos e confiabilidade do ponto",
+    image: "blog/verificar-funcionamento.webp",
+    imageAlt: "Motorista consulta no celular o funcionamento de um eletroposto antes de sair",
     readTime: 8,
     lead:
       "Nenhuma fonte isolada elimina toda incerteza. A decisão fica melhor quando você combina cadastro técnico, relatos recentes, regras de acesso e uma alternativa alcançável.",
@@ -497,8 +497,8 @@ export const articles = [
     description:
       "Avalie distância, rotina, frequência, custo e alternativas antes de depender apenas de eletropostos públicos.",
     keyword: "carro elétrico sem carregador em casa",
-    image: "visuals/pt-feature-market-1600.webp",
-    imageAlt: "VeVolt mostrando mapa e serviços próximos para mobilidade elétrica",
+    image: "blog/sem-carregador-casa.webp",
+    imageAlt: "Morador de apartamento recarrega o carro elétrico em um ponto público do bairro",
     readTime: 10,
     lead:
       "Pode funcionar muito bem para algumas rotinas e ser cansativo para outras. A resposta depende menos da média da cidade e mais dos lugares onde você realmente passa tempo.",
@@ -546,8 +546,8 @@ export const articles = [
     description:
       "Aprenda a comparar energia e combustível usando registros reais da sua rotina, sem depender de uma conta genérica.",
     keyword: "economia carro elétrico gasolina",
-    image: "visuals/pt-feature-premium-1600.webp",
-    imageAlt: "Painel Premium e economia do aplicativo VeVolt",
+    image: "blog/eletrico-versus-gasolina.webp",
+    imageAlt: "Comparação entre carro elétrico em recarga e carro a gasolina no posto",
     readTime: 9,
     lead:
       "A comparação mais honesta usa o preço que você realmente paga e a distância que realmente percorre. Tarifa doméstica, eletroposto, consumo, clima e estilo de condução mudam a resposta.",
@@ -595,8 +595,8 @@ export const articles = [
     description:
       "Veja como a rede pública cresceu e por que quantidade, potência, localização e confiabilidade precisam ser analisadas juntas.",
     keyword: "mapa de eletropostos no Brasil",
-    image: "visuals/pt-feature-map-1600.webp",
-    imageAlt: "Composição do mapa de eletropostos no aplicativo VeVolt",
+    image: "blog/mapa-eletropostos-brasil.webp",
+    imageAlt: "Mapa ilustrado do Brasil com pontos de recarga conectados por rotas",
     readTime: 8,
     lead:
       "A rede brasileira cresce rápido, mas o número total não conta toda a história. Para o motorista, importam cobertura no trajeto, potência, compatibilidade, acesso e qualidade da informação.",
@@ -646,8 +646,8 @@ export const articles = [
     description:
       "Organize acesso, estacionamento, tempo de permanência, ativação e etiqueta ao carregar em estabelecimentos.",
     keyword: "carregar carro elétrico no shopping",
-    image: "screens/pt-market-720.webp",
-    imageAlt: "VeVolt Mercado com estabelecimentos e serviços próximos",
+    image: "blog/recarga-comercio-hotel.webp",
+    imageAlt: "Carro elétrico recarrega em complexo com mercado, hotel e centro comercial",
     readTime: 7,
     lead:
       "Carregadores em destinos são convenientes porque a recarga acontece enquanto você faz outra atividade. A experiência melhora quando você entende as regras do estabelecimento e libera a vaga no momento certo.",

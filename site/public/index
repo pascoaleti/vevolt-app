@@ -3,26 +3,27 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-    <title>VeVolt | Eletropostos, rotas e mobilidade elétrica</title>
-    <meta name="description" content="Encontre eletropostos, confirme as condições com a comunidade, planeje rotas, acompanhe custos e organize recargas no condomínio com o VeVolt.">
+    <title>VeVolt 0.3.5 | Recarga, eletropostos e VeVolt Condo</title>
+    <meta name="description" content="Conheça o VeVolt 0.3.5 para Android: eletropostos, rotas, Comunidade e gestão de carregadores privados com o VeVolt Condo. Disponível no Google Play.">
     <meta name="robots" content="index, follow">
     <meta name="google-site-verification" content="qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc">
     <link rel="canonical" href="https://vevolt.app/">
     <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/">
     <link rel="alternate" hreflang="en-US" href="https://vevolt.app/en/">
     <link rel="alternate" hreflang="es-419" href="https://vevolt.app/es/">
+    <link rel="alternate" hreflang="pt-PT" href="https://vevolt.app/">
     <link rel="alternate" hreflang="x-default" href="https://vevolt.app/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="VeVolt">
     <meta property="og:locale" content="pt_BR">
-    <meta property="og:title" content="VeVolt | Eletropostos, rotas e mobilidade elétrica">
-    <meta property="og:description" content="Encontre eletropostos, confirme as condições com a comunidade, planeje rotas, acompanhe custos e organize recargas no condomínio com o VeVolt.">
+    <meta property="og:title" content="VeVolt 0.3.5 | Recarga, eletropostos e VeVolt Condo">
+    <meta property="og:description" content="Conheça o VeVolt 0.3.5 para Android: eletropostos, rotas, Comunidade e gestão de carregadores privados com o VeVolt Condo. Disponível no Google Play.">
     <meta property="og:url" content="https://vevolt.app/">
     <meta property="og:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
     <meta property="og:image:alt" content="VeVolt - Seu copiloto de mobilidade elétrica.">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="VeVolt | Eletropostos, rotas e mobilidade elétrica">
-    <meta name="twitter:description" content="Encontre eletropostos, confirme as condições com a comunidade, planeje rotas, acompanhe custos e organize recargas no condomínio com o VeVolt.">
+    <meta name="twitter:title" content="VeVolt 0.3.5 | Recarga, eletropostos e VeVolt Condo">
+    <meta name="twitter:description" content="Conheça o VeVolt 0.3.5 para Android: eletropostos, rotas, Comunidade e gestão de carregadores privados com o VeVolt Condo. Disponível no Google Play.">
     <meta name="twitter:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
     <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)">
     <meta name="theme-color" content="#f4f8fc" media="(prefers-color-scheme: light)">
@@ -32,11 +33,11 @@
     <link rel="apple-touch-icon" href="/assets/icon-192.png">
     <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="/assets/site.css?v=20260727-2">
-    <link rel="stylesheet" href="/assets/pages.css?v=20260727-2">
-    <script src="/assets/theme-init.js?v=20260727-2"></script>
+    <link rel="stylesheet" href="/assets/site.css?v=20260803-1">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260803-1">
+    <script src="/assets/theme-init.js?v=20260803-1"></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"VeVolt","url":"https://vevolt.app","logo":"https://vevolt.app/assets/icon-512.png","sameAs":["https://play.google.com/store/apps/details?id=br.com.vevolt"]}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"VeVolt","applicationCategory":"NavigationApplication","operatingSystem":"Android","inLanguage":"pt-BR","description":"Encontre eletropostos, confirme as condições com a comunidade, planeje rotas, acompanhe custos e organize recargas no condomínio com o VeVolt.","url":"https://vevolt.app/","downloadUrl":"https://play.google.com/store/apps/details?id=br.com.vevolt","image":"https://vevolt.app/assets/visuals/pt-hero-1920.webp","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"offers":[{"@type":"Offer","price":"0","priceCurrency":"BRL","category":"free"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"VeVolt","applicationCategory":"NavigationApplication","operatingSystem":"Android","inLanguage":"pt-BR","softwareVersion":"0.3.5","description":"Conheça o VeVolt 0.3.5 para Android: eletropostos, rotas, Comunidade e gestão de carregadores privados com o VeVolt Condo. Disponível no Google Play.","url":"https://vevolt.app/","downloadUrl":"https://play.google.com/store/apps/details?id=br.com.vevolt","image":"https://vevolt.app/assets/visuals/pt-hero-1920.webp","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"offers":[{"@type":"Offer","price":"0","priceCurrency":"BRL","category":"free"}]}</script>
 </head>
 <body>
     <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
@@ -48,7 +49,7 @@
       </a>
       <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
         <div class="nav-links"><a class="nav-link" href="/" aria-current="page">Início</a><a class="nav-link" href="/recursos">Recursos</a><a class="nav-link" href="/planos">Planos</a><a class="nav-link" href="/condo">Condo</a><a class="nav-link" href="/comunidade">Comunidade</a><a class="nav-link" href="/faq">FAQ</a><a class="nav-link" href="/blog/">Blog</a></div>
-        <a class="nav-cta" href="/seja-testador">Seja testador</a>
+        <a class="nav-play-badge" href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener" aria-label="Disponível no Google Play"><img src="/assets/google-play-badge-pt.png" width="141" height="42" alt="Disponível no Google Play"></a>
         <div class="language-switcher compact" aria-label="Idioma">
     <a href="/" hreflang="pt-BR" lang="pt-BR" aria-label="Português" aria-current="true">PT</a><a href="/en/" hreflang="en-US" lang="en-US" aria-label="English">EN</a><a href="/es/" hreflang="es-419" lang="es-419" aria-label="Español">ES</a>
   </div>
@@ -97,7 +98,7 @@
             </picture>
           </div>
         </div>
-      </section>
+      </section><section class="launch-status" aria-labelledby="launch-title-pt"><div class="wrap launch-status-inner"><h2 id="launch-title-pt">Disponível no Google Play</h2><a class="play-badge-link" href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener" aria-label="Disponível no Google Play"><img src="/assets/google-play-badge-pt.png" width="564" height="168" alt="Disponível no Google Play"></a></div></section>
 
       <section class="section compact">
         <div class="wrap">
@@ -184,12 +185,12 @@
             <article class="feature">
               <div class="feature-code">09</div>
               <h3>VeVolt Condo</h3>
-              <p>Organize convites, reservas e sessões em carregadores privados compartilhados do condomínio.</p>
+              <p>Crie o condomínio, convide moradores, cadastre carregadores privados, organize horários sem conflito e acompanhe sessões e custos.</p>
             </article>
             <article class="feature">
               <div class="feature-code">10</div>
               <h3>Premium e dados locais</h3>
-              <p>Libere histórico detalhado, garagem para até cinco veículos, CSV, recomendações, alertas e administração do Condo.</p>
+              <p>Premium e Condo são assinaturas separadas. Novos clientes elegíveis têm 15 dias grátis em cada plano mensal; depois vale o preço local do Google Play.</p>
             </article>
           </div>
         </div>
@@ -425,14 +426,14 @@
         <li><a href="/recursos">Recursos</a></li><li><a href="/planos">Planos</a></li><li><a href="/condo">Condo</a></li><li><a href="/comunidade">Comunidade</a></li>
       </ul></div>
       <div><h2>Informações</h2><ul>
-        <li><a href="/faq">FAQ</a></li><li><a href="/blog/">Blog</a></li><li><a href="/seja-testador">Seja testador</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
+        <li><a href="/faq">FAQ</a></li><li><a href="/blog/">Blog</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
       </ul></div>
       <div><h2>Legal</h2><ul>
-        <li><a href="/politica">Privacidade</a></li><li><a href="/termos">Termos de uso</a></li><li><a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a></li>
+        <li><a href="/politica">Privacidade</a></li><li><a href="/termos">Termos de uso</a></li><li><a href="/exclusao-de-dados">Exclusão de dados</a></li><li><a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a></li>
       </ul></div>
     </div>
     <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Desenvolvido por <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
   </footer>
-    <script src="/assets/site.js?v=20260727-2" defer></script>
+    <script src="/assets/site.js?v=20260803-1" defer></script>
 </body>
 </html>

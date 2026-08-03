@@ -8,17 +8,19 @@ const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const SRC = path.join(ROOT, "src");
 const PUBLIC = path.join(ROOT, "public");
 const BASE = "https://vevolt.app";
-const BUILD = "20260727-2";
-const UPDATED = "2026-07-18";
+const BUILD = "20260803-1";
+const UPDATED = "2026-08-03";
+const APP_VERSION = "0.3.5";
+const APP_VERSION_CODE = "17";
 const GOOGLE_VERIFICATION = "qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc";
 
-const pageKeys = ["home", "features", "plans", "condo", "community", "faq", "testers"];
+const pageKeys = ["home", "features", "plans", "condo", "community", "faq"];
 const navKeys = ["home", "features", "plans", "condo", "community", "faq", "blog"];
 const iconByFeature = ["location", "community", "route", "economy", "market"];
 const legalLabels = {
-  pt: { privacy: "Privacidade", terms: "Termos de uso" },
-  en: { privacy: "Privacy", terms: "Terms of use" },
-  es: { privacy: "Privacidad", terms: "Términos de uso" },
+  pt: { privacy: "Privacidade", terms: "Termos de uso", deletion: "Exclusão de dados" },
+  en: { privacy: "Privacy", terms: "Terms of use", deletion: "Data deletion" },
+  es: { privacy: "Privacidad", terms: "Términos de uso", deletion: "Eliminación de datos" },
 };
 
 function esc(value = "") {
@@ -54,6 +56,7 @@ function localizedRoute(localeKey, pageKey) {
 function hreflangs(pageKey, localizedPaths = null) {
   return ["pt", "en", "es"]
     .map((key) => `<link rel="alternate" hreflang="${locales[key].htmlLang}" href="${absolute(localizedPaths?.[key] || localizedRoute(key, pageKey))}">`)
+    .concat(`<link rel="alternate" hreflang="pt-PT" href="${absolute(localizedPaths?.pt || localizedRoute("pt", pageKey))}">`)
     .concat(`<link rel="alternate" hreflang="x-default" href="${absolute(localizedPaths?.pt || localizedRoute("pt", pageKey))}">`)
     .join("\n    ");
 }
@@ -66,10 +69,11 @@ function softwareSchema(locale, route) {
     applicationCategory: "NavigationApplication",
     operatingSystem: "Android",
     inLanguage: locale.htmlLang,
+    softwareVersion: APP_VERSION,
     description: locale.home.description,
     url: absolute(route),
     downloadUrl: PLAY_URL,
-    image: imageUrl("visuals/pt-hero-1920.webp"),
+    image: imageUrl(`visuals/${localeKeyFromLocale(locale)}-hero-1920.webp`),
     author: { "@type": "Organization", name: "Pascoal Eti", url: "https://pascoal.eti.br" },
     offers: [
       { "@type": "Offer", price: "0", priceCurrency: localeKeyFromLocale(locale) === "pt" ? "BRL" : "USD", category: "free" },
@@ -137,7 +141,6 @@ function nav(localeKey, pageKey, localizedPaths = null) {
       return `<a class="nav-link" href="${locale.paths[key]}"${current}>${esc(locale.nav[key])}</a>`;
     })
     .join("");
-  const testerCurrent = pageKey === "testers" ? ' aria-current="page"' : "";
   return `<header class="topbar">
     <nav class="nav" aria-label="${esc(locale.a11y.nav)}">
       <a class="brand" href="${locale.paths.home}" aria-label="${esc(locale.a11y.home)}">
@@ -146,7 +149,7 @@ function nav(localeKey, pageKey, localizedPaths = null) {
       </a>
       <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
         <div class="nav-links">${links}</div>
-        <a class="nav-cta" href="${locale.paths.testers}"${testerCurrent}>${esc(locale.nav.testers)}</a>
+        ${googlePlayNavBadge(localeKey)}
         ${languageSwitcher(localeKey, pageKey, true, localizedPaths)}
       </div>
       <div class="nav-controls">
@@ -171,19 +174,20 @@ function footer(localeKey, pageKey, localizedPaths = null) {
         <li><a href="${locale.paths.features}">${esc(locale.nav.features)}</a></li><li><a href="${locale.paths.plans}">${esc(locale.nav.plans)}</a></li><li><a href="${locale.paths.condo}">${esc(locale.nav.condo)}</a></li><li><a href="${locale.paths.community}">${esc(locale.nav.community)}</a></li>
       </ul></div>
       <div><h2>${esc(locale.footer.information)}</h2><ul>
-        <li><a href="${locale.paths.faq}">${esc(locale.nav.faq)}</a></li>${locale.paths.blog ? `<li><a href="${locale.paths.blog}">${esc(locale.nav.blog)}</a></li>` : ""}<li><a href="${locale.paths.testers}">${esc(locale.nav.testers)}</a></li><li><a href="${PLAY_URL}" rel="noopener">Google Play</a></li>
+        <li><a href="${locale.paths.faq}">${esc(locale.nav.faq)}</a></li>${locale.paths.blog ? `<li><a href="${locale.paths.blog}">${esc(locale.nav.blog)}</a></li>` : ""}<li><a href="${PLAY_URL}" rel="noopener">Google Play</a></li>
       </ul></div>
       <div><h2>${esc(locale.footer.legal)}</h2><ul>
-        <li><a href="${locale.paths.privacy}">${esc(legalLabels[localeKey].privacy)}</a></li><li><a href="${locale.paths.terms}">${esc(legalLabels[localeKey].terms)}</a></li><li><a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a></li>
+        <li><a href="${locale.paths.privacy}">${esc(legalLabels[localeKey].privacy)}</a></li><li><a href="${locale.paths.terms}">${esc(legalLabels[localeKey].terms)}</a></li><li><a href="${locale.paths.deletion}">${esc(legalLabels[localeKey].deletion)}</a></li><li><a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a></li>
       </ul></div>
     </div>
     <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>${developedBy} <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
   </footer>`;
 }
 
-function shell({ localeKey, pageKey, title, description, route, body, schemas = [], image = "visuals/pt-hero-1920.webp", robots = "index, follow", article = null, localizedPaths = null }) {
+function shell({ localeKey, pageKey, title, description, route, body, schemas = [], image = null, robots = "index, follow", article = null, localizedPaths = null }) {
   const locale = locales[localeKey];
   const canonical = absolute(route);
+  const resolvedImage = image || `visuals/${localeKey}-hero-1920.webp`;
   const schemaMarkup = schemas.map((schema) => `<script type="application/ld+json">${json(schema)}</script>`).join("\n    ");
   const articleMeta = article ? `
     <meta property="article:published_time" content="${article.published}">
@@ -206,12 +210,12 @@ ${hreflangs(pageKey, localizedPaths) ? `    ${hreflangs(pageKey, localizedPaths)
     <meta property="og:title" content="${esc(title)}">
     <meta property="og:description" content="${esc(description)}">
     <meta property="og:url" content="${canonical}">
-    <meta property="og:image" content="${imageUrl(image)}">
+    <meta property="og:image" content="${imageUrl(resolvedImage)}">
     <meta property="og:image:alt" content="VeVolt - ${esc(locale.slogan)}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${esc(title)}">
     <meta name="twitter:description" content="${esc(description)}">
-    <meta name="twitter:image" content="${imageUrl(image)}">${articleMeta}
+    <meta name="twitter:image" content="${imageUrl(resolvedImage)}">${articleMeta}
     <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)">
     <meta name="theme-color" content="#f4f8fc" media="(prefers-color-scheme: light)">
     <link rel="manifest" href="/site.webmanifest">
@@ -252,17 +256,42 @@ function appPhone(localeKey, screen, alt, options = {}) {
 }
 
 function cta(localeKey, heading, copy) {
-  const locale = locales[localeKey];
-  return `<section class="cta-band"><div class="wrap cta-inner"><div><h2>${esc(heading)}</h2><p>${esc(copy)}</p></div><div class="actions"><a class="button primary" href="${locale.paths.testers}">${esc(locale.common.testApp)}</a><a class="button secondary" href="${PLAY_URL}" rel="noopener">${esc(locale.common.play)}</a></div></div></section>`;
+  return `<section class="cta-band"><div class="wrap cta-inner"><div><h2>${esc(heading)}</h2><p>${esc(copy)}</p></div><div class="actions">${googlePlayBadge(localeKey)}</div></div></section>`;
+}
+
+function googlePlayAlt(localeKey) {
+  return {
+    pt: "Disponível no Google Play",
+    en: "Get it on Google Play",
+    es: "Disponible en Google Play",
+  }[localeKey];
+}
+
+function googlePlayBadge(localeKey) {
+  const alt = googlePlayAlt(localeKey);
+  return `<a class="play-badge-link" href="${PLAY_URL}" rel="noopener" aria-label="${esc(alt)}"><img src="${asset(`google-play-badge-${localeKey}.png`)}" width="564" height="168" alt="${esc(alt)}"></a>`;
+}
+
+function googlePlayNavBadge(localeKey) {
+  const alt = googlePlayAlt(localeKey);
+  return `<a class="nav-play-badge" href="${PLAY_URL}" rel="noopener" aria-label="${esc(alt)}"><img src="${asset(`google-play-badge-${localeKey}.png`)}" width="141" height="42" alt="${esc(alt)}"></a>`;
+}
+
+function launchStatus(localeKey) {
+  const title = {
+    pt: "Disponível no Google Play",
+    en: "Available on Google Play",
+    es: "Disponible en Google Play",
+  }[localeKey];
+  return `<section class="launch-status" aria-labelledby="launch-title-${localeKey}"><div class="wrap launch-status-inner"><h2 id="launch-title-${localeKey}">${esc(title)}</h2>${googlePlayBadge(localeKey)}</div></section>`;
 }
 
 function planCard(localeKey, plan) {
-  const locale = locales[localeKey];
   return `<article class="plan-card${plan.featured ? " featured" : ""}">
     <p class="plan-label">${esc(plan.label)}</p><h3>${esc(plan.name)}</h3>
     <p class="plan-price">${esc(plan.price)} <small>${esc(plan.note)}</small></p>
-    <ul class="check-list">${plan.features.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
-    <a class="button ${plan.featured ? "primary" : "secondary"}" href="${locale.paths.testers}">${esc(locale.common.testApp)}</a>
+${plan.trial ? `    <div class="trial-offer"><p>${esc(plan.trial)}</p><small>${esc(plan.annual)}</small></div>\n` : ""}    <ul class="check-list">${plan.features.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
+    ${googlePlayBadge(localeKey)}
   </article>`;
 }
 
@@ -297,6 +326,7 @@ async function renderHome(localeKey) {
     .replaceAll(`app-${localeKey}-scan`, `app-${localeKey}-condo`)
     .replaceAll(`app-${localeKey}-vehicle`, `app-${localeKey}-community`);
   for (const [from, to] of replacements[localeKey]) body = body.replaceAll(from, to);
+  body = body.replace(/<\/section>/, `</section>${launchStatus(localeKey)}`);
 
   return shell({
     localeKey,
@@ -312,7 +342,7 @@ async function renderHome(localeKey) {
 function renderFeatures(localeKey) {
   const locale = locales[localeKey];
   const splits = locale.features.map((feature, index) => `<div class="feature-split${index % 2 ? " reverse" : ""}">
-    <div class="feature-copy"><p class="kicker">0${index + 1}</p><h2>${esc(feature.title)}</h2><p>${esc(feature.body)}</p><a class="text-link" href="${locale.paths.testers}">${esc(locale.common.testApp)} &rarr;</a></div>
+    <div class="feature-copy"><p class="kicker">0${index + 1}</p><h2>${esc(feature.title)}</h2><p>${esc(feature.body)}</p><a class="text-link" href="${PLAY_URL}" rel="noopener">${esc(locale.common.play)} &rarr;</a></div>
     ${appPhone(localeKey, feature.screen, feature.title, { priority: index === 0 })}
   </div>`).join("");
   const body = `${pageHero(localeKey, locale.featuresPage)}
@@ -331,7 +361,7 @@ function renderPlans(localeKey) {
     <p class="notice"><strong>Google Play:</strong> ${esc(locale.plansPage.billing)}</p>
   </div></section>
   <section class="section accent-band"><div class="wrap"><div class="section-heading"><div><p class="kicker">VeVolt</p><h2>${esc(locale.plansPage.compareTitle)}</h2></div></div><div class="comparison-grid">${comparison}</div></div></section>
-  ${cta(localeKey, locale.testerPage.formTitle, locale.testerPage.copy)}`;
+  ${cta(localeKey, locale.home.h1, locale.home.copy)}`;
   return shell({ localeKey, pageKey: "plans", title: locale.plansPage.title, description: locale.plansPage.description, route: locale.paths.plans, body, schemas: [softwareSchema(locale, locale.paths.plans), breadcrumbsSchema([{ name: "VeVolt", path: locale.paths.home }, { name: locale.nav.plans, path: locale.paths.plans }])] });
 }
 
@@ -340,7 +370,7 @@ function renderCondo(localeKey) {
   const plan = locale.plans.find((item) => item.key === "condo");
   const transparency = localeKey === "pt" ? "Transparência" : localeKey === "es" ? "Transparencia" : "Transparency";
   const body = `${pageHero(localeKey, locale.condoPage)}
-  <section class="section"><div class="wrap"><div class="feature-split"><div class="feature-copy"><p class="kicker">VeVolt Condo</p><h2>${esc(locale.condoPage.adminTitle)}</h2><p>${esc(locale.condoPage.adminCopy)}</p><ul class="check-list">${plan.features.map((item) => `<li>${esc(item)}</li>`).join("")}</ul></div>${appPhone(localeKey, "condo", "VeVolt Condo", { priority: true })}</div><p class="notice"><strong>${transparency}:</strong> ${esc(locale.condoPage.disclaimer)}</p></div></section>
+  <section class="section"><div class="wrap"><div class="feature-split"><div class="feature-copy"><p class="kicker">VeVolt Condo</p><h2>${esc(locale.condoPage.adminTitle)}</h2><p>${esc(locale.condoPage.adminCopy)}</p><div class="trial-offer"><p>${esc(locale.condoPage.trial)}</p><small>${esc(locale.condoPage.annual)}</small></div><ul class="check-list">${plan.features.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>${googlePlayBadge(localeKey)}</div>${appPhone(localeKey, "condo", "VeVolt Condo", { priority: true })}</div><p class="notice"><strong>${transparency}:</strong> ${esc(locale.condoPage.disclaimer)}</p></div></section>
   ${cta(localeKey, locale.condoPage.h1, locale.condoPage.copy)}`;
   return shell({ localeKey, pageKey: "condo", title: locale.condoPage.title, description: locale.condoPage.description, route: locale.paths.condo, body, schemas: [softwareSchema(locale, locale.paths.condo), breadcrumbsSchema([{ name: "VeVolt", path: locale.paths.home }, { name: locale.nav.condo, path: locale.paths.condo }])] });
 }
@@ -357,16 +387,8 @@ function renderCommunity(localeKey) {
 function renderFaq(localeKey) {
   const locale = locales[localeKey];
   const items = locale.faq.map(([question, answer]) => `<details class="faq-item"><summary>${esc(question)}</summary><p>${esc(answer)}</p></details>`).join("");
-  const body = `${pageHero(localeKey, locale.faqPage)}<section class="section"><div class="wrap faq-list">${items}</div></section>${cta(localeKey, locale.testerPage.formTitle, locale.testerPage.copy)}`;
+  const body = `${pageHero(localeKey, locale.faqPage)}<section class="section"><div class="wrap faq-list">${items}</div></section>${cta(localeKey, locale.home.h1, locale.home.copy)}`;
   return shell({ localeKey, pageKey: "faq", title: locale.faqPage.title, description: locale.faqPage.description, route: locale.paths.faq, body, schemas: [faqSchema(locale.faq, locale), breadcrumbsSchema([{ name: "VeVolt", path: locale.paths.home }, { name: locale.nav.faq, path: locale.paths.faq }])] });
-}
-
-function renderTester(localeKey) {
-  const locale = locales[localeKey];
-  const body = `${pageHero(localeKey, locale.testerPage)}
-  <section class="section"><div class="wrap tester-panel"><div><p class="kicker">Google Play</p><h2>${esc(locale.testerPage.stepsTitle)}</h2><ol class="plain-list">${locale.testerPage.steps.map((step) => `<li>${esc(step)}</li>`).join("")}</ol><a class="text-link" href="${PLAY_URL}" rel="noopener">${esc(locale.common.play)} &rarr;</a></div>
-  <form class="tester-form" action="/tester-signup.php" method="post" data-tester-form><h2>${esc(locale.testerPage.formTitle)}</h2><div class="field"><label for="name-${localeKey}">${esc(locale.testerPage.name)}</label><input id="name-${localeKey}" name="name" autocomplete="name" required maxlength="120"></div><div class="field"><label for="email-${localeKey}">${esc(locale.testerPage.email)}</label><input id="email-${localeKey}" name="email" type="email" autocomplete="email" required maxlength="190"></div><label><input type="checkbox" name="consent" value="1" required> ${esc(locale.testerPage.consent)}</label><input type="hidden" name="language" value="${esc(locale.htmlLang)}"><input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" class="honeypot"><button class="button primary" type="submit">${esc(locale.testerPage.submit)}</button><p class="form-status" data-form-status aria-live="polite"></p></form></div></section>`;
-  return shell({ localeKey, pageKey: "testers", title: locale.testerPage.title, description: locale.testerPage.description, route: locale.paths.testers, body, schemas: [softwareSchema(locale, locale.paths.testers), breadcrumbsSchema([{ name: "VeVolt", path: locale.paths.home }, { name: locale.nav.testers, path: locale.paths.testers }])] });
 }
 
 function renderBlog(localeKey) {
@@ -404,7 +426,7 @@ function renderArticle(localeKey, article, index) {
     <nav class="breadcrumbs" aria-label="${esc(labels.breadcrumb)}"><a href="${locale.paths.home}">VeVolt</a><span>/</span><a href="${locale.paths.blog}">Blog</a></nav>
     <div class="article-intro"><div class="article-hero"><img src="${asset(article.image)}" width="1280" height="720" alt="${esc(article.imageAlt)}" fetchpriority="high"></div><header class="article-header"><p class="eyebrow"><span class="signal"></span>${esc(labels.guide)}</p><h1>${esc(article.title)}</h1><p class="lede">${esc(article.lead)}</p><p class="article-meta">${esc(locale.common.updated)} 18/07/2026 · ${article.readTime} ${esc(locale.common.minutes)}</p></header></div>
     <div class="article-layout"><div class="article-body">${article.sections.map(articleSection).join("")}<section><h2>${esc(labels.faq)}</h2><div class="faq-list">${faq}</div></section></div>
-    <aside class="article-aside"><h2>${esc(labels.aside)}</h2><p>${esc(labels.asideCopy)}</p><a class="button primary" href="${locale.paths.testers}">${esc(locale.common.testApp)}</a><h2>${esc(locale.common.sources)}</h2><ul class="source-list">${sources}</ul></aside></div>
+    <aside class="article-aside"><h2>${esc(labels.aside)}</h2><p>${esc(labels.asideCopy)}</p>${googlePlayBadge(localeKey)}<h2>${esc(locale.common.sources)}</h2><ul class="source-list">${sources}</ul></aside></div>
     <section class="section compact"><div class="section-heading"><div><p class="kicker">${esc(locale.common.related)}</p><h2>${esc(labels.continue)}</h2></div></div><div class="grid two">${related.map((item) => `<article class="article-card"><div class="article-card-body"><h3>${esc(item.title)}</h3><p>${esc(item.description)}</p><a class="text-link" href="${locale.paths.blog}${item.slug}">${esc(locale.common.readArticle)} →</a></div></article>`).join("")}</div></section>
   </div></article>`;
   const blogPosting = {
@@ -425,8 +447,8 @@ async function renderLegal(localeKey, pageKey, sourceName, title, description) {
   const leadMatch = source.match(/<main[\s\S]*?<p class="lead">([\s\S]*?)<\/p>/i);
   const heading = headingMatch ? headingMatch[1].replace(/<[^>]+>/g, "").trim() : title;
   const lead = leadMatch ? leadMatch[1].replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim() : description;
-  const body = `<section class="page-hero"><div class="wrap"><p class="eyebrow"><span class="signal"></span>${esc(legalLabels[localeKey][pageKey])}</p><h1>${esc(heading)}</h1><p>${esc(lead)}</p></div></section><section class="section"><div class="wrap legal">${articleMatch[1]}</div></section>`;
-  return shell({ localeKey, pageKey, title, description, route: locale.paths[pageKey], body, schemas: [breadcrumbsSchema([{ name: "VeVolt", path: locale.paths.home }, { name: legalLabels[localeKey][pageKey], path: locale.paths[pageKey] }])], robots: "noindex, nofollow", image: "visuals/pt-hero-1920.webp" });
+  const body = `<section class="page-hero"><div class="wrap page-hero-inner"><p class="eyebrow"><span class="signal"></span>${esc(legalLabels[localeKey][pageKey])}</p><h1>${esc(heading)}</h1><p>${esc(lead)}</p></div></section><section class="section"><div class="wrap legal">${articleMatch[1]}</div></section>`;
+  return shell({ localeKey, pageKey, title, description, route: locale.paths[pageKey], body, schemas: [breadcrumbsSchema([{ name: "VeVolt", path: locale.paths.home }, { name: legalLabels[localeKey][pageKey], path: locale.paths[pageKey] }])], robots: pageKey === "deletion" ? "index, follow" : "noindex, nofollow" });
 }
 
 async function writeRoute(file, content) {
@@ -466,7 +488,7 @@ DirectoryIndex index
   Header always set X-Frame-Options "DENY"
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
-  Header always set Content-Security-Policy "default-src 'self'; base-uri 'self'; connect-src 'self'; font-src 'self'; form-action 'self'; frame-ancestors 'none'; img-src 'self' data:; object-src 'none'; script-src 'self'; style-src 'self'; upgrade-insecure-requests"
+  Header always set Content-Security-Policy "default-src 'self'; base-uri 'self'; connect-src 'self'; font-src 'self'; form-action 'none'; frame-ancestors 'none'; img-src 'self' data:; object-src 'none'; script-src 'self'; style-src 'self'; upgrade-insecure-requests"
   <FilesMatch "^[^.]+$">
     Header set Cache-Control "no-cache, no-store, max-age=0, must-revalidate, no-transform"
     Header set Pragma "no-cache"
@@ -484,13 +506,15 @@ DirectoryIndex index
   RewriteEngine On
   RewriteCond %{HTTPS} !=on
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-  RewriteRule ^tester-signup/?$ tester-signup.php [L]
 </IfModule>
 `;
 }
 
 async function build() {
   await fs.mkdir(PUBLIC, { recursive: true });
+  for (const staleRoute of ["seja-testador", "en/testers", "es/probadores"]) {
+    await fs.rm(path.join(PUBLIC, staleRoute), { force: true });
+  }
   const staleBlog = path.join(PUBLIC, "blog");
   try {
     if ((await fs.lstat(staleBlog)).isFile()) await fs.rm(staleBlog);
@@ -499,7 +523,7 @@ async function build() {
   }
   await copyAssets();
   const publicRoutes = [];
-  const renderers = { home: renderHome, features: renderFeatures, plans: renderPlans, condo: renderCondo, community: renderCommunity, faq: renderFaq, testers: renderTester };
+  const renderers = { home: renderHome, features: renderFeatures, plans: renderPlans, condo: renderCondo, community: renderCommunity, faq: renderFaq };
   for (const localeKey of ["pt", "en", "es"]) {
     const locale = locales[localeKey];
     for (const pageKey of pageKeys) {
@@ -524,9 +548,13 @@ async function build() {
     ["en", "privacy", "privacy-en", "Privacy Policy - VeVolt", "How VeVolt handles data and permissions."],
     ["es", "terms", "terminos-es", "Términos de Uso - VeVolt", "Reglas para usar la aplicación VeVolt."],
     ["es", "privacy", "privacidad-es", "Política de Privacidad - VeVolt", "Cómo VeVolt trata los datos y permisos."],
+    ["pt", "deletion", "exclusao-de-dados", "Exclusão de conta e dados - VeVolt", "Como excluir dados locais, Premium, VeVolt Condo e publicações da Comunidade."],
+    ["en", "deletion", "data-deletion-en", "Account and data deletion - VeVolt", "How to delete local data, Premium records, VeVolt Condo membership and Community posts."],
+    ["es", "deletion", "eliminacion-de-datos-es", "Eliminación de cuenta y datos - VeVolt", "Cómo eliminar datos locales, registros Premium, VeVolt Condo y publicaciones de la Comunidad."],
   ];
   for (const [localeKey, pageKey, sourceName, title, description] of legalPages) {
     await writeRoute(locales[localeKey].files[pageKey], await renderLegal(localeKey, pageKey, sourceName, title, description));
+    if (pageKey === "deletion") publicRoutes.push(locales[localeKey].paths[pageKey]);
   }
   await fs.writeFile(path.join(PUBLIC, "robots.txt"), `User-agent: *\nAllow: /\nDisallow: /termos\nDisallow: /politica\nDisallow: /en/terms\nDisallow: /en/privacy\nDisallow: /es/terminos\nDisallow: /es/privacidad\nSitemap: ${BASE}/sitemap.xml\n`, "utf8");
   await fs.writeFile(path.join(PUBLIC, "sitemap.xml"), sitemap([...new Set(publicRoutes)]), "utf8");

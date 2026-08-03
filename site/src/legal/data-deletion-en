@@ -1,0 +1,35 @@
+<main id="content">
+  <h1>VeVolt account and data deletion</h1>
+  <p class="lead">Learn how to delete local data, your Premium record, VeVolt Condo participation, and your own Community reports and photos.</p>
+  <article class="legal-content">
+    <p><strong>App:</strong> VeVolt: Recarga e Eletropostos (<code>br.com.vevolt</code>), developed and maintained by <strong>Pascoal Eti</strong>.</p>
+    <p>VeVolt does not use a conventional email-and-password account. Shared records are associated with pseudonymous installation identifiers or VeVolt Condo access.</p>
+
+    <h2>Delete through the app</h2>
+    <ol>
+      <li><strong>Local data and Premium record:</strong> open <strong>Profile</strong>, find <strong>Local data</strong>, tap <strong>Delete local data</strong>, then <strong>Confirm deletion</strong>. This removes vehicles, locations, charging records and preferences from the device and attempts to delete the installation's linked Premium record from the backend.</li>
+      <li><strong>Profile photo:</strong> in <strong>Profile</strong>, open the photo options and choose <strong>Remove profile photo</strong>. The photo is managed separately from other local data.</li>
+      <li><strong>VeVolt Condo:</strong> open the condominium panel, choose <strong>Delete condominium membership and data</strong>, and confirm. The user's membership, reservations and charging records are deleted. A sole administrator with no other residents also deletes the whole condominium. If active residents remain, the administrator must transfer administration or remove them first.</li>
+      <li><strong>Community:</strong> open the charging location, find a report you authored, tap <strong>Delete my report</strong>, and confirm. The report and its photo are deleted.</li>
+    </ol>
+
+    <h2>Delete data through Android</h2>
+    <p>Local data can also be removed through <strong>Android Settings → Apps → VeVolt → Storage → Clear data</strong>, or by uninstalling the app. These options remove local content from the device but do not replace the in-app actions for records already sent to Premium, VeVolt Condo or Community.</p>
+
+    <h2>Premium and VeVolt Condo subscriptions</h2>
+    <p>Deleting a VeVolt record does not cancel a subscription or stop Google Play billing. To cancel, use <strong>Google Play → Payments &amp; subscriptions → Subscriptions</strong>. Personal Premium and VeVolt Condo are separate products billed exclusively through Google Play. Invited residents may participate in VeVolt Condo without Premium.</p>
+
+    <h2>What is deleted and how long something may be retained</h2>
+    <ul>
+      <li><strong>Local data:</strong> vehicles, locations, charging records and preferences are removed from the device after confirmation, Android data clearing or uninstall. The profile photo must be removed separately from Profile.</li>
+      <li><strong>Premium:</strong> the Profile action attempts immediate deletion of the linked record. Premium entitlement records are kept for no more than 90 days after subscription expiry, and RTDN notification identifiers for no more than 30 days.</li>
+      <li><strong>VeVolt Condo:</strong> the user's membership, reservations and sessions are deleted through the dedicated action. The whole condominium is deleted by a sole administrator when no other residents remain; otherwise the administrator must arrange the other members' removal or transfer first.</li>
+      <li><strong>Community:</strong> your own reports and photos are deleted through the author action or by request. If not removed earlier, their maximum retention period is 2 years.</li>
+    </ul>
+    <p>Data may be kept only for as long as necessary to comply with a legal obligation, prevent fraud, resolve a dispute or protect service security. It is then deleted or anonymized.</p>
+
+    <h2>Request additional deletion</h2>
+    <p>If you cannot use the app or want an additional review, email <a href="mailto:vevolt@vevolt.app?subject=VeVolt%20data%20deletion">vevolt@vevolt.app</a>. State which area you want deleted — Premium, VeVolt Condo or Community — and the minimum information needed to locate the record. Never send a password, purchase token or access code.</p>
+    <p><strong>Last updated:</strong> July 31, 2026.</p>
+  </article>
+</main>

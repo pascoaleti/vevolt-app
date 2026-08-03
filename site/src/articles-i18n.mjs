@@ -1,10 +1,44 @@
 import { articles as portugueseArticles } from "./articles.mjs";
 
+const editorialImageAlts = {
+  en: {
+    "ponto-de-recarga-carro-eletrico-perto-de-mim": "Driver checks a phone while an electric car charges at an urban station",
+    "quanto-custa-carregar-carro-eletrico": "Driver compares electric-car charging consumption and cost on a phone",
+    "quanto-tempo-demora-carregar-carro-eletrico": "Electric car connected to a home charger beside an analog clock",
+    "tipos-conectores-carro-eletrico-tipo-2-ccs2": "Type 2, CCS2, CHAdeMO and GB/T charging connectors arranged for comparison",
+    "como-planejar-viagem-carro-eletrico": "Driver plans an electric-car road trip at a highway charging stop",
+    "carregador-carro-eletrico-condominio": "Residents and an administrator organize shared electric-car charging in a condominium",
+    "recarga-rapida-carro-eletrico-boas-praticas": "Electric car connected to a high-power DC fast charger",
+    "eletroposto-gratis-ou-pago-como-saber": "Driver checks charging terms on a phone before using a public station",
+    "como-saber-eletroposto-funcionando": "Driver checks a charging station's status on a phone before leaving",
+    "carro-eletrico-sem-carregador-em-casa": "Apartment resident charges an electric car at a neighborhood public station",
+    "economia-carro-eletrico-versus-gasolina": "Electric car charging beside a gasoline car at a fuel pump for cost comparison",
+    "mapa-eletropostos-brasil-2026": "Illustrated map of Brazil with charging points connected by routes",
+    "como-usar-eletroposto-shopping-mercado-hotel": "Electric car charging at a complex with a supermarket, hotel and shopping arcade",
+  },
+  es: {
+    "ponto-de-recarga-carro-eletrico-perto-de-mim": "Conductor consulta el móvil mientras un coche eléctrico carga en una estación urbana",
+    "quanto-custa-carregar-carro-eletrico": "Conductor compara en el móvil el consumo y el costo de la recarga eléctrica",
+    "quanto-tempo-demora-carregar-carro-eletrico": "Coche eléctrico conectado a un cargador doméstico junto a un reloj",
+    "tipos-conectores-carro-eletrico-tipo-2-ccs2": "Conectores Tipo 2, CCS2, CHAdeMO y GB/T organizados para compararlos",
+    "como-planejar-viagem-carro-eletrico": "Conductor planifica un viaje eléctrico en una parada de carretera",
+    "carregador-carro-eletrico-condominio": "Residentes y administradora organizan la recarga compartida en un condominio",
+    "recarga-rapida-carro-eletrico-boas-praticas": "Coche eléctrico conectado a un cargador rápido de corriente continua",
+    "eletroposto-gratis-ou-pago-como-saber": "Conductor revisa las condiciones de cobro antes de usar una estación pública",
+    "como-saber-eletroposto-funcionando": "Conductor comprueba en el móvil el estado de un cargador antes de salir",
+    "carro-eletrico-sem-carregador-em-casa": "Residente de un apartamento carga su coche eléctrico en una estación pública del barrio",
+    "economia-carro-eletrico-versus-gasolina": "Comparación entre un coche eléctrico cargando y un coche de gasolina en el surtidor",
+    "mapa-eletropostos-brasil-2026": "Mapa ilustrado de Brasil con puntos de recarga conectados por rutas",
+    "como-usar-eletroposto-shopping-mercado-hotel": "Coche eléctrico cargando en un complejo con supermercado, hotel y galería comercial",
+  },
+};
+
 function materialize(base, entry, localeKey) {
   return {
     ...base,
     ...entry,
     image: base.image.replace("/pt-", `/${localeKey}-`),
+    imageAlt: editorialImageAlts[localeKey][base.slug],
     sections: entry.sectionHeadings.map((heading, index) => ({
       heading,
       paragraphs: [entry.paragraphs[index]],

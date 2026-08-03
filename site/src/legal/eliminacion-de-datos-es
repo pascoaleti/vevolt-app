@@ -1,0 +1,35 @@
+<main id="contenido">
+  <h1>Eliminación de cuenta y datos de VeVolt</h1>
+  <p class="lead">Consulta cómo borrar datos locales, el registro Premium, tu participación en VeVolt Condo y tus propios informes y fotos de la Comunidad.</p>
+  <article class="legal-content">
+    <p><strong>Aplicación:</strong> VeVolt: Recarga e Eletropostos (<code>br.com.vevolt</code>), desarrollada y mantenida por <strong>Pascoal Eti</strong>.</p>
+    <p>VeVolt no usa una cuenta convencional con correo y contraseña. Los registros compartidos se asocian a identificadores seudónimos de la instalación o al acceso de VeVolt Condo.</p>
+
+    <h2>Eliminar desde la aplicación</h2>
+    <ol>
+      <li><strong>Datos locales y registro Premium:</strong> abre <strong>Perfil</strong>, busca <strong>Datos locales</strong>, pulsa <strong>Borrar datos locales</strong> y luego <strong>Confirmar eliminación</strong>. Esto borra vehículos, puntos, recargas y preferencias del dispositivo e intenta eliminar del backend el registro Premium vinculado a la instalación.</li>
+      <li><strong>Foto de perfil:</strong> en <strong>Perfil</strong>, abre las opciones de la foto y elige <strong>Eliminar foto de perfil</strong>. La foto se administra por separado de los demás datos locales.</li>
+      <li><strong>VeVolt Condo:</strong> abre el panel del condominio, elige <strong>Eliminar asociación y datos del condominio</strong> y confirma. Se eliminan la asociación, las reservas y los registros de carga del usuario. Un administrador único sin otros residentes también elimina todo el condominio. Si quedan residentes activos, el administrador debe transferir la administración o eliminarlos primero.</li>
+      <li><strong>Comunidad:</strong> abre el punto de carga, localiza un informe de tu autoría, pulsa <strong>Eliminar mi informe</strong> y confirma. Se eliminan el informe y su foto.</li>
+    </ol>
+
+    <h2>Borrar datos desde Android</h2>
+    <p>Los datos locales también pueden borrarse en <strong>Ajustes de Android → Aplicaciones → VeVolt → Almacenamiento → Borrar datos</strong>, o desinstalando la aplicación. Estas opciones eliminan el contenido local del dispositivo, pero no sustituyen las acciones internas para los registros ya enviados a Premium, VeVolt Condo o Comunidad.</p>
+
+    <h2>Suscripciones Premium y VeVolt Condo</h2>
+    <p>Eliminar un registro de VeVolt no cancela una suscripción ni detiene los cobros de Google Play. Para cancelar, usa <strong>Google Play → Pagos y suscripciones → Suscripciones</strong>. Premium personal y VeVolt Condo son productos separados y se cobran exclusivamente mediante Google Play. Los residentes invitados pueden participar en VeVolt Condo sin Premium.</p>
+
+    <h2>Qué se elimina y durante cuánto tiempo puede conservarse algo</h2>
+    <ul>
+      <li><strong>Datos locales:</strong> vehículos, puntos, recargas y preferencias se eliminan del dispositivo al confirmar, borrar los datos desde Android o desinstalar. La foto de perfil debe eliminarse por separado desde Perfil.</li>
+      <li><strong>Premium:</strong> la acción de Perfil intenta eliminar inmediatamente el registro vinculado. Los registros de derechos Premium se conservan durante un máximo de 90 días después del vencimiento de la suscripción y los identificadores de notificaciones RTDN durante un máximo de 30 días.</li>
+      <li><strong>VeVolt Condo:</strong> la asociación, las reservas y las sesiones del usuario se eliminan mediante la acción específica. El administrador único elimina todo el condominio cuando no quedan otros residentes; de lo contrario, debe organizar primero la salida o transferencia de los demás miembros.</li>
+      <li><strong>Comunidad:</strong> tus informes y fotos se eliminan mediante la acción del autor o por solicitud. Si no se borran antes, su período máximo de conservación es de 2 años.</li>
+    </ul>
+    <p>Los datos solo podrán conservarse durante el tiempo necesario para cumplir una obligación legal, prevenir fraude, resolver una disputa o proteger la seguridad del servicio. Después se eliminan o anonimizan.</p>
+
+    <h2>Solicitar una eliminación adicional</h2>
+    <p>Si no puedes usar la aplicación o deseas una revisión adicional, escribe a <a href="mailto:vevolt@vevolt.app?subject=Eliminaci%C3%B3n%20de%20datos%20VeVolt">vevolt@vevolt.app</a>. Indica qué área quieres eliminar — Premium, VeVolt Condo o Comunidad — y los datos mínimos necesarios para localizar el registro. Nunca envíes una contraseña, token de compra o código de acceso.</p>
+    <p><strong>Última actualización:</strong> 31 de julio de 2026.</p>
+  </article>
+</main>

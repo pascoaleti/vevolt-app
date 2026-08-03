@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Exclusão de conta e dados - VeVolt</title>
+    <meta name="description" content="Como excluir dados locais, Premium, VeVolt Condo e publicações da Comunidade.">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc">
+    <link rel="canonical" href="https://vevolt.app/exclusao-de-dados">
+    <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/exclusao-de-dados">
+    <link rel="alternate" hreflang="en-US" href="https://vevolt.app/en/data-deletion">
+    <link rel="alternate" hreflang="es-419" href="https://vevolt.app/es/eliminacion-de-datos">
+    <link rel="alternate" hreflang="pt-PT" href="https://vevolt.app/exclusao-de-dados">
+    <link rel="alternate" hreflang="x-default" href="https://vevolt.app/exclusao-de-dados">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="VeVolt">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Exclusão de conta e dados - VeVolt">
+    <meta property="og:description" content="Como excluir dados locais, Premium, VeVolt Condo e publicações da Comunidade.">
+    <meta property="og:url" content="https://vevolt.app/exclusao-de-dados">
+    <meta property="og:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
+    <meta property="og:image:alt" content="VeVolt - Seu copiloto de mobilidade elétrica.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Exclusão de conta e dados - VeVolt">
+    <meta name="twitter:description" content="Como excluir dados locais, Premium, VeVolt Condo e publicações da Comunidade.">
+    <meta name="twitter:image" content="https://vevolt.app/assets/visuals/pt-hero-1920.webp">
+    <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f4f8fc" media="(prefers-color-scheme: light)">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png">
+    <link rel="apple-touch-icon" href="/assets/icon-192.png">
+    <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/site.css?v=20260803-1">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260803-1">
+    <script src="/assets/theme-init.js?v=20260803-1"></script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/"},{"@type":"ListItem","position":2,"name":"Exclusão de dados","item":"https://vevolt.app/exclusao-de-dados"}]}</script>
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+    <header class="topbar">
+    <nav class="nav" aria-label="Navegação principal">
+      <a class="brand" href="/" aria-label="VeVolt - início">
+        <img src="/assets/vevolt-logo-mark.png" width="64" height="64" alt="" fetchpriority="high">
+        <span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
+      </a>
+      <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
+        <div class="nav-links"><a class="nav-link" href="/">Início</a><a class="nav-link" href="/recursos">Recursos</a><a class="nav-link" href="/planos">Planos</a><a class="nav-link" href="/condo">Condo</a><a class="nav-link" href="/comunidade">Comunidade</a><a class="nav-link" href="/faq">FAQ</a><a class="nav-link" href="/blog/">Blog</a></div>
+        <a class="nav-play-badge" href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener" aria-label="Disponível no Google Play"><img src="/assets/google-play-badge-pt.png" width="141" height="42" alt="Disponível no Google Play"></a>
+        <div class="language-switcher compact" aria-label="Idioma">
+    <a href="/exclusao-de-dados" hreflang="pt-BR" lang="pt-BR" aria-label="Português" aria-current="true">PT</a><a href="/en/data-deletion" hreflang="en-US" lang="en-US" aria-label="English">EN</a><a href="/es/eliminacion-de-datos" hreflang="es-419" lang="es-419" aria-label="Español">ES</a>
+  </div>
+      </div>
+      <div class="nav-controls">
+        <button class="theme-toggle" type="button" data-theme-toggle data-label-light="Usar tema claro" data-label-dark="Usar tema escuro" aria-label="Usar tema escuro" title="Usar tema escuro"><span aria-hidden="true">&#9788;</span></button>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+    <main id="conteudo"><section class="page-hero"><div class="wrap page-hero-inner"><p class="eyebrow"><span class="signal"></span>Exclusão de dados</p><h1>Exclusão de conta e dados do VeVolt</h1><p>Veja como apagar dados locais, o registro Premium, sua participação no VeVolt Condo e seus próprios relatos e fotos da Comunidade.</p></div></section><section class="section"><div class="wrap legal">
+    <p><strong>Aplicativo:</strong> VeVolt: Recarga e Eletropostos (<code>br.com.vevolt</code>), desenvolvido e mantido por <strong>Pascoal Eti</strong>.</p>
+    <p>O VeVolt não usa uma conta convencional com e-mail e senha. Os registros compartilhados são associados a identificadores pseudônimos da instalação ou ao acesso do VeVolt Condo.</p>
+
+    <h2>Excluir pelo aplicativo</h2>
+    <ol>
+      <li><strong>Dados locais e registro Premium:</strong> abra <strong>Perfil</strong>, localize <strong>Dados locais</strong>, toque em <strong>Apagar dados locais</strong> e depois em <strong>Confirmar exclusão</strong>. Isso apaga veículos, pontos, recargas e preferências do aparelho e tenta remover do backend o registro Premium vinculado à instalação.</li>
+      <li><strong>Foto do perfil:</strong> em <strong>Perfil</strong>, abra as opções da foto e escolha <strong>Remover foto do perfil</strong>. A foto é gerenciada separadamente dos demais dados locais.</li>
+      <li><strong>VeVolt Condo:</strong> abra o painel do condomínio, escolha <strong>Excluir associação e dados do condomínio</strong> e confirme. A associação, as reservas e os registros de recarga do usuário são excluídos. Um administrador sem outros moradores também exclui o condomínio inteiro. Se houver moradores ativos, o administrador precisa transferir a administração ou removê-los antes.</li>
+      <li><strong>Comunidade:</strong> abra o eletroposto, localize um relato de sua autoria, toque em <strong>Excluir meu relato</strong> e confirme. O relato e sua foto são excluídos.</li>
+    </ol>
+
+    <h2>Apagar dados pelo Android</h2>
+    <p>Os dados locais também podem ser apagados em <strong>Configurações do Android → Aplicativos → VeVolt → Armazenamento → Limpar dados</strong>, ou desinstalando o aplicativo. Essas opções removem o conteúdo local do aparelho, mas não substituem as ações internas para apagar registros já enviados ao Premium, VeVolt Condo ou Comunidade.</p>
+
+    <h2>Assinaturas Premium e VeVolt Condo</h2>
+    <p>Apagar o registro do VeVolt não cancela uma assinatura nem interrompe cobranças do Google Play. Para cancelar, use <strong>Google Play → Pagamentos e assinaturas → Assinaturas</strong>. Premium pessoal e VeVolt Condo são produtos separados e cobrados exclusivamente pelo Google Play. Moradores convidados podem participar de um VeVolt Condo sem Premium.</p>
+
+    <h2>O que é excluído e por quanto tempo algo pode ser mantido</h2>
+    <ul>
+      <li><strong>Dados locais:</strong> veículos, pontos, recargas e preferências são removidos do aparelho ao confirmar a exclusão, limpar os dados pelo Android ou desinstalar. A foto deve ser removida separadamente pelo Perfil.</li>
+      <li><strong>Premium:</strong> a ação do Perfil tenta remover imediatamente o registro vinculado. Registros de direito ao Premium são mantidos por no máximo 90 dias após o fim da assinatura, e identificadores de notificações RTDN por no máximo 30 dias.</li>
+      <li><strong>VeVolt Condo:</strong> a associação, as reservas e as sessões do usuário são excluídas pela ação específica. O condomínio inteiro é excluído pelo único administrador quando não há outros moradores; caso contrário, ele precisa organizar a saída ou transferência dos demais membros.</li>
+      <li><strong>Comunidade:</strong> relatos e fotos próprios são excluídos pela ação do autor ou por solicitação. Se não forem apagados antes, o prazo máximo de retenção é de 2 anos.</li>
+    </ul>
+    <p>Dados poderão ser mantidos somente pelo período necessário para cumprir obrigação legal, prevenir fraude, resolver disputa ou proteger a segurança do serviço. Depois disso, são excluídos ou anonimizados.</p>
+
+    <h2>Solicitar exclusão adicional</h2>
+    <p>Se você não conseguir usar o aplicativo ou quiser solicitar uma verificação adicional, escreva para <a href="mailto:vevolt@vevolt.app?subject=Exclus%C3%A3o%20de%20dados%20VeVolt">vevolt@vevolt.app</a>. Informe qual área deseja excluir — Premium, VeVolt Condo ou Comunidade — e dados mínimos que permitam localizar o registro. Nunca envie senha, token de compra ou código de acesso.</p>
+    <p><strong>Última atualização:</strong> 31 de julho de 2026.</p>
+  </div></section></main>
+    <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <a class="footer-brand" href="/"><img src="/assets/vevolt-logo-mark.png" width="64" height="64" alt=""><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a>
+        <p class="footer-summary">Mapa, rota, comunidade, custos e serviços para a mobilidade elétrica.</p>
+        <div class="language-switcher" aria-label="Idioma">
+    <a href="/exclusao-de-dados" hreflang="pt-BR" lang="pt-BR" aria-label="Português" aria-current="true">Português</a><a href="/en/data-deletion" hreflang="en-US" lang="en-US" aria-label="English">English</a><a href="/es/eliminacion-de-datos" hreflang="es-419" lang="es-419" aria-label="Español">Español</a>
+  </div>
+      </div>
+      <div><h2>Produto</h2><ul>
+        <li><a href="/recursos">Recursos</a></li><li><a href="/planos">Planos</a></li><li><a href="/condo">Condo</a></li><li><a href="/comunidade">Comunidade</a></li>
+      </ul></div>
+      <div><h2>Informações</h2><ul>
+        <li><a href="/faq">FAQ</a></li><li><a href="/blog/">Blog</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
+      </ul></div>
+      <div><h2>Legal</h2><ul>
+        <li><a href="/politica">Privacidade</a></li><li><a href="/termos">Termos de uso</a></li><li><a href="/exclusao-de-dados">Exclusão de dados</a></li><li><a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Desenvolvido por <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
+  </footer>
+    <script src="/assets/site.js?v=20260803-1" defer></script>
+</body>
+</html>

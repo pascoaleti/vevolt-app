@@ -11,7 +11,7 @@
   <a href="https://play.google.com/store/apps/details?id=br.com.vevolt"><img alt="Google Play" src="https://img.shields.io/badge/GOOGLE_PLAY-ANDROID-2ECC71?style=for-the-badge" /></a>
   <img alt="Kotlin" src="https://img.shields.io/badge/KOTLIN-JETPACK_COMPOSE-7F52FF?style=for-the-badge" />
   <img alt="Site oficial" src="https://img.shields.io/badge/SITE-ATUALIZADO-0D3B8E?style=for-the-badge" />
-  <img alt="Teste fechado" src="https://img.shields.io/badge/TESTE-FECHADO-333333?style=for-the-badge" />
+  <img alt="Português, inglês e espanhol" src="https://img.shields.io/badge/IDIOMAS-PT_EN_ES-333333?style=for-the-badge" />
 </p>
 
 ## O aplicativo
@@ -30,7 +30,7 @@ Pacote oficial: `br.com.vevolt`.
 - VeVolt Condo para organização de recargas em condomínios;
 - Comunidade VeVolt com confirmação, preço, avaliação, foto e ocorrências;
 - alertas locais quando um carregador acompanhado recebe confirmação de recuperação;
-- Premium processado pelo Google Play Billing.
+- Premium e VeVolt Condo como assinaturas separadas, processadas pelo Google Play Billing.
 - site oficial em português, inglês e espanhol, com 39 artigos localizados sobre mobilidade elétrica.
 
 ## Tecnologia
@@ -54,6 +54,6 @@ Consulte [android/README.md](android/README.md). Credenciais, assinatura de prod
 - Google Play: https://play.google.com/store/apps/details?id=br.com.vevolt
 - Privacidade: https://vevolt.app/politica
 - Termos: https://vevolt.app/termos
-- Contato: devs@pascoal.eti.br
+- Contato comercial: e-mail@vevolt.app
 
 Copyright 2026 Pascoal Eti. Todos os direitos reservados.

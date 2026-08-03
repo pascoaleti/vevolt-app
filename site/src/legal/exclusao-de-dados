@@ -1,0 +1,35 @@
+<main id="conteudo">
+  <h1>Exclusão de conta e dados do VeVolt</h1>
+  <p class="lead">Veja como apagar dados locais, o registro Premium, sua participação no VeVolt Condo e seus próprios relatos e fotos da Comunidade.</p>
+  <article class="legal-content">
+    <p><strong>Aplicativo:</strong> VeVolt: Recarga e Eletropostos (<code>br.com.vevolt</code>), desenvolvido e mantido por <strong>Pascoal Eti</strong>.</p>
+    <p>O VeVolt não usa uma conta convencional com e-mail e senha. Os registros compartilhados são associados a identificadores pseudônimos da instalação ou ao acesso do VeVolt Condo.</p>
+
+    <h2>Excluir pelo aplicativo</h2>
+    <ol>
+      <li><strong>Dados locais e registro Premium:</strong> abra <strong>Perfil</strong>, localize <strong>Dados locais</strong>, toque em <strong>Apagar dados locais</strong> e depois em <strong>Confirmar exclusão</strong>. Isso apaga veículos, pontos, recargas e preferências do aparelho e tenta remover do backend o registro Premium vinculado à instalação.</li>
+      <li><strong>Foto do perfil:</strong> em <strong>Perfil</strong>, abra as opções da foto e escolha <strong>Remover foto do perfil</strong>. A foto é gerenciada separadamente dos demais dados locais.</li>
+      <li><strong>VeVolt Condo:</strong> abra o painel do condomínio, escolha <strong>Excluir associação e dados do condomínio</strong> e confirme. A associação, as reservas e os registros de recarga do usuário são excluídos. Um administrador sem outros moradores também exclui o condomínio inteiro. Se houver moradores ativos, o administrador precisa transferir a administração ou removê-los antes.</li>
+      <li><strong>Comunidade:</strong> abra o eletroposto, localize um relato de sua autoria, toque em <strong>Excluir meu relato</strong> e confirme. O relato e sua foto são excluídos.</li>
+    </ol>
+
+    <h2>Apagar dados pelo Android</h2>
+    <p>Os dados locais também podem ser apagados em <strong>Configurações do Android → Aplicativos → VeVolt → Armazenamento → Limpar dados</strong>, ou desinstalando o aplicativo. Essas opções removem o conteúdo local do aparelho, mas não substituem as ações internas para apagar registros já enviados ao Premium, VeVolt Condo ou Comunidade.</p>
+
+    <h2>Assinaturas Premium e VeVolt Condo</h2>
+    <p>Apagar o registro do VeVolt não cancela uma assinatura nem interrompe cobranças do Google Play. Para cancelar, use <strong>Google Play → Pagamentos e assinaturas → Assinaturas</strong>. Premium pessoal e VeVolt Condo são produtos separados e cobrados exclusivamente pelo Google Play. Moradores convidados podem participar de um VeVolt Condo sem Premium.</p>
+
+    <h2>O que é excluído e por quanto tempo algo pode ser mantido</h2>
+    <ul>
+      <li><strong>Dados locais:</strong> veículos, pontos, recargas e preferências são removidos do aparelho ao confirmar a exclusão, limpar os dados pelo Android ou desinstalar. A foto deve ser removida separadamente pelo Perfil.</li>
+      <li><strong>Premium:</strong> a ação do Perfil tenta remover imediatamente o registro vinculado. Registros de direito ao Premium são mantidos por no máximo 90 dias após o fim da assinatura, e identificadores de notificações RTDN por no máximo 30 dias.</li>
+      <li><strong>VeVolt Condo:</strong> a associação, as reservas e as sessões do usuário são excluídas pela ação específica. O condomínio inteiro é excluído pelo único administrador quando não há outros moradores; caso contrário, ele precisa organizar a saída ou transferência dos demais membros.</li>
+      <li><strong>Comunidade:</strong> relatos e fotos próprios são excluídos pela ação do autor ou por solicitação. Se não forem apagados antes, o prazo máximo de retenção é de 2 anos.</li>
+    </ul>
+    <p>Dados poderão ser mantidos somente pelo período necessário para cumprir obrigação legal, prevenir fraude, resolver disputa ou proteger a segurança do serviço. Depois disso, são excluídos ou anonimizados.</p>
+
+    <h2>Solicitar exclusão adicional</h2>
+    <p>Se você não conseguir usar o aplicativo ou quiser solicitar uma verificação adicional, escreva para <a href="mailto:vevolt@vevolt.app?subject=Exclus%C3%A3o%20de%20dados%20VeVolt">vevolt@vevolt.app</a>. Informe qual área deseja excluir — Premium, VeVolt Condo ou Comunidade — e dados mínimos que permitam localizar o registro. Nunca envie senha, token de compra ou código de acesso.</p>
+    <p><strong>Última atualização:</strong> 31 de julho de 2026.</p>
+  </article>
+</main>

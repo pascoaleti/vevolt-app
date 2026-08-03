@@ -148,66 +148,6 @@
 
   document.querySelectorAll("[data-gallery]").forEach(initializeGallery);
 
-  function initializeTesterForm(form) {
-    var status = form.querySelector("[data-form-status]");
-    var button = form.querySelector('button[type="submit"]');
-    var languageInput = form.querySelector('input[name="language"]');
-    if (!status || !button || !languageInput || !window.fetch) return;
-
-    var messages = {
-      "pt-BR": {
-        sending: "Enviando sua solicitação...",
-        error: "Não foi possível enviar agora. Tente novamente em instantes.",
-      },
-      en: {
-        sending: "Sending your request...",
-        error: "We could not send your request right now. Please try again shortly.",
-      },
-      es: {
-        sending: "Enviando tu solicitud...",
-        error: "No pudimos enviar tu solicitud. Inténtalo de nuevo en unos instantes.",
-      },
-    };
-
-    form.addEventListener("submit", function (event) {
-      event.preventDefault();
-      var copy = messages[languageInput.value] || messages["pt-BR"];
-      button.disabled = true;
-      status.dataset.state = "";
-      status.textContent = copy.sending;
-
-      window
-        .fetch(form.action, {
-          method: "POST",
-          headers: { Accept: "application/json" },
-          body: new FormData(form),
-          credentials: "same-origin",
-        })
-        .then(function (response) {
-          return response.json().then(function (payload) {
-            if (!response.ok) throw new Error(payload.message || copy.error);
-            return payload;
-          });
-        })
-        .then(function (payload) {
-          status.dataset.state = "success";
-          status.textContent = payload.message;
-          form.reset();
-        })
-        .catch(function (error) {
-          status.dataset.state = "error";
-          status.textContent = error.message || copy.error;
-        })
-        .finally(function () {
-          button.disabled = false;
-        });
-    });
-  }
-
-  document
-    .querySelectorAll("[data-tester-form]")
-    .forEach(initializeTesterForm);
-
   if (!toggle || !panel) return;
 
   function closeMenu() {

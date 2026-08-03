@@ -137,6 +137,7 @@
           </div>
         </aside>
         <article class="legal-content">
+          <p><strong>Última actualización: 31 de julio de 2026. Responsable y desarrollador: Pascoal Eti.</strong></p>
           <p>
             VeVolt ayuda a conductores de coches eléctricos a encontrar puntos de
             carga, planificar rutas, controlar el ahorro y organizar recargas. La
@@ -171,17 +172,20 @@
             técnicos necesarios, como la dirección IP y la región mostrada.
           </p>
           <p>
-            Cuando se permite la ubicación, la latitud y longitud aproximadas pueden
-            enviarse a Open Charge Map exclusivamente para devolver puntos cercanos.
-            VeVolt no recopila ubicación en segundo plano.
+            Cuando se permite la ubicación, la latitud y la longitud aproximadas o
+            precisas, según el permiso concedido y la precisión disponible en el
+            dispositivo, pueden transmitirse a Open Charge Map exclusivamente para
+            devolver puntos cercanos. VeVolt no recopila ubicación en segundo plano.
           </p>
           <p>
-            En VeVolt Mercado, país, código postal e idioma se envían por HTTPS al
-            backend solamente cuando el usuario inicia la búsqueda. El servicio
-            puede usar BrasilAPI en Brasil, Nominatim/OpenStreetMap en otros países
-            y Zippopotam.us como contingencia. El resultado puede permanecer en
-            caché volátil hasta 24 horas sin guardar de forma duradera el código
-            postal ni las coordenadas.
+            En VeVolt Mercado, la ubicación aproximada o precisa puede enviarse por
+            HTTPS a servicios OpenStreetMap/Overpass cuando el usuario busca
+            alrededor del dispositivo. País, código postal e idioma pueden enviarse
+            al backend solamente cuando el usuario inicia una búsqueda por código
+            postal. El servicio puede usar BrasilAPI en Brasil,
+            Nominatim/OpenStreetMap en otros países y Zippopotam.us como
+            contingencia. El resultado puede permanecer en caché volátil hasta 24
+            horas sin guardar de forma duradera el código postal ni las coordenadas.
           </p>
 
           <h2>3. Premium y Google Play</h2>
@@ -264,15 +268,19 @@
             registros. El único administrador puede eliminar todo el condominio; si
             quedan otros miembros, deberá organizar primero el cierre.
           </p>
-
-          <h2>9. Registro de probadores en el sitio</h2>
           <p>
-            Cuando alguien solicita acceso a la prueba cerrada, el sitio registra el
-            correo enviado, el idioma, la fecha y el estado de la solicitud. Estos
-            datos se usan únicamente para administrar la prueba y enviar mensajes
-            relacionados. Para limitar abusos, el servidor guarda temporalmente un
-            identificador técnico derivado de la IP sin conservarla en texto claro.
-            El correo no se vende ni se usa para publicidad.
+            Los informes y las fotos de la Comunidad se conservan durante un máximo
+            de dos años, salvo eliminación anticipada por el autor, moderación u
+            obligación legal. Consulta los pasos completos en
+            <a href="/es/eliminacion-de-datos">Eliminación de cuenta y datos</a>.
+          </p>
+
+          <h2>9. Sitio y Google Play</h2>
+          <p>
+            El sitio público no tiene formulario de registro ni analítica en esta
+            versión. Al abrir el enlace de Google Play, el usuario interactúa con
+            los servicios y las políticas de Google. La versión 0.3.5 está
+            disponible en Google Play.
           </p>
 
           <h2>10. Menores</h2>
@@ -289,7 +297,7 @@
           <h2>12. Contacto</h2>
           <p>
             Las consultas de privacidad y solicitudes de eliminación pueden enviarse
-            a <a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a>.
+            a <a href="mailto:vevolt@vevolt.app">vevolt@vevolt.app</a>.
           </p>
         </article>
       </div>

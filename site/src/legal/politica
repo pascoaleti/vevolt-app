@@ -138,6 +138,7 @@
           </div>
         </aside>
         <article class="legal-content">
+          <p><strong>Última atualização: 31 de julho de 2026. Responsável e desenvolvedor: Pascoal Eti.</strong></p>
           <p>
             O VeVolt ajuda motoristas de carros elétricos a encontrar pontos de
             recarga, planejar rotas, acompanhar economia e organizar recargas.
@@ -173,17 +174,21 @@
             endereço IP e região exibida.
           </p>
           <p>
-            Quando a localização é permitida, latitude e longitude aproximadas
-            podem ser enviadas ao Open Charge Map somente para retornar pontos de
-            recarga próximos. O VeVolt não coleta localização em segundo plano.
+            Quando a localização é permitida, a latitude e a longitude aproximadas
+            ou exatas, conforme a permissão concedida e a precisão disponível no
+            aparelho, podem ser transmitidas ao Open Charge Map somente para
+            retornar pontos de recarga próximos. O VeVolt não coleta localização em
+            segundo plano.
           </p>
           <p>
-            No VeVolt Mercado, país, código postal e idioma são enviados por HTTPS
-            ao backend somente quando o usuário inicia uma busca. O serviço pode
-            consultar BrasilAPI no Brasil, Nominatim/OpenStreetMap em outros países
-            e Zippopotam.us como contingência. O resultado pode permanecer em cache
-            volátil por até 24 horas, sem armazenamento durável do código postal ou
-            das coordenadas.
+            No VeVolt Mercado, a localização aproximada ou exata pode ser enviada
+            por HTTPS a serviços OpenStreetMap/Overpass quando o usuário escolhe
+            pesquisar ao redor do aparelho. País, código postal e idioma podem ser
+            enviados ao backend somente quando o usuário inicia uma busca por
+            código postal. O serviço pode consultar BrasilAPI no Brasil,
+            Nominatim/OpenStreetMap em outros países e Zippopotam.us como
+            contingência. O resultado pode permanecer em cache volátil por até 24
+            horas, sem armazenamento durável do código postal ou das coordenadas.
           </p>
 
           <h2>3. Premium e Google Play</h2>
@@ -271,15 +276,19 @@
             houver outros membros, deverá organizar o encerramento antes da
             exclusão total.
           </p>
-
-          <h2>9. Cadastro de testadores pelo site</h2>
           <p>
-            Quando uma pessoa solicita acesso ao teste fechado, o site registra o
-            e-mail informado, idioma da página, data e status da solicitação. Esses
-            dados são usados somente para administrar o teste e enviar comunicações
-            relacionadas. Para limitar abusos, o servidor mantém temporariamente um
-            identificador técnico derivado do IP, sem guardar o endereço em texto
-            aberto. O e-mail não é vendido nem usado para publicidade.
+            Relatos e fotos da Comunidade permanecem por no máximo dois anos, salvo
+            exclusão antecipada pelo autor, moderação ou obrigação legal. Consulte o
+            passo a passo completo em
+            <a href="/exclusao-de-dados">Exclusão de conta e dados</a>.
+          </p>
+
+          <h2>9. Site e Google Play</h2>
+          <p>
+            O site público não possui formulário de cadastro nem analytics nesta
+            versão. Ao abrir o link do Google Play, o usuário passa a interagir com
+            os serviços e as políticas do Google. A versão 0.3.5 está disponível
+            no Google Play.
           </p>
 
           <h2>10. Crianças</h2>
@@ -297,7 +306,7 @@
           <p>
             Dúvidas, solicitações de exclusão ou assuntos de privacidade podem ser
             enviados para
-            <a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a>.
+            <a href="mailto:vevolt@vevolt.app">vevolt@vevolt.app</a>.
           </p>
         </article>
       </div>
