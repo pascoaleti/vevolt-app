@@ -8,10 +8,10 @@ const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const SRC = path.join(ROOT, "src");
 const PUBLIC = path.join(ROOT, "public");
 const BASE = "https://vevolt.app";
-const BUILD = "20260803-1";
+const BUILD = "20260803-2";
 const UPDATED = "2026-08-03";
-const APP_VERSION = "0.3.5";
-const APP_VERSION_CODE = "17";
+const APP_VERSION = "0.3.8";
+const APP_VERSION_CODE = "20";
 const GOOGLE_VERIFICATION = "qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc";
 
 const pageKeys = ["home", "features", "plans", "condo", "community", "faq"];

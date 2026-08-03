@@ -50,9 +50,9 @@ export const locales = {
     },
     slogan: "Seu copiloto de mobilidade elétrica.",
     home: {
-      title: "VeVolt 0.3.5 | Recarga, eletropostos e VeVolt Condo",
+      title: "VeVolt 0.3.8 | Recarga, eletropostos e VeVolt Condo",
       description:
-        "Conheça o VeVolt 0.3.5 para Android: eletropostos, rotas, Comunidade e gestão de carregadores privados com o VeVolt Condo. Disponível no Google Play.",
+        "Conheça o VeVolt 0.3.8 para Android: eletropostos, rotas, Comunidade e gestão de carregadores privados com o VeVolt Condo. Disponível no Google Play.",
       eyebrow: "App Android para mobilidade elétrica",
       h1: "Encontre energia para seguir viagem.",
       copy:
@@ -296,8 +296,8 @@ export const locales = {
     a11y: { skip: "Skip to content", nav: "Main navigation", home: "VeVolt - home", menu: "Open menu", light: "Use light theme", dark: "Use dark theme", language: "Language" },
     slogan: "Your electric mobility copilot.",
     home: {
-      title: "VeVolt 0.3.5 | EV charging and VeVolt Condo",
-      description: "Meet VeVolt 0.3.5 for Android: EV chargers, routes, Community and private condominium charger management. Available on Google Play.",
+      title: "VeVolt 0.3.8 | EV charging and VeVolt Condo",
+      description: "Meet VeVolt 0.3.8 for Android: EV chargers, routes, Community and private condominium charger management. Available on Google Play.",
       eyebrow: "Android app for electric mobility",
       h1: "Find the energy to keep moving.",
       copy: "Find charging stations, check community updates, plan your route and track electric mobility costs in one app.",
@@ -360,7 +360,7 @@ export const locales = {
     a11y: { skip: "Ir al contenido", nav: "Navegación principal", home: "VeVolt - inicio", menu: "Abrir menú", light: "Usar tema claro", dark: "Usar tema oscuro", language: "Idioma" },
     slogan: "Tu copiloto de movilidad eléctrica.",
     home: {
-      title: "VeVolt 0.3.5 | Recarga eléctrica y VeVolt Condo", description: "Conoce VeVolt 0.3.5 para Android: cargadores, rutas, Comunidad y gestión de cargadores privados con VeVolt Condo. Disponible en Google Play.", eyebrow: "App Android para movilidad eléctrica", h1: "Encuentra energía para seguir avanzando.", copy: "Localiza cargadores, consulta reportes de la comunidad, planifica tu ruta y controla los costos de movilidad eléctrica en una sola app.", primary: "Ver en Google Play", secondary: "Conocer los planes", badges: ["Sin anuncios de terceros", "Datos personales en el dispositivo", "Facturación por Google Play"], introTitle: "Información útil antes, durante y después de cargar.", introCopy: "VeVolt combina descubrimiento, planificación, colaboración y control local sin prometer funciones que dependen de los operadores.", plansTitle: "Un plan para cada forma de conducir eléctrico.", plansCopy: "Empieza gratis. Premium y Condo son suscripciones mensuales separadas, cada una con su propia prueba de 15 días para nuevos clientes elegibles.",
+      title: "VeVolt 0.3.8 | Recarga eléctrica y VeVolt Condo", description: "Conoce VeVolt 0.3.8 para Android: cargadores, rutas, Comunidad y gestión de cargadores privados con VeVolt Condo. Disponible en Google Play.", eyebrow: "App Android para movilidad eléctrica", h1: "Encuentra energía para seguir avanzando.", copy: "Localiza cargadores, consulta reportes de la comunidad, planifica tu ruta y controla los costos de movilidad eléctrica en una sola app.", primary: "Ver en Google Play", secondary: "Conocer los planes", badges: ["Sin anuncios de terceros", "Datos personales en el dispositivo", "Facturación por Google Play"], introTitle: "Información útil antes, durante y después de cargar.", introCopy: "VeVolt combina descubrimiento, planificación, colaboración y control local sin prometer funciones que dependen de los operadores.", plansTitle: "Un plan para cada forma de conducir eléctrico.", plansCopy: "Empieza gratis. Premium y Condo son suscripciones mensuales separadas, cada una con su propia prueba de 15 días para nuevos clientes elegibles.",
     },
     featuresPage: { title: "Funciones de VeVolt | Cargadores, rutas, costos y servicios", description: "Conoce las funciones de VeVolt: mapa, Comunidad, rutas, costos locales, Mercado y garaje.", eyebrow: "Funciones para movilidad eléctrica", h1: "Todo lo que te ayuda a llegar, cargar y continuar.", copy: "Ve cómo VeVolt organiza los datos disponibles y las contribuciones de la comunidad para conductores eléctricos." },
     features: [

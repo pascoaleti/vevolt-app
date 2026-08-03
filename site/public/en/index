@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-    <title>VeVolt 0.3.5 | EV charging and VeVolt Condo</title>
-    <meta name="description" content="Meet VeVolt 0.3.5 for Android: EV chargers, routes, Community and private condominium charger management. Available on Google Play.">
+    <title>VeVolt 0.3.8 | EV charging and VeVolt Condo</title>
+    <meta name="description" content="Meet VeVolt 0.3.8 for Android: EV chargers, routes, Community and private condominium charger management. Available on Google Play.">
     <meta name="robots" content="index, follow">
     <meta name="google-site-verification" content="qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc">
     <link rel="canonical" href="https://vevolt.app/en/">
@@ -16,14 +16,14 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="VeVolt">
     <meta property="og:locale" content="en_US">
-    <meta property="og:title" content="VeVolt 0.3.5 | EV charging and VeVolt Condo">
-    <meta property="og:description" content="Meet VeVolt 0.3.5 for Android: EV chargers, routes, Community and private condominium charger management. Available on Google Play.">
+    <meta property="og:title" content="VeVolt 0.3.8 | EV charging and VeVolt Condo">
+    <meta property="og:description" content="Meet VeVolt 0.3.8 for Android: EV chargers, routes, Community and private condominium charger management. Available on Google Play.">
     <meta property="og:url" content="https://vevolt.app/en/">
     <meta property="og:image" content="https://vevolt.app/assets/visuals/en-hero-1920.webp">
     <meta property="og:image:alt" content="VeVolt - Your electric mobility copilot.">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="VeVolt 0.3.5 | EV charging and VeVolt Condo">
-    <meta name="twitter:description" content="Meet VeVolt 0.3.5 for Android: EV chargers, routes, Community and private condominium charger management. Available on Google Play.">
+    <meta name="twitter:title" content="VeVolt 0.3.8 | EV charging and VeVolt Condo">
+    <meta name="twitter:description" content="Meet VeVolt 0.3.8 for Android: EV chargers, routes, Community and private condominium charger management. Available on Google Play.">
     <meta name="twitter:image" content="https://vevolt.app/assets/visuals/en-hero-1920.webp">
     <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)">
     <meta name="theme-color" content="#f4f8fc" media="(prefers-color-scheme: light)">
@@ -33,11 +33,11 @@
     <link rel="apple-touch-icon" href="/assets/icon-192.png">
     <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="/assets/site.css?v=20260803-1">
-    <link rel="stylesheet" href="/assets/pages.css?v=20260803-1">
-    <script src="/assets/theme-init.js?v=20260803-1"></script>
+    <link rel="stylesheet" href="/assets/site.css?v=20260803-2">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260803-2">
+    <script src="/assets/theme-init.js?v=20260803-2"></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"VeVolt","url":"https://vevolt.app","logo":"https://vevolt.app/assets/icon-512.png","sameAs":["https://play.google.com/store/apps/details?id=br.com.vevolt"]}</script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"VeVolt","applicationCategory":"NavigationApplication","operatingSystem":"Android","inLanguage":"en-US","softwareVersion":"0.3.5","description":"Meet VeVolt 0.3.5 for Android: EV chargers, routes, Community and private condominium charger management. Available on Google Play.","url":"https://vevolt.app/en/","downloadUrl":"https://play.google.com/store/apps/details?id=br.com.vevolt","image":"https://vevolt.app/assets/visuals/en-hero-1920.webp","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"offers":[{"@type":"Offer","price":"0","priceCurrency":"USD","category":"free"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"VeVolt","applicationCategory":"NavigationApplication","operatingSystem":"Android","inLanguage":"en-US","softwareVersion":"0.3.8","description":"Meet VeVolt 0.3.8 for Android: EV chargers, routes, Community and private condominium charger management. Available on Google Play.","url":"https://vevolt.app/en/","downloadUrl":"https://play.google.com/store/apps/details?id=br.com.vevolt","image":"https://vevolt.app/assets/visuals/en-hero-1920.webp","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"offers":[{"@type":"Offer","price":"0","priceCurrency":"USD","category":"free"}]}</script>
 </head>
 <body>
     <a class="skip-link" href="#conteudo">Skip to content</a>
@@ -425,6 +425,6 @@
     </div>
     <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Developed by <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
   </footer>
-    <script src="/assets/site.js?v=20260803-1" defer></script>
+    <script src="/assets/site.js?v=20260803-2" defer></script>
 </body>
 </html>

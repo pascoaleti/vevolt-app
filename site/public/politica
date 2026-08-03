@@ -33,9 +33,9 @@
     <link rel="apple-touch-icon" href="/assets/icon-192.png">
     <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="stylesheet" href="/assets/site.css?v=20260803-1">
-    <link rel="stylesheet" href="/assets/pages.css?v=20260803-1">
-    <script src="/assets/theme-init.js?v=20260803-1"></script>
+    <link rel="stylesheet" href="/assets/site.css?v=20260803-2">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260803-2">
+    <script src="/assets/theme-init.js?v=20260803-2"></script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/"},{"@type":"ListItem","position":2,"name":"Privacidade","item":"https://vevolt.app/politica"}]}</script>
 </head>
 <body>
@@ -209,7 +209,7 @@
           <p>
             O site público não possui formulário de cadastro nem analytics nesta
             versão. Ao abrir o link do Google Play, o usuário passa a interagir com
-            os serviços e as políticas do Google. A versão 0.3.5 está disponível
+            os serviços e as políticas do Google. A versão 0.3.8 está disponível
             no Google Play.
           </p>
 
@@ -252,6 +252,6 @@
     </div>
     <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Desenvolvido por <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
   </footer>
-    <script src="/assets/site.js?v=20260803-1" defer></script>
+    <script src="/assets/site.js?v=20260803-2" defer></script>
 </body>
 </html>
