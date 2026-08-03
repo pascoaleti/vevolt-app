@@ -8,7 +8,7 @@ const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const SRC = path.join(ROOT, "src");
 const PUBLIC = path.join(ROOT, "public");
 const BASE = "https://vevolt.app";
-const BUILD = "20260803-2";
+const BUILD = "20260803-3";
 const UPDATED = "2026-08-03";
 const APP_VERSION = "0.3.8";
 const APP_VERSION_CODE = "20";
@@ -240,8 +240,9 @@ ${hreflangs(pageKey, localizedPaths) ? `    ${hreflangs(pageKey, localizedPaths)
 }
 
 function pageHero(localeKey, data) {
-  return `<section class="page-hero"><div class="wrap page-hero-inner">
-    <p class="eyebrow"><span class="signal"></span>${esc(data.eyebrow)}</p><h1>${esc(data.h1)}</h1><p>${esc(data.copy)}</p>
+  const heroAction = data.heroCta ? `<a class="hero-play-cta" href="${PLAY_URL}" rel="noopener"><span>${esc(data.heroCta)}</span><img src="${asset(`google-play-badge-${localeKey}.png`)}" width="564" height="168" alt="${esc(googlePlayAlt(localeKey))}"></a>` : "";
+  return `<section class="page-hero${data.heroCta ? " condo-page-hero" : ""}"><div class="wrap page-hero-inner">
+    <p class="eyebrow"><span class="signal"></span>${esc(data.eyebrow)}</p><h1>${esc(data.h1)}</h1><p class="page-hero-copy">${esc(data.copy)}</p>${heroAction}
   </div></section>`;
 }
 
@@ -369,10 +370,21 @@ function renderCondo(localeKey) {
   const locale = locales[localeKey];
   const plan = locale.plans.find((item) => item.key === "condo");
   const transparency = localeKey === "pt" ? "Transparência" : localeKey === "es" ? "Transparencia" : "Transparency";
+  const audienceCards = locale.condoPage.audiences.map(([title, copy]) => `<article class="content-card"><h3>${esc(title)}</h3><p>${esc(copy)}</p></article>`).join("");
+  const steps = locale.condoPage.steps.map(([title, copy]) => `<article class="content-card"><h3>${esc(title)}</h3><p>${esc(copy)}</p></article>`).join("");
+  const faq = locale.condoPage.faqs.map(([question, answer]) => `<details class="faq-item"><summary>${esc(question)}</summary><p>${esc(answer)}</p></details>`).join("");
+  const guideHeading = localeKey === "pt" ? "Guias sobre recarga em condomínios" : localeKey === "es" ? "Guías sobre recarga en condominios" : "Condominium charging guides";
+  const guideCopy = localeKey === "pt" ? "Aprofunde regras, agenda, rateio e controle manual." : localeKey === "es" ? "Profundiza en reglas, agenda, reparto y control manual." : "Explore rules, scheduling, cost allocation and manual tracking.";
+  const guideCards = articlesByLocale[localeKey].filter((article) => article.cluster === "condo").map((article) => `<article class="article-card"><div class="article-card-body"><h3>${esc(article.title)}</h3><p>${esc(article.description)}</p><a class="text-link" href="${locale.paths.blog}${article.slug}">${esc(locale.common.readArticle)} →</a></div></article>`).join("");
   const body = `${pageHero(localeKey, locale.condoPage)}
-  <section class="section"><div class="wrap"><div class="feature-split"><div class="feature-copy"><p class="kicker">VeVolt Condo</p><h2>${esc(locale.condoPage.adminTitle)}</h2><p>${esc(locale.condoPage.adminCopy)}</p><div class="trial-offer"><p>${esc(locale.condoPage.trial)}</p><small>${esc(locale.condoPage.annual)}</small></div><ul class="check-list">${plan.features.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>${googlePlayBadge(localeKey)}</div>${appPhone(localeKey, "condo", "VeVolt Condo", { priority: true })}</div><p class="notice"><strong>${transparency}:</strong> ${esc(locale.condoPage.disclaimer)}</p></div></section>
+  <section class="section"><div class="wrap"><div class="feature-split"><div class="feature-copy"><p class="kicker">VeVolt Condo</p><h2>${esc(locale.condoPage.adminTitle)}</h2><p>${esc(locale.condoPage.adminCopy)}</p><div class="trial-offer"><p>${esc(locale.condoPage.trial)}</p><small>${esc(locale.condoPage.annual)}</small></div><ul class="check-list">${plan.features.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>${googlePlayBadge(localeKey)}</div>${appPhone(localeKey, "condo", "VeVolt Condo", { priority: true })}</div></div></section>
+  <section class="section accent-band"><div class="wrap"><div class="section-heading"><div><p class="kicker">VeVolt Condo</p><h2>${esc(locale.condoPage.audiencesTitle)}</h2></div></div><div class="grid two">${audienceCards}</div></div></section>
+  <section class="section"><div class="wrap"><div class="section-heading"><div><p class="kicker">VeVolt Condo</p><h2>${esc(locale.condoPage.howTitle)}</h2></div><p>${esc(locale.condoPage.howCopy)}</p></div><div class="grid two">${steps}</div></div></section>
+  <section class="section accent-band"><div class="wrap"><div class="grid two"><article class="content-card"><h2>${esc(locale.condoPage.agendaTitle)}</h2><p>${esc(locale.condoPage.agendaCopy)}</p></article><article class="content-card"><h2>${esc(locale.condoPage.consumptionTitle)}</h2><p>${esc(locale.condoPage.consumptionCopy)}</p></article></div><div class="notice condo-limits"><strong>${esc(locale.condoPage.limitsTitle)}</strong><p>${esc(locale.condoPage.disclaimer)}</p></div></div></section>
+  <section class="section"><div class="wrap"><div class="section-heading"><div><p class="kicker">Blog VeVolt</p><h2>${esc(guideHeading)}</h2></div><p>${esc(guideCopy)}</p></div><div class="grid two">${guideCards}</div></div></section>
+  <section class="section accent-band"><div class="wrap"><div class="section-heading"><div><p class="kicker">FAQ</p><h2>${esc(locale.condoPage.faqTitle)}</h2></div></div><div class="faq-list">${faq}</div></div></section>
   ${cta(localeKey, locale.condoPage.h1, locale.condoPage.copy)}`;
-  return shell({ localeKey, pageKey: "condo", title: locale.condoPage.title, description: locale.condoPage.description, route: locale.paths.condo, body, schemas: [softwareSchema(locale, locale.paths.condo), breadcrumbsSchema([{ name: "VeVolt", path: locale.paths.home }, { name: locale.nav.condo, path: locale.paths.condo }])] });
+  return shell({ localeKey, pageKey: "condo", title: locale.condoPage.title, description: locale.condoPage.description, route: locale.paths.condo, body, schemas: [softwareSchema(locale, locale.paths.condo), faqSchema(locale.condoPage.faqs, locale), breadcrumbsSchema([{ name: "VeVolt", path: locale.paths.home }, { name: locale.nav.condo, path: locale.paths.condo }])] });
 }
 
 function renderCommunity(localeKey) {
@@ -394,7 +406,7 @@ function renderFaq(localeKey) {
 function renderBlog(localeKey) {
   const locale = locales[localeKey];
   const articles = articlesByLocale[localeKey];
-  const cards = articles.map((article) => `<article class="article-card"><img src="${asset(article.image)}" width="720" height="405" alt="${esc(article.imageAlt)}" loading="lazy"><div class="article-card-body"><p class="article-meta">${esc(locale.common.updated)} 18/07/2026 · ${article.readTime} ${esc(locale.common.minutes)}</p><h2>${esc(article.title)}</h2><p>${esc(article.description)}</p><a class="text-link" href="${locale.paths.blog}${article.slug}">${esc(locale.common.readArticle)} →</a></div></article>`).join("");
+  const cards = articles.map((article) => `<article class="article-card"><img src="${asset(article.image)}" width="720" height="405" alt="${esc(article.imageAlt)}" loading="lazy"><div class="article-card-body"><p class="article-meta">${esc(locale.common.updated)} ${displayDate()} · ${articleReadTime(article)} ${esc(locale.common.minutes)}</p><h2>${esc(article.title)}</h2><p>${esc(article.description)}</p><a class="text-link" href="${locale.paths.blog}${article.slug}">${esc(locale.common.readArticle)} →</a></div></article>`).join("");
   const body = `${pageHero(localeKey, locale.blogPage)}<section class="section"><div class="wrap blog-grid">${cards}</div></section>${cta(localeKey, locale.home.h1, locale.home.copy)}`;
   const schema = {
     "@context": "https://schema.org", "@type": "Blog", name: "Blog VeVolt", description: locale.blogPage.description, url: absolute(locale.paths.blog), inLanguage: locale.htmlLang,
@@ -407,6 +419,16 @@ function articleSection(section) {
   const paragraphs = (section.paragraphs || []).map((item) => `<p>${esc(item)}</p>`).join("");
   const bullets = section.bullets ? `<ul>${section.bullets.map((item) => `<li>${esc(item)}</li>`).join("")}</ul>` : "";
   return `<section><h2>${esc(section.heading)}</h2>${paragraphs}${bullets}</section>`;
+}
+
+function displayDate() {
+  const [year, month, day] = UPDATED.split("-");
+  return `${day}/${month}/${year}`;
+}
+
+function articleReadTime(article) {
+  const text = [article.title, article.description, article.lead, ...article.sections.flatMap((section) => [section.heading, ...(section.paragraphs || []), ...(section.bullets || [])]), ...article.faqs.flat()].join(" ");
+  return Math.max(1, Math.ceil(text.trim().split(/\s+/u).length / 200));
 }
 
 function renderArticle(localeKey, article, index) {
@@ -422,11 +444,20 @@ function renderArticle(localeKey, article, index) {
     en: { breadcrumb: "Breadcrumb", guide: "VeVolt guide", faq: "Frequently asked questions", aside: "Use VeVolt in your routine", asideCopy: "Find chargers, check reports, plan alternatives and record your experience in one app.", continue: "Keep learning" },
     es: { breadcrumb: "Ruta de navegación", guide: "Guía VeVolt", faq: "Preguntas frecuentes", aside: "Usa VeVolt en tu rutina", asideCopy: "Encuentra cargadores, consulta reportes, planifica alternativas y registra tu experiencia en una sola app.", continue: "Sigue aprendiendo" },
   }[localeKey];
+  const contextHeading = localeKey === "pt" ? "Continue no guia de recarga em condomínios" : localeKey === "es" ? "Continúa en la guía de recarga en condominios" : "Continue the condominium charging guide";
+  const contextLinks = article.contextLinks?.length ? `<nav class="article-context-links" aria-label="${esc(contextHeading)}"><h2>${esc(contextHeading)}</h2><ul>${article.contextLinks.map((link) => `<li><a href="${esc(link.href)}">${esc(link.label)}</a></li>`).join("")}</ul></nav>` : "";
+  const condoAside = {
+    pt: ["Organize com o VeVolt Condo", "Organize moradores, horários, sessões e rateio manual com o VeVolt Condo. Novos clientes elegíveis podem testar o plano mensal grátis por 15 dias no Google Play."],
+    en: ["Organize with VeVolt Condo", "Organize residents, schedules, sessions and manual cost allocation with VeVolt Condo. Eligible new customers can try the monthly plan free for 15 days on Google Play."],
+    es: ["Organiza con VeVolt Condo", "Organiza residentes, horarios, sesiones y reparto manual con VeVolt Condo. Nuevos clientes elegibles pueden probar el plan mensual gratis durante 15 días en Google Play."],
+  }[localeKey];
+  const asideHeading = article.cluster === "condo" ? condoAside[0] : labels.aside;
+  const asideCopy = article.cluster === "condo" ? condoAside[1] : labels.asideCopy;
   const body = `<article class="section"><div class="wrap">
     <nav class="breadcrumbs" aria-label="${esc(labels.breadcrumb)}"><a href="${locale.paths.home}">VeVolt</a><span>/</span><a href="${locale.paths.blog}">Blog</a></nav>
-    <div class="article-intro"><div class="article-hero"><img src="${asset(article.image)}" width="1280" height="720" alt="${esc(article.imageAlt)}" fetchpriority="high"></div><header class="article-header"><p class="eyebrow"><span class="signal"></span>${esc(labels.guide)}</p><h1>${esc(article.title)}</h1><p class="lede">${esc(article.lead)}</p><p class="article-meta">${esc(locale.common.updated)} 18/07/2026 · ${article.readTime} ${esc(locale.common.minutes)}</p></header></div>
-    <div class="article-layout"><div class="article-body">${article.sections.map(articleSection).join("")}<section><h2>${esc(labels.faq)}</h2><div class="faq-list">${faq}</div></section></div>
-    <aside class="article-aside"><h2>${esc(labels.aside)}</h2><p>${esc(labels.asideCopy)}</p>${googlePlayBadge(localeKey)}<h2>${esc(locale.common.sources)}</h2><ul class="source-list">${sources}</ul></aside></div>
+    <div class="article-intro"><div class="article-hero"><img src="${asset(article.image)}" width="1280" height="720" alt="${esc(article.imageAlt)}" fetchpriority="high"></div><header class="article-header"><p class="eyebrow"><span class="signal"></span>${esc(labels.guide)}</p><h1>${esc(article.title)}</h1><p class="lede">${esc(article.lead)}</p><p class="article-meta">${esc(locale.common.updated)} ${displayDate()} · ${articleReadTime(article)} ${esc(locale.common.minutes)}</p></header></div>
+    <div class="article-layout"><div class="article-body">${article.sections.map(articleSection).join("")}${contextLinks}<section><h2>${esc(labels.faq)}</h2><div class="faq-list">${faq}</div></section></div>
+    <aside class="article-aside"><h2>${esc(asideHeading)}</h2><p>${esc(asideCopy)}</p>${googlePlayBadge(localeKey)}<h2>${esc(locale.common.sources)}</h2><ul class="source-list">${sources}</ul></aside></div>
     <section class="section compact"><div class="section-heading"><div><p class="kicker">${esc(locale.common.related)}</p><h2>${esc(labels.continue)}</h2></div></div><div class="grid two">${related.map((item) => `<article class="article-card"><div class="article-card-body"><h3>${esc(item.title)}</h3><p>${esc(item.description)}</p><a class="text-link" href="${locale.paths.blog}${item.slug}">${esc(locale.common.readArticle)} →</a></div></article>`).join("")}</div></section>
   </div></article>`;
   const blogPosting = {

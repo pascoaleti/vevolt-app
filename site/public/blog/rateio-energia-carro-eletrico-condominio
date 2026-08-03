@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Como fazer o rateio de energia do carro elétrico no condomínio | VeVolt</title>
+    <meta name="description" content="Entenda dados, critérios e conferências para dividir custos de recarga com registros manuais claros e verificáveis.">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc">
+    <link rel="canonical" href="https://vevolt.app/blog/rateio-energia-carro-eletrico-condominio">
+    <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/blog/rateio-energia-carro-eletrico-condominio">
+    <link rel="alternate" hreflang="en-US" href="https://vevolt.app/en/blog/allocate-ev-charging-costs-condominium">
+    <link rel="alternate" hreflang="es-419" href="https://vevolt.app/es/blog/reparto-energia-coche-electrico-condominio">
+    <link rel="alternate" hreflang="pt-PT" href="https://vevolt.app/blog/rateio-energia-carro-eletrico-condominio">
+    <link rel="alternate" hreflang="x-default" href="https://vevolt.app/blog/rateio-energia-carro-eletrico-condominio">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="VeVolt">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Como fazer o rateio de energia do carro elétrico no condomínio | VeVolt">
+    <meta property="og:description" content="Entenda dados, critérios e conferências para dividir custos de recarga com registros manuais claros e verificáveis.">
+    <meta property="og:url" content="https://vevolt.app/blog/rateio-energia-carro-eletrico-condominio">
+    <meta property="og:image" content="https://vevolt.app/assets/blog/custo-recarga.webp">
+    <meta property="og:image:alt" content="VeVolt - Seu copiloto de mobilidade elétrica.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Como fazer o rateio de energia do carro elétrico no condomínio | VeVolt">
+    <meta name="twitter:description" content="Entenda dados, critérios e conferências para dividir custos de recarga com registros manuais claros e verificáveis.">
+    <meta name="twitter:image" content="https://vevolt.app/assets/blog/custo-recarga.webp">
+    <meta property="article:published_time" content="2026-08-03">
+    <meta property="article:modified_time" content="2026-08-03">
+    <meta property="article:author" content="Pascoal Eti">
+    <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f4f8fc" media="(prefers-color-scheme: light)">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png">
+    <link rel="apple-touch-icon" href="/assets/icon-192.png">
+    <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/site.css?v=20260803-3">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260803-3">
+    <script src="/assets/theme-init.js?v=20260803-3"></script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Como fazer o rateio de energia do carro elétrico no condomínio","description":"Entenda dados, critérios e conferências para dividir custos de recarga com registros manuais claros e verificáveis.","image":"https://vevolt.app/assets/blog/custo-recarga.webp","datePublished":"2026-08-03","dateModified":"2026-08-03","inLanguage":"pt-BR","mainEntityOfPage":"https://vevolt.app/blog/rateio-energia-carro-eletrico-condominio","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"publisher":{"@type":"Organization","name":"VeVolt","logo":{"@type":"ImageObject","url":"https://vevolt.app/assets/icon-512.png"}}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"pt-BR","mainEntity":[{"@type":"Question","name":"O VeVolt calcula o consumo automaticamente?","acceptedAnswer":{"@type":"Answer","text":"Não. Energia e custo são informados manualmente."}},{"@type":"Question","name":"O app cobra o morador?","acceptedAnswer":{"@type":"Answer","text":"Não. O VeVolt organiza registros; cobrança e recebimento ocorrem fora dele."}},{"@type":"Question","name":"Qual tarifa deve ser usada?","acceptedAnswer":{"@type":"Answer","text":"O critério deve ser definido e validado pelo condomínio conforme seu contexto, documentos e orientação profissional aplicável."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://vevolt.app/blog/"},{"@type":"ListItem","position":3,"name":"Como fazer o rateio de energia do carro elétrico no condomínio","item":"https://vevolt.app/blog/rateio-energia-carro-eletrico-condominio"}]}</script>
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+    <header class="topbar">
+    <nav class="nav" aria-label="Navegação principal">
+      <a class="brand" href="/" aria-label="VeVolt - início">
+        <img src="/assets/vevolt-logo-mark.png" width="64" height="64" alt="" fetchpriority="high">
+        <span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
+      </a>
+      <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
+        <div class="nav-links"><a class="nav-link" href="/">Início</a><a class="nav-link" href="/recursos">Recursos</a><a class="nav-link" href="/planos">Planos</a><a class="nav-link" href="/condo">Condo</a><a class="nav-link" href="/comunidade">Comunidade</a><a class="nav-link" href="/faq">FAQ</a><a class="nav-link" href="/blog/" aria-current="page">Blog</a></div>
+        <a class="nav-play-badge" href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener" aria-label="Disponível no Google Play"><img src="/assets/google-play-badge-pt.png" width="141" height="42" alt="Disponível no Google Play"></a>
+        <div class="language-switcher compact" aria-label="Idioma">
+    <a href="/blog/rateio-energia-carro-eletrico-condominio" hreflang="pt-BR" lang="pt-BR" aria-label="Português" aria-current="true">PT</a><a href="/en/blog/allocate-ev-charging-costs-condominium" hreflang="en-US" lang="en-US" aria-label="English">EN</a><a href="/es/blog/reparto-energia-coche-electrico-condominio" hreflang="es-419" lang="es-419" aria-label="Español">ES</a>
+  </div>
+      </div>
+      <div class="nav-controls">
+        <button class="theme-toggle" type="button" data-theme-toggle data-label-light="Usar tema claro" data-label-dark="Usar tema escuro" aria-label="Usar tema escuro" title="Usar tema escuro"><span aria-hidden="true">&#9788;</span></button>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+    <main id="conteudo"><article class="section"><div class="wrap">
+    <nav class="breadcrumbs" aria-label="Navegação estrutural"><a href="/">VeVolt</a><span>/</span><a href="/blog/">Blog</a></nav>
+    <div class="article-intro"><div class="article-hero"><img src="/assets/blog/custo-recarga.webp" width="1280" height="720" alt="Síndico confere consumo e rateio manual das recargas de carros elétricos" fetchpriority="high"></div><header class="article-header"><p class="eyebrow"><span class="signal"></span>Guia VeVolt</p><h1>Como fazer o rateio de energia do carro elétrico no condomínio</h1><p class="lede">Um rateio compreensível começa pela origem do consumo, pela tarifa adotada e por um período de fechamento bem definido. O aplicativo pode organizar os registros, mas a medição e a cobrança continuam sob responsabilidade do condomínio e de seus sistemas.</p><p class="article-meta">Atualizado em 03/08/2026 · 2 min de leitura</p></header></div>
+    <div class="article-layout"><div class="article-body"><section><h2>Defina de onde vem o consumo</h2><p>O condomínio precisa estabelecer qual leitura ou informação será usada para atribuir energia a cada sessão. Pode existir medição dedicada ou outro procedimento aprovado, mas o dado deve ser verificável e associado ao morador ou à unidade correta.</p><p>No VeVolt Condo, consumo e custo são digitados manualmente. O app não consulta medidores e não transforma um valor informado em medição automática.</p></section><section><h2>Escolha um critério transparente</h2><p>O critério precisa ser conhecido antes do fechamento. Mudanças de tarifa ou fórmula devem ser comunicadas e documentadas para que os participantes consigam reproduzir a conta.</p><ul><li>Período de apuração e data de corte</li><li>Quantidade de energia atribuída a cada sessão</li><li>Tarifa ou fórmula aprovada</li><li>Tratamento de perdas e custos adicionais</li><li>Responsável pela conferência</li></ul></section><section><h2>Revise antes de lançar a cobrança</h2><p>Confira sessões incompletas, valores duplicados, unidade selecionada e divergências com a fonte de medição adotada. O total organizado pelo app serve como apoio operacional, não como fatura de energia.</p><p>O VeVolt não recebe o pagamento do morador nem cobra a energia. O lançamento condominial, recibo ou outro processo financeiro acontece fora do aplicativo.</p></section><section><h2>Mantenha histórico suficiente para auditoria</h2><p>Guarde documentos e leituras no sistema oficial do condomínio pelo prazo definido pela administração. No VeVolt, use o fechamento para reunir os registros manuais do período e facilitar a conferência entre participantes.</p></section><nav class="article-context-links" aria-label="Continue no guia de recarga em condomínios"><h2>Continue no guia de recarga em condomínios</h2><ul><li><a href="/condo">Organize o rateio manual com o VeVolt Condo</a></li><li><a href="/blog/carregador-carro-eletrico-condominio">Volte ao guia de carregador em condomínio</a></li><li><a href="/blog/gestao-recarga-condominios">Estruture a gestão de carregadores e moradores</a></li></ul></nav><section><h2>Perguntas frequentes</h2><div class="faq-list"><details class="faq-item"><summary>O VeVolt calcula o consumo automaticamente?</summary><p>Não. Energia e custo são informados manualmente.</p></details><details class="faq-item"><summary>O app cobra o morador?</summary><p>Não. O VeVolt organiza registros; cobrança e recebimento ocorrem fora dele.</p></details><details class="faq-item"><summary>Qual tarifa deve ser usada?</summary><p>O critério deve ser definido e validado pelo condomínio conforme seu contexto, documentos e orientação profissional aplicável.</p></details></div></section></div>
+    <aside class="article-aside"><h2>Organize com o VeVolt Condo</h2><p>Organize moradores, horários, sessões e rateio manual com o VeVolt Condo. Novos clientes elegíveis podem testar o plano mensal grátis por 15 dias no Google Play.</p><a class="play-badge-link" href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener" aria-label="Disponível no Google Play"><img src="/assets/google-play-badge-pt.png" width="564" height="168" alt="Disponível no Google Play"></a><h2>Fontes e leitura adicional</h2><ul class="source-list"><li><a href="https://www.gov.br/aneel/pt-br/assuntos/veiculos-eletricos" rel="noopener noreferrer">ANEEL - Veículos elétricos e regras para recarga</a></li><li><a href="https://www.gov.br/inmetro/pt-br/acesso-a-informacao/perguntas-frequentes/avaliacao-da-conformidade/etiquetagem-para-veiculos-leves/como-e-calculado-o-consumo-dos-carros-eletricos" rel="noopener noreferrer">Inmetro - Como é calculado o consumo dos carros elétricos</a></li></ul></aside></div>
+    <section class="section compact"><div class="section-heading"><div><p class="kicker">Leia também</p><h2>Continue aprendendo</h2></div></div><div class="grid two"><article class="article-card"><div class="article-card-body"><h3>Carregador compartilhado em condomínio: regras, agenda e controle de uso</h3><p>Organize reservas, atrasos, sessões e responsabilidades para reduzir conflitos no uso de um carregador compartilhado.</p><a class="text-link" href="/blog/carregador-compartilhado-condominio">Ler artigo →</a></div></article><article class="article-card"><div class="article-card-body"><h3>Quanto custa carregar um carro elétrico? Faça a conta por kWh</h3><p>Entenda como calcular o custo de uma recarga em casa ou em eletropostos e comparar o valor por quilômetro.</p><a class="text-link" href="/blog/quanto-custa-carregar-carro-eletrico">Ler artigo →</a></div></article></div></section>
+  </div></article></main>
+    <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <a class="footer-brand" href="/"><img src="/assets/vevolt-logo-mark.png" width="64" height="64" alt=""><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a>
+        <p class="footer-summary">Mapa, rota, comunidade, custos e serviços para a mobilidade elétrica.</p>
+        <div class="language-switcher" aria-label="Idioma">
+    <a href="/blog/rateio-energia-carro-eletrico-condominio" hreflang="pt-BR" lang="pt-BR" aria-label="Português" aria-current="true">Português</a><a href="/en/blog/allocate-ev-charging-costs-condominium" hreflang="en-US" lang="en-US" aria-label="English">English</a><a href="/es/blog/reparto-energia-coche-electrico-condominio" hreflang="es-419" lang="es-419" aria-label="Español">Español</a>
+  </div>
+      </div>
+      <div><h2>Produto</h2><ul>
+        <li><a href="/recursos">Recursos</a></li><li><a href="/planos">Planos</a></li><li><a href="/condo">Condo</a></li><li><a href="/comunidade">Comunidade</a></li>
+      </ul></div>
+      <div><h2>Informações</h2><ul>
+        <li><a href="/faq">FAQ</a></li><li><a href="/blog/">Blog</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
+      </ul></div>
+      <div><h2>Legal</h2><ul>
+        <li><a href="/politica">Privacidade</a></li><li><a href="/termos">Termos de uso</a></li><li><a href="/exclusao-de-dados">Exclusão de dados</a></li><li><a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Desenvolvido por <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
+  </footer>
+    <script src="/assets/site.js?v=20260803-3" defer></script>
+</body>
+</html>

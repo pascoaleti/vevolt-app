@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Carregador compartilhado em condomínio: regras, agenda e controle de uso | VeVolt</title>
+    <meta name="description" content="Organize reservas, atrasos, sessões e responsabilidades para reduzir conflitos no uso de um carregador compartilhado.">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc">
+    <link rel="canonical" href="https://vevolt.app/blog/carregador-compartilhado-condominio">
+    <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/blog/carregador-compartilhado-condominio">
+    <link rel="alternate" hreflang="en-US" href="https://vevolt.app/en/blog/shared-ev-charger-condominium-rules">
+    <link rel="alternate" hreflang="es-419" href="https://vevolt.app/es/blog/cargador-compartido-condominio-reglas">
+    <link rel="alternate" hreflang="pt-PT" href="https://vevolt.app/blog/carregador-compartilhado-condominio">
+    <link rel="alternate" hreflang="x-default" href="https://vevolt.app/blog/carregador-compartilhado-condominio">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="VeVolt">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Carregador compartilhado em condomínio: regras, agenda e controle de uso | VeVolt">
+    <meta property="og:description" content="Organize reservas, atrasos, sessões e responsabilidades para reduzir conflitos no uso de um carregador compartilhado.">
+    <meta property="og:url" content="https://vevolt.app/blog/carregador-compartilhado-condominio">
+    <meta property="og:image" content="https://vevolt.app/assets/blog/recarga-condominio.webp">
+    <meta property="og:image:alt" content="VeVolt - Seu copiloto de mobilidade elétrica.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Carregador compartilhado em condomínio: regras, agenda e controle de uso | VeVolt">
+    <meta name="twitter:description" content="Organize reservas, atrasos, sessões e responsabilidades para reduzir conflitos no uso de um carregador compartilhado.">
+    <meta name="twitter:image" content="https://vevolt.app/assets/blog/recarga-condominio.webp">
+    <meta property="article:published_time" content="2026-08-03">
+    <meta property="article:modified_time" content="2026-08-03">
+    <meta property="article:author" content="Pascoal Eti">
+    <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f4f8fc" media="(prefers-color-scheme: light)">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png">
+    <link rel="apple-touch-icon" href="/assets/icon-192.png">
+    <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/site.css?v=20260803-3">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260803-3">
+    <script src="/assets/theme-init.js?v=20260803-3"></script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Carregador compartilhado em condomínio: regras, agenda e controle de uso","description":"Organize reservas, atrasos, sessões e responsabilidades para reduzir conflitos no uso de um carregador compartilhado.","image":"https://vevolt.app/assets/blog/recarga-condominio.webp","datePublished":"2026-08-03","dateModified":"2026-08-03","inLanguage":"pt-BR","mainEntityOfPage":"https://vevolt.app/blog/carregador-compartilhado-condominio","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"publisher":{"@type":"Organization","name":"VeVolt","logo":{"@type":"ImageObject","url":"https://vevolt.app/assets/icon-512.png"}}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"pt-BR","mainEntity":[{"@type":"Question","name":"O app impede fisicamente o uso fora do horário?","acceptedAnswer":{"@type":"Answer","text":"Não. A agenda organiza reservas, mas não bloqueia ou aciona o carregador."}},{"@type":"Question","name":"Quantos carregadores podem ser cadastrados?","acceptedAnswer":{"@type":"Answer","text":"Até 10 carregadores por central VeVolt Condo."}},{"@type":"Question","name":"Como evitar reserva duplicada?","acceptedAnswer":{"@type":"Answer","text":"Os moradores consultam a disponibilidade e agendam horários sem sobreposição dentro da central."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://vevolt.app/blog/"},{"@type":"ListItem","position":3,"name":"Carregador compartilhado em condomínio: regras, agenda e controle de uso","item":"https://vevolt.app/blog/carregador-compartilhado-condominio"}]}</script>
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+    <header class="topbar">
+    <nav class="nav" aria-label="Navegação principal">
+      <a class="brand" href="/" aria-label="VeVolt - início">
+        <img src="/assets/vevolt-logo-mark.png" width="64" height="64" alt="" fetchpriority="high">
+        <span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
+      </a>
+      <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
+        <div class="nav-links"><a class="nav-link" href="/">Início</a><a class="nav-link" href="/recursos">Recursos</a><a class="nav-link" href="/planos">Planos</a><a class="nav-link" href="/condo">Condo</a><a class="nav-link" href="/comunidade">Comunidade</a><a class="nav-link" href="/faq">FAQ</a><a class="nav-link" href="/blog/" aria-current="page">Blog</a></div>
+        <a class="nav-play-badge" href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener" aria-label="Disponível no Google Play"><img src="/assets/google-play-badge-pt.png" width="141" height="42" alt="Disponível no Google Play"></a>
+        <div class="language-switcher compact" aria-label="Idioma">
+    <a href="/blog/carregador-compartilhado-condominio" hreflang="pt-BR" lang="pt-BR" aria-label="Português" aria-current="true">PT</a><a href="/en/blog/shared-ev-charger-condominium-rules" hreflang="en-US" lang="en-US" aria-label="English">EN</a><a href="/es/blog/cargador-compartido-condominio-reglas" hreflang="es-419" lang="es-419" aria-label="Español">ES</a>
+  </div>
+      </div>
+      <div class="nav-controls">
+        <button class="theme-toggle" type="button" data-theme-toggle data-label-light="Usar tema claro" data-label-dark="Usar tema escuro" aria-label="Usar tema escuro" title="Usar tema escuro"><span aria-hidden="true">&#9788;</span></button>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+    <main id="conteudo"><article class="section"><div class="wrap">
+    <nav class="breadcrumbs" aria-label="Navegação estrutural"><a href="/">VeVolt</a><span>/</span><a href="/blog/">Blog</a></nav>
+    <div class="article-intro"><div class="article-hero"><img src="/assets/blog/recarga-condominio.webp" width="1280" height="720" alt="Moradores consultam regras e agenda de um carregador compartilhado no condomínio" fetchpriority="high"></div><header class="article-header"><p class="eyebrow"><span class="signal"></span>Guia VeVolt</p><h1>Carregador compartilhado em condomínio: regras, agenda e controle de uso</h1><p class="lede">Compartilhar um carregador funciona melhor quando todos conhecem as mesmas regras. Agenda, duração, tolerância, registro da sessão e liberação da vaga precisam formar um processo simples para moradores e administração.</p><p class="article-meta">Atualizado em 03/08/2026 · 2 min de leitura</p></header></div>
+    <div class="article-layout"><div class="article-body"><section><h2>Defina quem pode reservar</h2><p>Cadastre apenas participantes autorizados e deixe claro se visitantes ou veículos temporários podem usar a estrutura. No VeVolt Condo, a administração envia convites e mantém a central restrita aos membros aceitos.</p><p>O acesso ao aplicativo não substitui chaves, cartões ou controles físicos do equipamento. Esses mecanismos permanecem separados.</p></section><section><h2>Crie regras de agenda que caibam na rotina</h2><p>Evite janelas excessivamente longas e regras difíceis de fiscalizar. A agenda deve equilibrar o tempo necessário para recarregar com a oportunidade de uso pelos demais moradores.</p><ul><li>Duração mínima e máxima</li><li>Antecedência para reservar ou cancelar</li><li>Tolerância para início e término</li><li>Procedimento em caso de atraso</li><li>Bloqueio de períodos de manutenção</li></ul></section><section><h2>Ligue cada reserva ao registro da sessão</h2><p>Depois do uso, registre consumo e custo manualmente e informe ocorrências relevantes. Essa continuidade ajuda a administração a distinguir reserva cancelada, uso efetivo e sessão sem dados suficientes para o fechamento.</p><p>O VeVolt não verifica se o cabo foi conectado nem encerra a recarga. A disciplina operacional continua com os participantes.</p></section><section><h2>Revise conflitos e ajuste as regras</h2><p>Acompanhe horários disputados, cancelamentos tardios e sessões que ultrapassam o período. Regras podem evoluir com a demanda, desde que as mudanças sejam comunicadas e aplicadas de maneira consistente.</p></section><nav class="article-context-links" aria-label="Continue no guia de recarga em condomínios"><h2>Continue no guia de recarga em condomínios</h2><ul><li><a href="/condo">Gerencie a agenda com o VeVolt Condo</a></li><li><a href="/blog/carregador-carro-eletrico-condominio">Leia o artigo pilar sobre recarga em condomínio</a></li><li><a href="/blog/rateio-energia-carro-eletrico-condominio">Entenda o rateio das sessões</a></li></ul></nav><section><h2>Perguntas frequentes</h2><div class="faq-list"><details class="faq-item"><summary>O app impede fisicamente o uso fora do horário?</summary><p>Não. A agenda organiza reservas, mas não bloqueia ou aciona o carregador.</p></details><details class="faq-item"><summary>Quantos carregadores podem ser cadastrados?</summary><p>Até 10 carregadores por central VeVolt Condo.</p></details><details class="faq-item"><summary>Como evitar reserva duplicada?</summary><p>Os moradores consultam a disponibilidade e agendam horários sem sobreposição dentro da central.</p></details></div></section></div>
+    <aside class="article-aside"><h2>Organize com o VeVolt Condo</h2><p>Organize moradores, horários, sessões e rateio manual com o VeVolt Condo. Novos clientes elegíveis podem testar o plano mensal grátis por 15 dias no Google Play.</p><a class="play-badge-link" href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener" aria-label="Disponível no Google Play"><img src="/assets/google-play-badge-pt.png" width="564" height="168" alt="Disponível no Google Play"></a><h2>Fontes e leitura adicional</h2><ul class="source-list"><li><a href="https://www.agenciasp.sp.gov.br/governo-de-sp-sanciona-lei-que-permite-instalacao-de-carregadores-de-carros-eletricos-em-condominios/" rel="noopener noreferrer">Governo de São Paulo - Lei 18.403/2026 sobre recarga em condomínios</a></li><li><a href="https://www.ba.gov.br/ssp/noticias/2026-05/88443/cbm-homologa-instrucao-tecnica-para-seguranca-em-recarga-de-veiculos" rel="noopener noreferrer">Corpo de Bombeiros da Bahia - Segurança em locais com recarga</a></li></ul></aside></div>
+    <section class="section compact"><div class="section-heading"><div><p class="kicker">Leia também</p><h2>Continue aprendendo</h2></div></div><div class="grid two"><article class="article-card"><div class="article-card-body"><h3>Aplicativo para agendar carregador de carro elétrico no condomínio</h3><p>Veja como organizar moradores, horários sem conflito, sessões e consumo manual em uma central privada de recarga.</p><a class="text-link" href="/blog/aplicativo-agendar-carregador-condominio">Ler artigo →</a></div></article><article class="article-card"><div class="article-card-body"><h3>Quanto tempo demora para carregar um carro elétrico?</h3><p>Veja por que potência, capacidade da bateria, limite do veículo e nível inicial mudam o tempo de recarga.</p><a class="text-link" href="/blog/quanto-tempo-demora-carregar-carro-eletrico">Ler artigo →</a></div></article></div></section>
+  </div></article></main>
+    <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <a class="footer-brand" href="/"><img src="/assets/vevolt-logo-mark.png" width="64" height="64" alt=""><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a>
+        <p class="footer-summary">Mapa, rota, comunidade, custos e serviços para a mobilidade elétrica.</p>
+        <div class="language-switcher" aria-label="Idioma">
+    <a href="/blog/carregador-compartilhado-condominio" hreflang="pt-BR" lang="pt-BR" aria-label="Português" aria-current="true">Português</a><a href="/en/blog/shared-ev-charger-condominium-rules" hreflang="en-US" lang="en-US" aria-label="English">English</a><a href="/es/blog/cargador-compartido-condominio-reglas" hreflang="es-419" lang="es-419" aria-label="Español">Español</a>
+  </div>
+      </div>
+      <div><h2>Produto</h2><ul>
+        <li><a href="/recursos">Recursos</a></li><li><a href="/planos">Planos</a></li><li><a href="/condo">Condo</a></li><li><a href="/comunidade">Comunidade</a></li>
+      </ul></div>
+      <div><h2>Informações</h2><ul>
+        <li><a href="/faq">FAQ</a></li><li><a href="/blog/">Blog</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
+      </ul></div>
+      <div><h2>Legal</h2><ul>
+        <li><a href="/politica">Privacidade</a></li><li><a href="/termos">Termos de uso</a></li><li><a href="/exclusao-de-dados">Exclusão de dados</a></li><li><a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Desenvolvido por <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
+  </footer>
+    <script src="/assets/site.js?v=20260803-3" defer></script>
+</body>
+</html>

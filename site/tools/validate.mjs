@@ -32,6 +32,20 @@ const requiredFaqPages = {
   "en/faq": ["eligible new customers", "payment method", "renews automatically", "Play Store", "174 commercial countries and regions", "177 countries and regions"],
   "es/preguntas": ["nuevos clientes elegibles", "método de pago", "se renueva automáticamente", "Play Store", "174 países y regiones", "177 países y regiones"],
 };
+const requiredCondoCluster = {
+  "blog/gestao-recarga-condominios": ["/condo", "/blog/carregador-carro-eletrico-condominio"],
+  "blog/rateio-energia-carro-eletrico-condominio": ["/condo", "/blog/carregador-carro-eletrico-condominio"],
+  "blog/carregador-compartilhado-condominio": ["/condo", "/blog/carregador-carro-eletrico-condominio"],
+  "blog/aplicativo-agendar-carregador-condominio": ["/condo", "/blog/carregador-carro-eletrico-condominio"],
+  "en/blog/condominium-ev-charging-management": ["/en/condo", "/en/blog/electric-car-charger-in-condominium"],
+  "en/blog/allocate-ev-charging-costs-condominium": ["/en/condo", "/en/blog/electric-car-charger-in-condominium"],
+  "en/blog/shared-ev-charger-condominium-rules": ["/en/condo", "/en/blog/electric-car-charger-in-condominium"],
+  "en/blog/app-to-book-condominium-ev-charger": ["/en/condo", "/en/blog/electric-car-charger-in-condominium"],
+  "es/blog/gestion-recarga-condominios": ["/es/condo", "/es/blog/cargador-coche-electrico-en-condominio"],
+  "es/blog/reparto-energia-coche-electrico-condominio": ["/es/condo", "/es/blog/cargador-coche-electrico-en-condominio"],
+  "es/blog/cargador-compartido-condominio-reglas": ["/es/condo", "/es/blog/cargador-coche-electrico-en-condominio"],
+  "es/blog/app-agendar-cargador-condominio": ["/es/condo", "/es/blog/cargador-coche-electrico-en-condominio"],
+};
 
 async function walk(directory) {
   const entries = await fs.readdir(directory, { withFileTypes: true });
@@ -61,6 +75,13 @@ for (const file of htmlFiles) {
   const relative = path.relative(PUBLIC, file).replaceAll("\\", "/");
   const html = await fs.readFile(file, "utf8");
   if (!/^<!doctype html>/i.test(html)) errors.push(`${relative}: missing doctype`);
+  if ((html.match(/<title>/g) || []).length !== 1) errors.push(`${relative}: expected exactly one title`);
+  if (!/<meta name="description" content="[^"]+">/.test(html)) errors.push(`${relative}: missing meta description`);
+  if (!/<link rel="canonical" href="https:\/\/vevolt\.app\/[^"]*">/.test(html)) errors.push(`${relative}: missing canonical`);
+  if ((html.match(/<h1(?:\s[^>]*)?>/g) || []).length !== 1) errors.push(`${relative}: expected exactly one H1`);
+  for (const language of ["pt-BR", "pt-PT", "en-US", "es-419", "x-default"]) {
+    if (!html.includes(`hreflang="${language}"`)) errors.push(`${relative}: missing hreflang ${language}`);
+  }
   if (/Carrega\s*A[iÍ]/i.test(html)) errors.push(`${relative}: obsolete CarregaAI name`);
   if (/Ã.|Â.|â€|ðŸ/.test(html)) errors.push(`${relative}: possible broken UTF-8 text`);
   if (/teste fechado|closed test|prueba cerrada|seja testador|become a tester|ser probador/i.test(html)) errors.push(`${relative}: obsolete closed-test wording`);
@@ -117,6 +138,21 @@ for (const [relative, requiredTexts] of Object.entries(requiredFaqPages)) {
     if (!html.includes(requiredText)) errors.push(`${relative}: missing FAQ text "${requiredText}"`);
   }
 }
+
+for (const [relative, requiredLinks] of Object.entries(requiredCondoCluster)) {
+  const html = await fs.readFile(path.join(PUBLIC, ...relative.split("/")), "utf8");
+  if (!html.includes('"@type":"BlogPosting"') || !html.includes('"@type":"FAQPage"') || !html.includes('"@type":"BreadcrumbList"')) errors.push(`${relative}: required structured data is incomplete`);
+  for (const href of requiredLinks) {
+    if (!html.includes(`href="${href}"`)) errors.push(`${relative}: missing cluster link ${href}`);
+  }
+}
+
+const condoHtml = await fs.readFile(path.join(PUBLIC, "condo"), "utf8");
+for (const text of ["Gestão de recarga em condomínios | VeVolt Condo", "Gestão de carregadores compartilhados para condomínios", "Teste o VeVolt Condo grátis por 15 dias", "síndico", "administradora", "rateio de energia", "não executa OCPP", '"@type":"FAQPage"']) {
+  if (!condoHtml.includes(text)) errors.push(`condo: missing SEO/conversion text "${text}"`);
+}
+const pillarHtml = await fs.readFile(path.join(PUBLIC, "blog", "carregador-carro-eletrico-condominio"), "utf8");
+if (/11 min de leitura/.test(pillarHtml)) errors.push("blog/carregador-carro-eletrico-condominio: stale reading-time label");
 
 for (const [relative, requiredTexts] of Object.entries(requiredDeletionPages)) {
   const file = path.join(PUBLIC, ...relative.split("/"));

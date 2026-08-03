@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es-419" data-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <title>Aplicación para agendar el cargador eléctrico del condominio | VeVolt</title>
+    <meta name="description" content="Organiza residentes, horarios sin conflicto, sesiones y consumo manual en una central privada.">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="qdQXCp0VqmTkkN-7x-cuv-L2otJAZixto1u4CroGrIc">
+    <link rel="canonical" href="https://vevolt.app/es/blog/app-agendar-cargador-condominio">
+    <link rel="alternate" hreflang="pt-BR" href="https://vevolt.app/blog/aplicativo-agendar-carregador-condominio">
+    <link rel="alternate" hreflang="en-US" href="https://vevolt.app/en/blog/app-to-book-condominium-ev-charger">
+    <link rel="alternate" hreflang="es-419" href="https://vevolt.app/es/blog/app-agendar-cargador-condominio">
+    <link rel="alternate" hreflang="pt-PT" href="https://vevolt.app/blog/aplicativo-agendar-carregador-condominio">
+    <link rel="alternate" hreflang="x-default" href="https://vevolt.app/blog/aplicativo-agendar-carregador-condominio">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="VeVolt">
+    <meta property="og:locale" content="es_419">
+    <meta property="og:title" content="Aplicación para agendar el cargador eléctrico del condominio | VeVolt">
+    <meta property="og:description" content="Organiza residentes, horarios sin conflicto, sesiones y consumo manual en una central privada.">
+    <meta property="og:url" content="https://vevolt.app/es/blog/app-agendar-cargador-condominio">
+    <meta property="og:image" content="https://vevolt.app/assets/blog/recarga-condominio.webp">
+    <meta property="og:image:alt" content="VeVolt - Tu copiloto de movilidad eléctrica.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Aplicación para agendar el cargador eléctrico del condominio | VeVolt">
+    <meta name="twitter:description" content="Organiza residentes, horarios sin conflicto, sesiones y consumo manual en una central privada.">
+    <meta name="twitter:image" content="https://vevolt.app/assets/blog/recarga-condominio.webp">
+    <meta property="article:published_time" content="2026-08-03">
+    <meta property="article:modified_time" content="2026-08-03">
+    <meta property="article:author" content="Pascoal Eti">
+    <meta name="theme-color" content="#07111f" media="(prefers-color-scheme: dark)">
+    <meta name="theme-color" content="#f4f8fc" media="(prefers-color-scheme: light)">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/icon-192.png">
+    <link rel="apple-touch-icon" href="/assets/icon-192.png">
+    <link rel="preload" href="/assets/fonts/sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/site.css?v=20260803-3">
+    <link rel="stylesheet" href="/assets/pages.css?v=20260803-3">
+    <script src="/assets/theme-init.js?v=20260803-3"></script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Aplicación para agendar el cargador eléctrico del condominio","description":"Organiza residentes, horarios sin conflicto, sesiones y consumo manual en una central privada.","image":"https://vevolt.app/assets/blog/recarga-condominio.webp","datePublished":"2026-08-03","dateModified":"2026-08-03","inLanguage":"es-419","mainEntityOfPage":"https://vevolt.app/es/blog/app-agendar-cargador-condominio","author":{"@type":"Organization","name":"Pascoal Eti","url":"https://pascoal.eti.br"},"publisher":{"@type":"Organization","name":"VeVolt","logo":{"@type":"ImageObject","url":"https://vevolt.app/assets/icon-512.png"}}}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"es-419","mainEntity":[{"@type":"Question","name":"¿Funciona como control remoto?","acceptedAnswer":{"@type":"Answer","text":"No."}},{"@type":"Question","name":"¿Los invitados pagan Premium?","acceptedAnswer":{"@type":"Answer","text":"No."}},{"@type":"Question","name":"¿Existe prueba?","acceptedAnswer":{"@type":"Answer","text":"Sí, para nuevos clientes elegibles del plan Condo mensual en Google Play."}}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"VeVolt","item":"https://vevolt.app/es/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://vevolt.app/es/blog/"},{"@type":"ListItem","position":3,"name":"Aplicación para agendar el cargador eléctrico del condominio","item":"https://vevolt.app/es/blog/app-agendar-cargador-condominio"}]}</script>
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Ir al contenido</a>
+    <header class="topbar">
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="brand" href="/es/" aria-label="VeVolt - inicio">
+        <img src="/assets/vevolt-logo-mark.png" width="64" height="64" alt="" fetchpriority="high">
+        <span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span>
+      </a>
+      <div class="nav-panel" id="primary-navigation" data-menu-panel data-open="false">
+        <div class="nav-links"><a class="nav-link" href="/es/">Inicio</a><a class="nav-link" href="/es/funciones">Funciones</a><a class="nav-link" href="/es/planes">Planes</a><a class="nav-link" href="/es/condo">Condo</a><a class="nav-link" href="/es/comunidad">Comunidad</a><a class="nav-link" href="/es/preguntas">Preguntas</a><a class="nav-link" href="/es/blog/" aria-current="page">Blog</a></div>
+        <a class="nav-play-badge" href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener" aria-label="Disponible en Google Play"><img src="/assets/google-play-badge-es.png" width="141" height="42" alt="Disponible en Google Play"></a>
+        <div class="language-switcher compact" aria-label="Idioma">
+    <a href="/blog/aplicativo-agendar-carregador-condominio" hreflang="pt-BR" lang="pt-BR" aria-label="Português">PT</a><a href="/en/blog/app-to-book-condominium-ev-charger" hreflang="en-US" lang="en-US" aria-label="English">EN</a><a href="/es/blog/app-agendar-cargador-condominio" hreflang="es-419" lang="es-419" aria-label="Español" aria-current="true">ES</a>
+  </div>
+      </div>
+      <div class="nav-controls">
+        <button class="theme-toggle" type="button" data-theme-toggle data-label-light="Usar tema claro" data-label-dark="Usar tema oscuro" aria-label="Usar tema oscuro" title="Usar tema oscuro"><span aria-hidden="true">&#9788;</span></button>
+        <button class="menu-toggle" type="button" data-menu-toggle aria-controls="primary-navigation" aria-expanded="false" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+    <main id="conteudo"><article class="section"><div class="wrap">
+    <nav class="breadcrumbs" aria-label="Ruta de navegación"><a href="/es/">VeVolt</a><span>/</span><a href="/es/blog/">Blog</a></nav>
+    <div class="article-intro"><div class="article-hero"><img src="/assets/blog/recarga-condominio.webp" width="1280" height="720" alt="Aplicación VeVolt Condo muestra agenda de cargador" fetchpriority="high"></div><header class="article-header"><p class="eyebrow"><span class="signal"></span>Guía VeVolt</p><h1>Aplicación para agendar el cargador eléctrico del condominio</h1><p class="lede">Una aplicación de agenda sustituye mensajes dispersos por una vista común de residentes, cargadores y horarios, sin controlar el equipo eléctrico.</p><p class="article-meta">Actualizado 03/08/2026 · 1 min de lectura</p></header></div>
+    <div class="article-layout"><div class="article-body"><section><h2>Busca un flujo completo</h2><p>La agenda útil conecta participante, cargador, inicio, fin y registro manual de la sesión.</p></section><section><h2>Cómo funciona en VeVolt Condo</h2><p>La administración crea la central, añade hasta 10 cargadores e invita hasta 50 participantes. Los residentes reservan y registran consumo y costo.</p><ul><li>Central privada</li><li>Invitaciones</li><li>Horarios sin conflicto</li><li>Sesiones manuales</li><li>Cierre mensual</li></ul></section><section><h2>Conoce los límites</h2><p>VeVolt no usa OCPP, no activa equipos, no mide, no cobra energía ni balancea carga. Nuevos clientes elegibles pueden probar el plan mensual durante 15 días.</p></section><nav class="article-context-links" aria-label="Continúa en la guía de recarga en condominios"><h2>Continúa en la guía de recarga en condominios</h2><ul><li><a href="/es/condo">Prueba VeVolt Condo</a></li><li><a href="/es/blog/cargador-coche-electrico-en-condominio">Lee la guía completa</a></li><li><a href="/es/blog/cargador-compartido-condominio-reglas">Define reglas de uso</a></li></ul></nav><section><h2>Preguntas frecuentes</h2><div class="faq-list"><details class="faq-item"><summary>¿Funciona como control remoto?</summary><p>No.</p></details><details class="faq-item"><summary>¿Los invitados pagan Premium?</summary><p>No.</p></details><details class="faq-item"><summary>¿Existe prueba?</summary><p>Sí, para nuevos clientes elegibles del plan Condo mensual en Google Play.</p></details></div></section></div>
+    <aside class="article-aside"><h2>Organiza con VeVolt Condo</h2><p>Organiza residentes, horarios, sesiones y reparto manual con VeVolt Condo. Nuevos clientes elegibles pueden probar el plan mensual gratis durante 15 días en Google Play.</p><a class="play-badge-link" href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener" aria-label="Disponible en Google Play"><img src="/assets/google-play-badge-es.png" width="564" height="168" alt="Disponible en Google Play"></a><h2>Fuentes y lectura adicional</h2><ul class="source-list"><li><a href="https://www.gov.br/aneel/pt-br/assuntos/veiculos-eletricos" rel="noopener noreferrer">ANEEL - Vehículos eléctricos y reglas de recarga</a></li><li><a href="https://www.agenciasp.sp.gov.br/governo-de-sp-sanciona-lei-que-permite-instalacao-de-carregadores-de-carros-eletricos-em-condominios/" rel="noopener noreferrer">Gobierno de São Paulo - Recarga en condominios</a></li></ul></aside></div>
+    <section class="section compact"><div class="section-heading"><div><p class="kicker">Guías relacionadas</p><h2>Sigue aprendiendo</h2></div></div><div class="grid two"><article class="article-card"><div class="article-card-body"><h3>Punto de recarga para coche eléctrico cerca de mí: cómo encontrarlo</h3><p>Aprende a localizar cargadores cercanos y revisar conector, potencia, acceso, precio y condiciones antes de salir.</p><a class="text-link" href="/es/blog/punto-de-recarga-coche-electrico-cerca-de-mi">Leer artículo →</a></div></article><article class="article-card"><div class="article-card-body"><h3>Conectores de coche eléctrico: Tipo 2, CCS2, CHAdeMO y GB/T</h3><p>Identifica conectores habituales y confirma la compatibilidad antes de elegir un punto de recarga.</p><a class="text-link" href="/es/blog/conectores-coche-electrico-tipo-2-ccs2-chademo-gbt">Leer artículo →</a></div></article></div></section>
+  </div></article></main>
+    <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <a class="footer-brand" href="/es/"><img src="/assets/vevolt-logo-mark.png" width="64" height="64" alt=""><span class="brand-wordmark"><span class="brand-ve">Ve</span><span class="brand-volt">Volt</span></span></a>
+        <p class="footer-summary">Mapas, rutas, comunidad, costos y servicios para la movilidad eléctrica.</p>
+        <div class="language-switcher" aria-label="Idioma">
+    <a href="/blog/aplicativo-agendar-carregador-condominio" hreflang="pt-BR" lang="pt-BR" aria-label="Português">Português</a><a href="/en/blog/app-to-book-condominium-ev-charger" hreflang="en-US" lang="en-US" aria-label="English">English</a><a href="/es/blog/app-agendar-cargador-condominio" hreflang="es-419" lang="es-419" aria-label="Español" aria-current="true">Español</a>
+  </div>
+      </div>
+      <div><h2>Producto</h2><ul>
+        <li><a href="/es/funciones">Funciones</a></li><li><a href="/es/planes">Planes</a></li><li><a href="/es/condo">Condo</a></li><li><a href="/es/comunidad">Comunidad</a></li>
+      </ul></div>
+      <div><h2>Información</h2><ul>
+        <li><a href="/es/preguntas">Preguntas</a></li><li><a href="/es/blog/">Blog</a></li><li><a href="https://play.google.com/store/apps/details?id=br.com.vevolt" rel="noopener">Google Play</a></li>
+      </ul></div>
+      <div><h2>Legal</h2><ul>
+        <li><a href="/es/privacidad">Privacidad</a></li><li><a href="/es/terminos">Términos de uso</a></li><li><a href="/es/eliminacion-de-datos">Eliminación de datos</a></li><li><a href="mailto:e-mail@vevolt.app">e-mail@vevolt.app</a></li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><span>&copy; 2026 VeVolt</span><span>Desarrollado por <a href="https://pascoal.eti.br/" target="_blank" rel="noopener noreferrer">pascoal.eti.br</a></span></div>
+  </footer>
+    <script src="/assets/site.js?v=20260803-3" defer></script>
+</body>
+</html>
